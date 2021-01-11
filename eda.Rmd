@@ -1,0 +1,166 @@
+---
+title: "eda_analytics_cup"
+author: 
+  name: Manuel Schreiber
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+    df_print: paged
+  html_notebook: default
+  latex_engine: pdflatex
+  pdf_document: default
+  header-includes:
+   - \usepackage{amsmath}
+   - \usepackage{amsfonts}
+---
+
+**Task** 
+
+**January 11: payments.csv file from training data updated**
+
+Predict Ownership Interests of physicians in pharmaceutical companies from regulatory transaction data.
+
+```{r}
+# clear workspace
+##rm(list=ls())
+```
+
+
+
+
+```{r}
+# Loading Packages
+
+library(tidyverse) # collection of packages for data analysis including: ggplot2 (data visualization package), dplyr (data manipulation package), tidyr, readr (faster read.csv() functions that create tibble objects instead of data.frames), purrr, tibble (wrapper around data.frames for better printing), stringr, forcats
+
+library(lubridate) # tools to parse and manipuulate dates
+
+library(GGally) # ggplot2 extension (for a heat map plot)
+
+library(graphics) # base graphics (e.g. histogram)
+
+library(stats) # computing distribution functions, distribution quantiles; random number generation
+
+
+library(tidymodels) # collection of packages for modeling and machine learning
+
+library(googledrive) # interface to googledrive
+
+
+```
+
+```{r}
+# obtaining your current working directory
+getwd()
+```
+
+
+```{r}
+# finds all CSV files on your google drive
+drive_find(type = "csv")  
+
+# downloading a file from Gdrive to your working directory
+##drive_download("water_qual.csv", overwrite = TRUE)
+
+# uploading a file to Gdrive 
+##drive_upload()
+
+# updating a file on Gdrive
+##drive_update()
+
+# deleting files on Gdrive
+##drive_rm()
+
+
+```
+
+```{r}
+##drive_download("physicians.csv")
+#drive_download("payments.csv", overwrite = TRUE)
+
+```
+
+# Exploratory Data Analysis
+
+## Physicians dataframe
+
+```{r}
+physicians_df <- read_delim("physicians.csv", delim = ",")
+```
+
+```{r}
+str(physicians_df)
+```
+
+
+```{r}
+
+head(physicians_df)
+
+# interesting features: id -> way to join with payments df
+```
+
+```{r}
+# finding the number of NA values by column in the physicians df
+physicians_df %>% mutate_all(is.na) %>% summarize_all(sum)
+```
+
+```{r}
+# reduced dataframe -: removing variables
+physicians_df <- subset(physicians_df, select = -c(First_Name,Middle_Name,Last_Name, Name_Suffix))
+                      
+# all colnames  
+colnames(physicians_df)                    
+                        
+  
+
+
+```
+
+
+## payments dataframe
+
+```{r}
+payments_df <- read_delim("payments.csv", delim = ",")
+```
+
+```{r}
+str(payments_df)
+# interesting features. Physician_ID, Company_ID, Ownership_Indicator
+```
+
+
+```{r}
+unique(payments_df$Ownership_Indicator)
+```
+
+
+
+```{r}
+# finding the number of NA values by column in the payments df
+payments_df %>% mutate_all(is.na) %>% summarize_all(sum)
+```
+
+```{r}
+summary(payments_df)
+```
+
+## companies dataframe
+
+```{r}
+companies_df <- read_delim("companies.csv", delim = ",")
+```
+
+```{r}
+str(companies_df)
+```
+
+
+
+```{r}
+# uploading the markdown file to gdrive
+drive_upload("eda.html")
+```
+
