@@ -1,0 +1,147 @@
+---
+title: "insights"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r message=FALSE}
+library(tidyverse) 
+library(dplyr)
+```
+
+
+# physicians dataset
+
+```{r message=FALSE}
+physicians_df = read_delim("physicians.csv", delim = ",")
+```
+# payments dataset
+
+```{r message=FALSE, warning=FALSE}
+payments_df = read_delim("payments.csv", delim = ",")
+```
+
+#### payments per day
+
+```{r message=FALSE, warning=FALSE}
+# run in R Studio
+# barplot(payments_df$Total_Amount_of_Payment_USDollars)
+
+# 2 Outliers: payments > 5,000,000
+payments_df[payments_df$Total_Amount_of_Payment_USDollars >= 5000000,]
+```
+
+#### payments per month
+
+```{r message=FALSE, warning=FALSE}
+(payments_per_month = payments_df %>% group_by(year = gsub("../../", "", Date), month = gsub("/../....", "", Date)) %>% 
+summarise(total = sum(Total_Amount_of_Payment_USDollars)))
+
+barplot(height=payments_per_month$total,names=paste(payments_per_month$year,'|',payments_per_month$month))
+```
+
+#### payments per year
+
+```{r message=FALSE, warning=FALSE}
+# payments_per_year
+(payments_per_year = payments_df %>% group_by(year = gsub("../../", "", Date)) %>% summarise(total = sum(Total_Amount_of_Payment_USDollars)))
+
+barplot(height=payments_per_year$total,names=payments_per_year$year)
+```
+
+#### payment distribution
+
+```{r message=FALSE, warning=FALSE}
+# run in R Studio
+
+payments_dist = cut(payments_df$Total_Amount_of_Payment_USDollars,breaks = c(seq(0,500,100),1000,5000,50000,5000000))
+table(payments_dist)
+barplot(table(payments_dist))
+```
+
+#### payments per physician
+
+```{r message=FALSE, warning=FALSE}
+
+(payments_per_physician = payments_df %>% group_by(Physician_ID = Physician_ID ) %>% 
+summarise(total = sum(Total_Amount_of_Payment_USDollars))) 
+
+(payments_per_physician = payments_per_physician %>% arrange(desc(total)))
+(top_10_physicians = head(payments_per_physician,10))
+top_100_physicians = head(payments_per_physician,100) %>% arrange(total)
+barplot(height=top_100_physicians$total ,names=top_100_physicians$physician,horiz = T)
+```
+
+
+#### join physician
+
+```{r message=FALSE, warning=FALSE}
+colnames(physicians_df)
+colnames(physicians_df)[1] <- "Physician_ID"
+colnames(physicians_df)
+
+(top_100 = merge(physicians_df, top_100_physicians, by = "Physician_ID") %>% arrange(desc(total)))
+```
+
+##### cities and aggregated payments per citiy for top 100 physicians
+
+```{r message=FALSE, warning=FALSE}
+
+(cities_of_top_100 = top_100 %>% group_by(City = City ) %>% 
+summarise(total = sum(total),n = n()) %>% arrange(desc(total)))
+head(cities_of_top_100,10)
+barplot(height=cities_of_top_100$total)
+```
+
+##### cities share of payments
+
+```{r message=FALSE, warning=FALSE}
+all_physicians = merge(physicians_df, payments_per_physician, by = "Physician_ID") %>% arrange(desc(total)) 
+(cities_share_of_payments =all_physicians %>% group_by(City = City ) %>% 
+ summarise(total = sum(total),n = n()) %>% arrange(desc(total)))
+head(cities_of_all,10)
+barplot(height=head(cities_of_all$total,100))
+```
+
+##### primary specialty share of payments
+
+```{r message=FALSE, warning=FALSE}
+(cities_of_all =all_physicians %>% group_by(Primary_Specialty = Primary_Specialty ) %>% 
+ summarise(total = sum(total),n = n()) %>% arrange(desc(total)))
+head(cities_of_all,10)
+barplot(height=head(cities_of_all$total,100))
+```
+
+# Ownership_Indicator=="Yes" data
+
+```{r message=FALSE, warning=FALSE}
+
+# ownership_payments grouped by Physician_ID
+(ownership_payments = payments_df %>% filter(Ownership_Indicator=="Yes") %>% group_by(Physician_ID = Physician_ID ) %>% 
+  summarise(total = sum(Total_Amount_of_Payment_USDollars),n = n()) %>% arrange(desc(total)))
+
+# ownership_payments grouped by Nature_of_Payment_or_Transfer_of_Value
+(ownership_payments = payments_df %>% filter(Ownership_Indicator=="Yes") %>% group_by(Nature_of_Payment_or_Transfer_of_Value = Nature_of_Payment_or_Transfer_of_Value ) %>% 
+  summarise(total = sum(Total_Amount_of_Payment_USDollars),n = n()) %>% arrange(desc(total)))
+
+total_sum_of_ownership_paymemts = sum(ownership_payments$total)
+
+# ownership_payments grouped by Company_ID
+(ownership_payments = payments_df %>% filter(Ownership_Indicator=="Yes") %>% group_by(Company_ID = Company_ID ) %>% 
+  summarise(total = sum(Total_Amount_of_Payment_USDollars),n = n()) %>% arrange(desc(total)))
+
+# all IDs of Physicians who had ownership_payments
+(ownership_ID_list = unique(payments_df %>% filter(Ownership_Indicator=="Yes")))
+
+# all payments of Physicians who had ownership_payments
+(payments_with_ownership_IDs = payments_df %>% filter(Physician_ID %in% ownership_ID_list$Physician_ID))
+
+# aggregated 
+(sum_of_payments_with_ownership_IDs = payments_with_ownership_IDs %>% summarise(total = sum(Total_Amount_of_Payment_USDollars),n = n()))
+
+# share of ownership_paymemts of all payments_with_ownership_IDs
+total_sum_of_ownership_paymemts/sum_of_payments_with_ownership_IDs$total
+
+```
+
