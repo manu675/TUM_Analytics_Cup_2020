@@ -22,6 +22,10 @@ output:
 
 Predict Ownership Interests of physicians in pharmaceutical companies from regulatory transaction data.
 
+**Task description:**
+
+You are given 1 400 000 instances of transactions which have been received by 6000 physicians in the years 2013 to 2019 (transactions.csv), as well as additional data about these doctors (physicians.csv) and companies (companies.csv). For 5000 of these doctors, transactions related to ownership interest (if any) are included, for the other 1000 (the test set), these kinds of transactions have been removed from the transaction data. For each of these 1000 physicians, your model must make a prediction about whether they have had such ownership interests (prediction=1) or not (prediction=0).
+
 ```{r}
 # clear workspace
 ##rm(list=ls())
@@ -102,17 +106,27 @@ head(physicians_df)
 # interesting features: id -> way to join with payments df
 ```
 
+
+
 ```{r}
 # finding the number of NA values by column in the physicians df
 physicians_df %>% mutate_all(is.na) %>% summarize_all(sum)
 ```
 
 ```{r}
-# reduced dataframe -: removing variables
-physicians_df <- subset(physicians_df, select = -c(First_Name,Middle_Name,Last_Name, Name_Suffix))
-                      
 # all colnames  
-colnames(physicians_df)                    
+colnames(physicians_df) 
+
+# reduced dataframe -: removing variables
+physicians_df_red <- subset(physicians_df, select = -c(First_Name,Middle_Name,Last_Name, Name_Suffix))
+                      
+
+# storing all physician id's for the training set
+id_train <- physicians_df_red$id[physicians_df_red$set=="train"]
+
+# storing all physician id's for the test set
+id_test <- physicians_df_red$id[physicians_df_red$set=="test"]
+
                         
   
 
@@ -131,9 +145,49 @@ str(payments_df)
 # interesting features. Physician_ID, Company_ID, Ownership_Indicator
 ```
 
+```{r}
+# storing the physician IDs which match in physicians_df and payments_df is equal to "yes"
+
+payments_physicians_matching_ids_train <- payments_df$Physician_ID[payments_df$Physician_ID == id_train]
+
+payments_physicians_matching_ids_test <- payments_df$Physician_ID[payments_df$Physician_ID == id_test]
+
+# object lengths
+length(payments_physicians_matching_ids_test)
+
+length(payments_physicians_matching_ids_train)
+
+# extracting ownership indicators for training and test set
+ownership_mid_train <- payments_df$Ownership_Indicator[payments_df$Physician_ID == id_train]
+
+
+ownership_mid_test <- payments_df$Ownership_Indicator[payments_df$Physician_ID == id_test]
+
+# training set with mathing physician ids and ownership labels
+train_df <- cbind(payments_physicians_matching_ids_train, ownership_mid_train)
+
+head(train_df, 50)
+
+
+length(payments_df$Number_of_Payments)
+
+unique(payments_df$Number_of_Payments) # all payments where greater or equal to 1
+
+
+```
+
+
 
 ```{r}
 unique(payments_df$Ownership_Indicator)
+
+unique(payments_df$Nature_of_Payment_or_Transfer_of_Value)
+
+# for loop which returns all unique values of each feature in the payments df
+for (i in (1:length(payments_df))) { 
+ print(unique(payments_df[i]))
+}
+
 ```
 
 
@@ -161,6 +215,7 @@ str(companies_df)
 
 ```{r}
 # uploading the markdown file to gdrive
-drive_upload("eda.html")
+##drive_upload("eda.html")
 ```
+
 
