@@ -1,5 +1,6 @@
 library(tidyverse)
 library(tidyr)
+library(dplyr)
 
 physicians = read.delim('physicians.csv', sep=',')
 
@@ -62,9 +63,78 @@ unique(unlist(strsplit(unique(physicians$Primary_Specialty), '|', fixed=TRUE)))
 
 
 # Merge all license state fields to have a better overview
-physicians = physicians %>% unite(License_State, c(License_State_1, License_State_2, License_State_3, License_State_4, License_State_5), sep=' ')
+# physicians = physicians %>% unite(License_State, c(License_State_1, License_State_2, License_State_3, License_State_4, License_State_5), sep=' ')
+
+# (physicians$License_State_5 == 'NA' ? 1 : FALSE)
+
+# apply(physicians, 1, function(x) x$License_State_5 == 'NA')
 
 
 # DONE
 
 head(physicians)
+
+
+
+
+
+### Payments
+
+payments_df = read_delim("payments.csv", delim = ",")
+
+# Rename physicans id to Physician_ID for merge
+names(physicians)[1] <- "Physician_ID"
+
+total_payments = aggregate(payments_df$Total_Amount_of_Payment_USDollars, by=list(Physician_ID=payments_df$Physician_ID), FUN=sum)
+
+names(total_payments)[2] <- "Total_Payments"
+
+head(total_payments)
+
+df = merge(physicians, total_payments, by="Physician_ID", all=TRUE)
+
+length(df$Physician_ID)
+
+head(df)
+
+hist(log(df$Total_Payments))
+
+## Ownership payments count
+
+ownership_df = subset(payments_df, select = c(Physician_ID, Ownership_Indicator))
+
+ownership_df$Ownership_Indicator <- mapply(function(Ownership_Indicator) {
+  ret = ifelse(Ownership_Indicator == "Yes", TRUE, FALSE)
+}, ownership_df$Ownership_Indicator)
+
+head(ownership_df)
+table(ownership_df$Ownership_Indicator)
+
+ownership_df = aggregate(
+  ownership_df$Ownership_Indicator,
+  by=list(Physician_ID=ownership_df$Physician_ID),
+  sum
+)
+names(ownership_df)[2] <- "Ownership_Payments_Count"
+
+df = merge(df, ownership_df, by="Physician_ID", all=TRUE)
+
+# Ownership interest
+
+df$Ownership_Interest <- mapply(function(Ownership_Payments_Count) {
+  ret = Ownership_Payments_Count > 0
+}, df$Ownership_Payments_Count)
+
+# Summary
+summary(df)
+head(df)
+
+
+# LOGIT
+
+plot(Ownership_Interest ~ Total_Payments, data = df, pch="+")
+abline(glm(Ownership_Interest ~ Total_Payments, data = df))
+
+
+plot(Ownership_Interest ~ Ownership_Payments_Count, data = df, pch="+")
+abline(glm(Ownership_Interest ~ Ownership_Payments_Count, data = df))
