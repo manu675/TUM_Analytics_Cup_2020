@@ -132,8 +132,10 @@ head(df)
 
 # LOGIT
 
-plot(Ownership_Interest ~ Total_Payments, data = df, pch="+")
-abline(glm(Ownership_Interest ~ Total_Payments, data = df))
+plot(Ownership_Interest ~ log(Total_Payments), data = df, pch="+")
+abline(glm(Ownership_Interest ~ log(Total_Payments), data = df))
+
+hist(log(df$Total_Payments))
 
 
 plot(Ownership_Interest ~ Ownership_Payments_Count, data = df, pch="+")
