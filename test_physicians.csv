@@ -1,0 +1,954 @@
+Physician_ID,State,Primary_Specialty,total_payments,number_of_payments
+14,FL,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,5775.53,539
+18,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,92123.24,584
+42,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3159.49,180
+47,MD,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,6494,296
+53,IN,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),89072.96,469
+57,NY,Allopathic & Osteopathic Physicians|Family Medicine,1045.44,66
+58,SC,Allopathic & Osteopathic Physicians|Surgery,1468.6,19
+62,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,42219.11,107
+76,MI,Allopathic & Osteopathic Physicians|Urology,4120.79,107
+80,CA,Allopathic & Osteopathic Physicians|Family Medicine,4360.82,131
+81,CT,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2529.51,105
+82,OH,Allopathic & Osteopathic Physicians|Internal Medicine,1772.2,161
+89,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,7809.61,97
+90,AZ,Allopathic & Osteopathic Physicians|Internal Medicine,1362.81,85
+95,TX,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,8881.31,141
+104,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,4172.29,141
+108,OH,Allopathic & Osteopathic Physicians|Internal Medicine,13325.09,701
+109,TX,Allopathic & Osteopathic Physicians|Ophthalmology,1004.59,30
+112,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,15300.04,888
+119,NY,Allopathic & Osteopathic Physicians|Anesthesiology,753.25,31
+136,AZ,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,289.36,18
+139,TN,Allopathic & Osteopathic Physicians|Internal Medicine,5100.51,362
+155,GA,Allopathic & Osteopathic Physicians|Internal Medicine,11810.2,572
+162,AZ,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",87586.34,1378
+176,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,70246.69,1783
+180,CT,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2839,28
+182,VA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,5502.54,363
+185,GA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,49547.45,143
+186,OK,Eye and Vision Services Providers|Optometrist,1136.5,37
+189,CO,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1135.76,47
+223,CA,Eye and Vision Services Providers|Optometrist,1414.31,24
+224,MO,Dental Providers|Dentist|General Practice,1984.45,26
+227,GA,Eye and Vision Services Providers|Optometrist|Occupational Vision,1993.1,77
+228,PA,Eye and Vision Services Providers|Optometrist,38531.02,155
+240,CA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,3632.34,196
+243,CA,Allopathic & Osteopathic Physicians|Family Medicine,1656.5,107
+251,NY,Allopathic & Osteopathic Physicians|Internal Medicine,25601.97,800
+257,WA,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,169919.5,87
+265,FL,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,20274.02,118
+274,LA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,9548.57,615
+287,OH,Allopathic & Osteopathic Physicians|Anesthesiology,434.43,29
+303,IL,Allopathic & Osteopathic Physicians|Pediatrics,1403.91,91
+306,GA,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,1830.5,66
+307,NY,Allopathic & Osteopathic Physicians|Pediatrics,4125.73,52
+308,PA,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),22312.5,39
+315,FL,Allopathic & Osteopathic Physicians|Urology,5725.59,362
+316,GA,Eye and Vision Services Providers|Optometrist,675.58,50
+335,MO,Allopathic & Osteopathic Physicians|Family Medicine,2248.62,182
+358,TX,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,7143.74,79
+364,PA,Allopathic & Osteopathic Physicians|Internal Medicine|Allergy & Immunology,531745.82,730
+372,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,8221.43,220
+375,CA,Dental Providers|Dentist|General Practice,1189.51,47
+379,CT,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2070.58,88
+383,NV,Allopathic & Osteopathic Physicians|Internal Medicine,7670.75,501
+385,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,7111.58,138
+387,CA,Allopathic & Osteopathic Physicians|Pediatrics,1417.3,74
+395,AZ,Allopathic & Osteopathic Physicians|Plastic Surgery,2617.5,90
+397,TX,Dental Providers|Dentist|General Practice,516.68,19
+398,CA,Allopathic & Osteopathic Physicians|Dermatology,10490.16,440
+407,WI,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,3823.14,22
+412,LA,Allopathic & Osteopathic Physicians|Emergency Medicine,4294.37,81
+419,NY,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology,164160.71,332
+428,NH,Allopathic & Osteopathic Physicians|Ophthalmology|Glaucoma Specialist,2341.03,61
+438,IL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2932.83,178
+441,NC,Allopathic & Osteopathic Physicians|Ophthalmology,819.13,27
+445,VA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,7717.07,359
+452,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,3829.79,185
+473,MI,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Adult Reconstructive Orthopaedic Surgery,4364347.22,548
+476,NJ,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Pulmonology,2109.9,182
+477,VA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Child & Adolescent Psychiatry,1790.37,104
+479,TX,Dental Providers|Dentist|General Practice,1734.14,61
+485,OH,Allopathic & Osteopathic Physicians|Dermatology,80097.91,708
+494,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,14177.71,784
+499,WV,Allopathic & Osteopathic Physicians|Colon & Rectal Surgery,12098.539999999999,160
+503,AR,Allopathic & Osteopathic Physicians|Urology,7654.6,129
+508,CA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Sports Medicine,11396.460000000001,330
+524,FL,Allopathic & Osteopathic Physicians|Internal Medicine,6284.12,361
+532,NJ,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,51852.13,33
+539,HI,Allopathic & Osteopathic Physicians|Family Medicine,27233.26,1658
+540,NY,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",9481.37,495
+542,OH,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,6235.55,540
+553,NJ,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,683.63,20
+556,FL,Allopathic & Osteopathic Physicians|Radiology|Pediatric Radiology,1275.2,15
+562,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,2243.02,175
+575,CA,Allopathic & Osteopathic Physicians|Pediatrics,870.86,53
+584,LA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,16123.93,105
+610,IN,Allopathic & Osteopathic Physicians|Internal Medicine,593.42,31
+613,TN,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,7338.53,33
+626,GA,Allopathic & Osteopathic Physicians|Internal Medicine,4301.23,307
+627,FL,Allopathic & Osteopathic Physicians|Dermatology,4112.93,147
+628,OK,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,4198.49,206
+636,KS,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Child & Adolescent Psychiatry,2990.15,93
+643,TX,Allopathic & Osteopathic Physicians|Family Medicine,8467.78,614
+652,NC,Allopathic & Osteopathic Physicians|Family Medicine,7049.71,553
+656,NJ,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,2311.2,91
+661,FL,Allopathic & Osteopathic Physicians|General Practice,3154.05,68
+663,NY,Allopathic & Osteopathic Physicians|Anesthesiology,851.67,38
+664,PR,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,2895.23,133
+671,FL,Dental Providers|Dentist|General Practice,869.29,18
+673,WA,Dental Providers|Dentist|General Practice,2949.01,39
+674,CT,Allopathic & Osteopathic Physicians|Allergy & Immunology,8345.33,541
+680,CA,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Hematology-Oncology,1206559.31,801
+698,MD,Allopathic & Osteopathic Physicians|Family Medicine,8273.97,578
+703,AZ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,26494.53,820
+705,PA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,5560.04,63
+713,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Medical Oncology,27181.35,435
+714,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,234093.38,661
+730,MI,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,7671.01,457
+732,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,8511.72,386
+736,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,44124.28,95
+755,HI,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Sports Medicine,90148.17,186
+759,GA,Allopathic & Osteopathic Physicians|Internal Medicine,8963.05,633
+762,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,385412.14,344
+769,MO,Eye and Vision Services Providers|Optometrist,482.8,27
+776,IA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,1978.99,128
+777,SC,Allopathic & Osteopathic Physicians|Allergy & Immunology,5087.32,85
+791,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,4091.42,161
+806,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,26502.97,485
+818,WA,Dental Providers|Dentist|Periodontics,1824.46,22
+827,IL,Allopathic & Osteopathic Physicians|Preventive Medicine|Public Health & General Preventive Medicine,5657.78,396
+834,NY,Dental Providers|Dentist,823.6,19
+840,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1458.84,70
+849,CA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,11914.44,574
+852,TX,Allopathic & Osteopathic Physicians|Surgery|Surgical Oncology,13596.03,102
+859,CT,Allopathic & Osteopathic Physicians|Family Medicine,5239.32,421
+863,IL,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,564.77,32
+868,CA,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,2253.04,58
+869,MO,Podiatric Medicine & Surgery Service Providers|Podiatrist,2358.68,117
+874,VA,Allopathic & Osteopathic Physicians|Otolaryngology,2102.97,27
+877,FL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,550.99,19
+883,WV,Eye and Vision Services Providers|Optometrist,281.47,14
+896,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,2263.54,151
+902,AZ,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,47530.68,355
+910,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,18463.22,112
+917,SC,Allopathic & Osteopathic Physicians|Internal Medicine,20315.42,111
+924,OH,Allopathic & Osteopathic Physicians|Otolaryngology|Pediatric Otolaryngology,952.67,24
+928,CA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,4984.34,139
+943,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,747.27,48
+950,SC,Allopathic & Osteopathic Physicians|Urology,10308.91,341
+958,TX,Allopathic & Osteopathic Physicians|Surgery,26080.77,128
+963,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,8868.17,698
+965,WY,Allopathic & Osteopathic Physicians|Dermatology,3572.07,24
+974,AZ,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,138081.38,392
+977,HI,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,7727.41,314
+979,MD,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,5625.67,34
+986,FL,Allopathic & Osteopathic Physicians|Family Medicine,1419.72,74
+992,PA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,2761.83,132
+993,IL,Eye and Vision Services Providers|Optometrist,299328.99,761
+995,NC,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Hand Surgery,4881.95,55
+1001,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,13780.35,402
+1002,IL,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,4264.64,241
+1004,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,7738.19,144
+1014,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,4134.31,200
+1021,TN,Allopathic & Osteopathic Physicians|Otolaryngology,3625.02,53
+1046,AZ,Dental Providers|Dentist|Orthodontics and Dentofacial Orthopedics,936.78,22
+1048,UT,Allopathic & Osteopathic Physicians|Dermatology,370.57,33
+1057,NY,Allopathic & Osteopathic Physicians|Dermatology,133919.44,212
+1065,PA,Allopathic & Osteopathic Physicians|Emergency Medicine,1677.05,41
+1078,OH,Allopathic & Osteopathic Physicians|Internal Medicine,36102.21,102
+1080,CO,Allopathic & Osteopathic Physicians|Internal Medicine,2036.11,124
+1083,OH,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,6054.04,514
+1084,MD,Allopathic & Osteopathic Physicians|Internal Medicine,11067.99,548
+1085,OH,Dental Providers|Dentist|General Practice,13015.36,61
+1086,CA,Allopathic & Osteopathic Physicians|Pediatrics|Neonatal-Perinatal Medicine,29861.9,39
+1097,CO,Allopathic & Osteopathic Physicians|Surgery,16455.43,57
+1098,CO,Dental Providers|Dentist,1741.04,42
+1102,FL,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,91842.57,532
+1103,MI,Dental Providers|Dentist|General Practice,2206.37,50
+1112,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,6220.99,318
+1115,TX,Allopathic & Osteopathic Physicians|Internal Medicine,1397.99,78
+1124,TX,Allopathic & Osteopathic Physicians|Pediatrics,807.13,29
+1128,NY,Allopathic & Osteopathic Physicians|Anesthesiology,737.0600000000001,35
+1133,CO,Dental Providers|Dentist|Orthodontics and Dentofacial Orthopedics,1406.26,15
+1139,SC,Allopathic & Osteopathic Physicians|Internal Medicine,13301.45,942
+1143,NY,Allopathic & Osteopathic Physicians|Internal Medicine,5415.5,338
+1144,SC,Allopathic & Osteopathic Physicians|Internal Medicine,6189.56,486
+1146,VA,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,4793.48,56
+1157,AZ,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,13965.15,367
+1170,OR,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,12556.79,921
+1175,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,25767.01,1318
+1179,CA,Podiatric Medicine & Surgery Service Providers|Podiatrist,2969.22,40
+1183,NY,Allopathic & Osteopathic Physicians|Internal Medicine,14593.05,1051
+1185,MA,Allopathic & Osteopathic Physicians|Anesthesiology,17558.2,64
+1190,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,457772.65,887
+1195,NJ,Allopathic & Osteopathic Physicians|Colon & Rectal Surgery,3798.9700000000003,36
+1199,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,78712.94,1171
+1208,KY,Eye and Vision Services Providers|Optometrist,1934.94,29
+1215,PA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,6085.8,304
+1218,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,28396.14,133
+1240,OH,Allopathic & Osteopathic Physicians|Family Medicine,18085,1277
+1247,MI,Allopathic & Osteopathic Physicians|Pediatrics,1130.35,61
+1248,TN,Allopathic & Osteopathic Physicians|Surgery,7595.66,63
+1254,AR,Allopathic & Osteopathic Physicians|Colon & Rectal Surgery,63536.770000000004,78
+1288,VA,Allopathic & Osteopathic Physicians|Internal Medicine,791.16,32
+1292,KS,Allopathic & Osteopathic Physicians|Family Medicine,6109.05,368
+1299,DC,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,100010.2,409
+1303,NY,Dental Providers|Dentist|Orthodontics and Dentofacial Orthopedics,945.11,26
+1307,TN,Allopathic & Osteopathic Physicians|Dermatology,526842.39,592
+1308,MN,Allopathic & Osteopathic Physicians|Neurological Surgery,26328.23,90
+1326,NY,Allopathic & Osteopathic Physicians|Family Medicine,1489.36,89
+1328,TX,Allopathic & Osteopathic Physicians|Family Medicine,2842.97,161
+1329,IN,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2871.34,171
+1335,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3869.3,241
+1338,IN,Eye and Vision Services Providers|Optometrist,4149.32,62
+1361,MO,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,6998.61,405
+1365,NE,Allopathic & Osteopathic Physicians|Family Medicine,498.52,34
+1373,SC,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,14526.23,569
+1376,OH,Allopathic & Osteopathic Physicians|Internal Medicine,2277.23,171
+1388,MD,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3515.85,164
+1404,GA,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,104786.78,523
+1405,CA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,274651.1,570
+1416,LA,Allopathic & Osteopathic Physicians|Otolaryngology,1266.27,51
+1423,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,946.09,47
+1433,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,739.81,45
+1434,GA,Podiatric Medicine & Surgery Service Providers|Podiatrist,2934.29,104
+1436,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,3948.41,198
+1448,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,7987.21,369
+1463,CT,Allopathic & Osteopathic Physicians|Ophthalmology,4731.68,111
+1466,IN,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,73197.02,1354
+1472,OK,Allopathic & Osteopathic Physicians|Phlebology,13860.29,608
+1482,ID,Allopathic & Osteopathic Physicians|Family Medicine,3947.33,341
+1487,PR,Allopathic & Osteopathic Physicians|Ophthalmology,4899.78,63
+1504,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,700.26,23
+1508,AZ,Allopathic & Osteopathic Physicians|Ophthalmology|Retina Specialist,4335.55,49
+1511,PA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Hand Surgery,4443.56,40
+1515,AL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,204152.37,216
+1526,OK,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,13703.98,802
+1527,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,3606.62,50
+1538,NV,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,3469.39,135
+1543,IL,Allopathic & Osteopathic Physicians|Family Medicine,7497.16,361
+1554,OH,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,4534.2,379
+1557,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Sports Medicine,1868.07,77
+1566,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,5410.1,432
+1570,AZ,Allopathic & Osteopathic Physicians|Radiology|Radiation Oncology,6603.9400000000005,153
+1580,NY,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,3618.01,49
+1583,PA,Allopathic & Osteopathic Physicians|Family Medicine|Sports Medicine,17655.25,435
+1584,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,5123.89,66
+1600,FL,Eye and Vision Services Providers|Optometrist,4535.69,184
+1604,CO,Allopathic & Osteopathic Physicians|Ophthalmology,651.34,38
+1611,CA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,300292.46,155
+1612,TX,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Hematology-Oncology,4911.54,90
+1618,FL,Allopathic & Osteopathic Physicians|Pediatrics,242.84,16
+1643,GA,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,23663.81,500
+1647,NY,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot Surgery,748.42,30
+1648,FL,Eye and Vision Services Providers|Optometrist,1825.6200000000001,31
+1654,IL,Allopathic & Osteopathic Physicians|Ophthalmology,4825.13,71
+1656,TN,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,60331.47,613
+1673,LA,Allopathic & Osteopathic Physicians|Ophthalmology,45620.91,122
+1678,IL,Allopathic & Osteopathic Physicians|Pediatrics,920.21,56
+1681,LA,Allopathic & Osteopathic Physicians|Pediatrics,662.96,37
+1685,MI,Allopathic & Osteopathic Physicians|Urology,4937.07,99
+1693,CA,Eye and Vision Services Providers|Optometrist,1493.04,81
+1708,AR,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),6970.2300000000005,82
+1719,VA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,988059.25,216
+1723,CA,Allopathic & Osteopathic Physicians|Family Medicine,12005.32,426
+1725,VA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,3619.06,55
+1727,FL,Allopathic & Osteopathic Physicians|Internal Medicine,4186.16,306
+1747,AL,Allopathic & Osteopathic Physicians|Internal Medicine,2046.04,117
+1766,PA,Dental Providers|Dentist,4810.3,47
+1769,MS,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,4190.34,120
+1779,NY,Allopathic & Osteopathic Physicians|Family Medicine,1881.86,70
+1780,CA,Allopathic & Osteopathic Physicians|Internal Medicine,8129.35,208
+1785,OK,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,4014.65,208
+1787,PA,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,19553.62,693
+1792,PA,Allopathic & Osteopathic Physicians|Family Medicine,7818.1,661
+1794,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,26568.64,789
+1824,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,49878.34,166
+1825,TN,Allopathic & Osteopathic Physicians|Allergy & Immunology,8306.98,190
+1830,LA,Allopathic & Osteopathic Physicians|Neurological Surgery,121547.77,194
+1837,VA,Allopathic & Osteopathic Physicians|Internal Medicine,4111.5,291
+1840,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,4791.29,93
+1842,WA,Podiatric Medicine & Surgery Service Providers|Podiatrist,51557.37,206
+1843,TX,Allopathic & Osteopathic Physicians|Internal Medicine,706.09,29
+1868,CA,Allopathic & Osteopathic Physicians|Ophthalmology,1260.14,54
+1870,MI,Allopathic & Osteopathic Physicians|Pediatrics,3204.55,91
+1873,NC,Dental Providers|Dentist,7675.7699999999995,75
+1877,NY,Allopathic & Osteopathic Physicians|Otolaryngology,1283,35
+1881,IL,Eye and Vision Services Providers|Optometrist,604.34,20
+1894,TN,Allopathic & Osteopathic Physicians|Urology,2902.37,154
+1896,WI,Allopathic & Osteopathic Physicians|Family Medicine,5099,385
+1898,AZ,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,1654.75,42
+1907,MA,Allopathic & Osteopathic Physicians|Ophthalmology,1021.47,16
+1917,VA,Allopathic & Osteopathic Physicians|Allergy & Immunology|Allergy,4790.53,273
+1923,TX,Allopathic & Osteopathic Physicians|Surgery,9946.62,56
+1924,AZ,Allopathic & Osteopathic Physicians|Pediatrics,944.08,59
+1925,FL,Dental Providers|Dentist|General Practice,7056.12,35
+1931,WA,Allopathic & Osteopathic Physicians|Neurological Surgery,60394.15,204
+1933,MD,Dental Providers|Dentist,10063.78,101
+1935,TX,Allopathic & Osteopathic Physicians|Internal Medicine,2150.66,26
+1951,AZ,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology|Gynecology,1623.17,32
+1958,CA,Eye and Vision Services Providers|Optometrist,1349.13,24
+1961,CA,Allopathic & Osteopathic Physicians|Colon & Rectal Surgery,17645.49,96
+1970,TX,Allopathic & Osteopathic Physicians|Family Medicine|Sports Medicine,3725.14,281
+1971,IN,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,11458.4,156
+1978,NY,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Hematology-Oncology,2018.94,45
+1982,ME,Allopathic & Osteopathic Physicians|Urology,4243.17,65
+1984,AZ,Allopathic & Osteopathic Physicians|Internal Medicine,3885,248
+1989,GA,Allopathic & Osteopathic Physicians|Internal Medicine,747.8100000000001,28
+1994,GA,Allopathic & Osteopathic Physicians|Internal Medicine,9184.69,211
+1997,TX,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,2887.76,185
+2000,WV,Allopathic & Osteopathic Physicians|Allergy & Immunology,5292.65,271
+2005,NY,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,120463.51,312
+2008,PR,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,4500.84,55
+2019,PA,Allopathic & Osteopathic Physicians|Allergy & Immunology,59386.3,542
+2026,FL,Allopathic & Osteopathic Physicians|Plastic Surgery,66414.06,128
+2033,FL,Allopathic & Osteopathic Physicians|Internal Medicine,2446.73,196
+2037,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,1761.51,22
+2042,CA,Allopathic & Osteopathic Physicians|Internal Medicine,7996.55,342
+2073,WY,Allopathic & Osteopathic Physicians|Family Medicine,4379.97,303
+2074,UT,Allopathic & Osteopathic Physicians|Pediatrics,904.36,60
+2084,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,11037633.04,177
+2088,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,5159.4,324
+2098,MI,Allopathic & Osteopathic Physicians|Internal Medicine,5847.21,460
+2101,FL,Dental Providers|Dentist|Periodontics,19913.37,64
+2104,MI,Allopathic & Osteopathic Physicians|Internal Medicine,2465.65,57
+2110,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Sports Medicine,758.89,44
+2114,SC,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,51093.93,182
+2115,CA,Allopathic & Osteopathic Physicians|Family Medicine,1028.02,55
+2118,CO,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",1916.89,58
+2122,AR,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,16032.16,321
+2128,TX,Allopathic & Osteopathic Physicians|Pathology|Clinical Pathology,11659.57,39
+2136,UT,Dental Providers|Dentist|General Practice,2841.93,33
+2139,NY,Allopathic & Osteopathic Physicians|Anesthesiology,586.79,24
+2148,VA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,11755.77,87
+2154,MI,Allopathic & Osteopathic Physicians|Internal Medicine,47989.7,92
+2157,CA,Podiatric Medicine & Surgery Service Providers|Podiatrist,7341.81,61
+2159,MD,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,12006.6,398
+2160,IN,Allopathic & Osteopathic Physicians|Pediatrics,1274.1,95
+2162,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,13782.41,775
+2166,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,1084.4,35
+2172,DC,Allopathic & Osteopathic Physicians|Internal Medicine,3493.2,188
+2177,KS,Allopathic & Osteopathic Physicians|Family Medicine,7473.44,350
+2183,AZ,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2997.7400000000002,157
+2190,AR,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",338402.9,600
+2195,CA,Allopathic & Osteopathic Physicians|Ophthalmology,1018.73,34
+2197,KY,Allopathic & Osteopathic Physicians|Allergy & Immunology,3730.2,260
+2205,NY,Allopathic & Osteopathic Physicians|Internal Medicine,602.4300000000001,34
+2206,CT,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,2937.31,52
+2214,CA,Allopathic & Osteopathic Physicians|Family Medicine,2780.44,95
+2217,NY,Allopathic & Osteopathic Physicians|Pediatrics,817.09,37
+2224,WI,Eye and Vision Services Providers|Optometrist,1008.84,62
+2226,MI,Allopathic & Osteopathic Physicians|Pediatrics,1229.42,86
+2235,IN,Allopathic & Osteopathic Physicians|Pediatrics|Neonatal-Perinatal Medicine,1308.76,73
+2236,IL,Podiatric Medicine & Surgery Service Providers|Podiatrist|Primary Podiatric Medicine,477.94,23
+2238,VA,Allopathic & Osteopathic Physicians|Anesthesiology,364.24,21
+2241,PA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,76413.73,1041
+2242,IL,Allopathic & Osteopathic Physicians|Pediatrics,1041.97,44
+2261,FL,Allopathic & Osteopathic Physicians|Pediatrics,552.36,36
+2264,IL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,18187.61,851
+2265,FL,Allopathic & Osteopathic Physicians|General Practice,11373.5,632
+2268,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,3904.02,84
+2270,NC,Allopathic & Osteopathic Physicians|Internal Medicine,172143.21,190
+2277,CT,Allopathic & Osteopathic Physicians|Family Medicine,48947.2,167
+2278,TX,Allopathic & Osteopathic Physicians|Family Medicine,307.59,20
+2279,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,56971.46,773
+2289,AL,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,531.68,32
+2304,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,743445.17,663
+2305,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,2405.25,87
+2311,WV,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,9410.67,503
+2317,TX,Allopathic & Osteopathic Physicians|Internal Medicine,21291.85,1381
+2318,VA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,7061.12,428
+2321,FL,Allopathic & Osteopathic Physicians|Internal Medicine,10830.62,685
+2325,FL,Allopathic & Osteopathic Physicians|Surgery|Plastic and Reconstructive Surgery,4432.69,78
+2328,FL,Allopathic & Osteopathic Physicians|Family Medicine,829.31,54
+2335,KS,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,902.56,31
+2343,TN,Allopathic & Osteopathic Physicians|Surgery,21470.79,88
+2354,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3457.51,95
+2361,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,174679.73,340
+2363,CA,Allopathic & Osteopathic Physicians|Family Medicine,10898.96,252
+2367,NE,Allopathic & Osteopathic Physicians|Surgery,9543.39,92
+2372,NY,Allopathic & Osteopathic Physicians|Internal Medicine,3361.28,94
+2375,MO,Allopathic & Osteopathic Physicians|Pediatrics,2954.94,161
+2380,GA,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,500946.01,832
+2384,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,1408.02,34
+2399,MA,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",1589.65,75
+2400,MD,Dental Providers|Dentist|General Practice,3137.64,23
+2401,NY,Allopathic & Osteopathic Physicians|Internal Medicine,41188.49,105
+2402,AL,Allopathic & Osteopathic Physicians|Internal Medicine,6786.07,523
+2406,MI,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,35646.25,317
+2410,WA,Allopathic & Osteopathic Physicians|Ophthalmology,59093.62,277
+2416,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,6352.96,443
+2424,TX,Allopathic & Osteopathic Physicians|Family Medicine|Adult Medicine,2823.96,67
+2425,MI,Allopathic & Osteopathic Physicians|Internal Medicine,4829.79,359
+2429,TN,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,5197.26,273
+2431,CO,Eye and Vision Services Providers|Optometrist,2305.4,79
+2438,CT,Allopathic & Osteopathic Physicians|Allergy & Immunology,26632.32,451
+2441,AL,Allopathic & Osteopathic Physicians|Family Medicine,8396.36,309
+2448,NY,Allopathic & Osteopathic Physicians|Family Medicine,764.39,49
+2459,WA,Allopathic & Osteopathic Physicians|Family Medicine,1525.09,55
+2478,NY,Allopathic & Osteopathic Physicians|Dermatology,9271.07,564
+2479,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,4273.57,49
+2487,MI,Allopathic & Osteopathic Physicians|Family Medicine,774.24,58
+2488,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,4425.72,55
+2522,CA,Allopathic & Osteopathic Physicians|Surgery|Surgery of the Hand,14382.16,96
+2525,TX,Allopathic & Osteopathic Physicians|Pathology|Anatomic Pathology & Clinical Pathology,14079.67,77
+2531,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,12689.08,125
+2533,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,14372.59,703
+2538,MI,Allopathic & Osteopathic Physicians|Family Medicine,5662.82,420
+2544,AL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,9571.42,72
+2546,MI,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,1021.51,48
+2550,VA,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,12558.73,669
+2553,MD,Allopathic & Osteopathic Physicians|Internal Medicine,1079.14,62
+2568,OH,Allopathic & Osteopathic Physicians|Dermatology,24562.82,1637
+2569,MI,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Child & Adolescent Psychiatry,14488.76,432
+2580,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,59172.83,320
+2581,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,2926.79,142
+2586,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,9161.7,181
+2592,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology with Special Qualifications in Child Neurology,3361.56,181
+2600,NM,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,10982.83,152
+2606,MS,Allopathic & Osteopathic Physicians|Internal Medicine,4554.26,257
+2608,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,13075.86,434
+2617,MN,Eye and Vision Services Providers|Optometrist,8127.24,74
+2620,KS,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,4740.16,303
+2630,MD,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,12943.01,26
+2632,OH,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,355397.98,2785
+2635,FL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3039.25,93
+2641,OK,Podiatric Medicine & Surgery Service Providers|Podiatrist,3250.56,30
+2644,MS,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,5614.08,202
+2670,MI,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,562.27,27
+2681,IL,Allopathic & Osteopathic Physicians|Dermatology|Procedural Dermatology,113592.2,1013
+2705,KY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Child & Adolescent Psychiatry,2808.67,131
+2710,OK,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,20212.54,626
+2712,CA,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Pulmonology,1733.57,86
+2716,AZ,Allopathic & Osteopathic Physicians|Pediatrics,1410.1200000000001,88
+2720,AL,Allopathic & Osteopathic Physicians|Urology,3633.77,188
+2724,MI,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,7981.2,58
+2726,UT,Allopathic & Osteopathic Physicians|Neurological Surgery,64170.85,133
+2741,OK,Allopathic & Osteopathic Physicians|Internal Medicine,1895.27,30
+2743,AR,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1267.54,16
+2745,NY,Allopathic & Osteopathic Physicians|Urology,11728.56,485
+2763,OK,Allopathic & Osteopathic Physicians|Internal Medicine,5072.02,274
+2765,AL,Allopathic & Osteopathic Physicians|Urology,632.41,29
+2767,CA,Allopathic & Osteopathic Physicians|Pediatrics,576.54,38
+2774,WY,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,3248.29,222
+2780,MO,Allopathic & Osteopathic Physicians|Plastic Surgery,2187.57,15
+2782,NJ,Allopathic & Osteopathic Physicians|Anesthesiology,622,21
+2785,NV,Allopathic & Osteopathic Physicians|Neurological Surgery,115255.38,392
+2786,CT,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,811.67,31
+2787,TN,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,9943.56,250
+2790,AZ,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,9651.19,61
+2811,FL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Sports Medicine,1221.87,68
+2816,FL,Allopathic & Osteopathic Physicians|Family Medicine,5508.9,383
+2830,PA,Allopathic & Osteopathic Physicians|Internal Medicine,2306.52,152
+2835,CA,Allopathic & Osteopathic Physicians|Emergency Medicine,19966.81,107
+2837,PR,Allopathic & Osteopathic Physicians|General Practice,1558.53,32
+2840,OR,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology,5277.67,150
+2862,NC,Allopathic & Osteopathic Physicians|Hospitalist,757.96,48
+2866,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,3133.88,32
+2870,MS,Allopathic & Osteopathic Physicians|Otolaryngology,2404.07,132
+2874,VA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1644.31,85
+2876,CA,Allopathic & Osteopathic Physicians|Family Medicine,3262.04,222
+2893,AL,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,5395.04,324
+2906,VA,Allopathic & Osteopathic Physicians|Ophthalmology,4353.96,172
+2915,GA,Allopathic & Osteopathic Physicians|Surgery,1696.13,62
+2921,IL,Allopathic & Osteopathic Physicians|Internal Medicine,5477.72,264
+2923,FL,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Allergy/Immunology,980.28,32
+2925,KY,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,15575.68,180
+2927,OH,Allopathic & Osteopathic Physicians|Internal Medicine,2197.77,30
+2928,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,21667.54,210
+2929,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,93335.66,363
+2938,NC,Dental Providers|Dentist|General Practice,476.94,14
+2953,OH,Eye and Vision Services Providers|Optometrist,2158.11,119
+2956,FL,Allopathic & Osteopathic Physicians|Family Medicine,46149.82,434
+2962,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,2725.62,117
+2963,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,5143.63,212
+2965,TX,Allopathic & Osteopathic Physicians|Preventive Medicine|Undersea and Hyperbaric Medicine,10696.39,164
+2966,SC,Allopathic & Osteopathic Physicians|Ophthalmology,600.23,21
+2971,FL,Allopathic & Osteopathic Physicians|Family Medicine,4285.37,295
+2976,MO,Allopathic & Osteopathic Physicians|Surgery,1135.29,54
+2998,MO,Allopathic & Osteopathic Physicians|Radiology|Diagnostic Radiology,6684.95,51
+3001,AZ,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,5129.9,268
+3002,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,562776.36,904
+3008,OH,Dental Providers|Dentist|General Practice,2604.79,33
+3010,TX,Allopathic & Osteopathic Physicians|Internal Medicine,3031.96,194
+3012,NE,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,5009.4,78
+3017,NM,Allopathic & Osteopathic Physicians|Otolaryngology|Otolaryngology/Facial Plastic Surgery,9549.67,139
+3023,IN,Allopathic & Osteopathic Physicians|Plastic Surgery,2587.9,49
+3031,DE,Allopathic & Osteopathic Physicians|Dermatology,833.7,39
+3035,LA,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,1278.77,40
+3040,MN,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,418325.64,296
+3041,OH,Allopathic & Osteopathic Physicians|Family Medicine,724596.79,476
+3042,CA,Allopathic & Osteopathic Physicians|Family Medicine,427.94,37
+3044,NJ,Allopathic & Osteopathic Physicians|Pediatrics|Adolescent Medicine,832.51,57
+3047,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,41588.51,361
+3048,MS,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,9509.43,176
+3054,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,5268.94,272
+3060,TX,Allopathic & Osteopathic Physicians|Internal Medicine,1033.8,54
+3064,DC,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,28063.48,478
+3078,NJ,Allopathic & Osteopathic Physicians|General Practice,26515.58,2981
+3086,OR,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Vascular Neurology,31027.35,295
+3092,MA,Allopathic & Osteopathic Physicians|Urology,14309.03,482
+3094,KY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,4065.68,279
+3104,NJ,Eye and Vision Services Providers|Optometrist,5243.66,132
+3121,MN,Allopathic & Osteopathic Physicians|Urology,3174.05,92
+3123,NC,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Endocrinology,3687.35,148
+3124,PA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1038.6,52
+3125,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,13036.9,367
+3130,IL,Allopathic & Osteopathic Physicians|Radiology|Radiation Oncology,5799.54,408
+3131,CA,Dental Providers|Dentist|General Practice,961.49,54
+3133,FL,Allopathic & Osteopathic Physicians|Internal Medicine,9080.88,484
+3135,TX,Allopathic & Osteopathic Physicians|Pediatrics,2014.11,61
+3148,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,4466.72,304
+3152,OK,Allopathic & Osteopathic Physicians|Internal Medicine,24378.3,1475
+3166,PA,Allopathic & Osteopathic Physicians|Ophthalmology,1294.79,80
+3169,ME,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,17733.22,60
+3180,KS,Allopathic & Osteopathic Physicians|Surgery,18472.35,331
+3188,TX,Allopathic & Osteopathic Physicians|Neurological Surgery,858.03,45
+3200,CA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Sports Medicine,577.84,20
+3201,NY,Allopathic & Osteopathic Physicians|Plastic Surgery,18847.26,114
+3214,MD,Allopathic & Osteopathic Physicians|Family Medicine,5051.65,356
+3216,GA,Allopathic & Osteopathic Physicians|Pediatrics,2425.78,31
+3228,NY,Allopathic & Osteopathic Physicians|Internal Medicine,85200.14,497
+3238,CA,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",583602.32,372
+3241,CA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology|Gynecology,4288.29,53
+3243,CA,Allopathic & Osteopathic Physicians|Pediatrics,2127.08,14
+3248,CA,Allopathic & Osteopathic Physicians|Family Medicine,3928.67,137
+3251,TX,Eye and Vision Services Providers|Optometrist,2024.33,42
+3267,GA,Allopathic & Osteopathic Physicians|Internal Medicine,550.58,34
+3274,GA,Allopathic & Osteopathic Physicians|Pediatrics,1549.2,88
+3277,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,4702.29,48
+3280,HI,Eye and Vision Services Providers|Optometrist,6442.02,56
+3287,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,1112.14,57
+3289,VA,Eye and Vision Services Providers|Optometrist,515.6800000000001,15
+3305,MN,Allopathic & Osteopathic Physicians|Allergy & Immunology,14640.289999999999,116
+3311,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,7212.21,337
+3316,NJ,Allopathic & Osteopathic Physicians|Neurological Surgery,3209.18,92
+3322,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,3097.9,125
+3331,MD,Allopathic & Osteopathic Physicians|Surgery|Plastic and Reconstructive Surgery,5318.17,28
+3344,TX,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,17602.49,351
+3345,TX,Allopathic & Osteopathic Physicians|Pediatrics,1960.58,115
+3359,AZ,Allopathic & Osteopathic Physicians|Internal Medicine,4650.46,225
+3375,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Child & Adolescent Psychiatry,2195.34,35
+3378,NC,Allopathic & Osteopathic Physicians|Family Medicine,11164.44,756
+3380,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,1436.3899999999999,37
+3386,IL,Allopathic & Osteopathic Physicians|Ophthalmology,3361.13,120
+3390,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,31187.59,348
+3391,WV,Allopathic & Osteopathic Physicians|Dermatology,2617.03,151
+3392,NE,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,4463.78,330
+3393,TX,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,11696.53,124
+3401,AZ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,2260.29,109
+3411,AL,Allopathic & Osteopathic Physicians|Ophthalmology,13348.19,66
+3413,TN,Eye and Vision Services Providers|Optometrist,3908.76,50
+3415,SC,Allopathic & Osteopathic Physicians|Ophthalmology,1092.23,39
+3421,TX,Allopathic & Osteopathic Physicians|Allergy & Immunology,73206.66,567
+3445,AL,Allopathic & Osteopathic Physicians|Otolaryngology,1440.46,88
+3447,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,22383,1263
+3453,NY,Allopathic & Osteopathic Physicians|Family Medicine,3047.7,159
+3475,IL,Allopathic & Osteopathic Physicians|Pediatrics,1125.84,50
+3478,SC,Allopathic & Osteopathic Physicians|Ophthalmology,1631.22,56
+3482,HI,Allopathic & Osteopathic Physicians|Internal Medicine,16673.29,645
+3491,PA,Allopathic & Osteopathic Physicians|Family Medicine,1375.57,74
+3494,NJ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,9403.95,469
+3496,CA,Allopathic & Osteopathic Physicians|Ophthalmology,701.21,52
+3497,CO,Eye and Vision Services Providers|Optometrist,3703.67,84
+3499,CO,Allopathic & Osteopathic Physicians|Family Medicine,19248.6,760
+3502,AZ,Allopathic & Osteopathic Physicians|Ophthalmology|Retina Specialist,16698.97,273
+3503,CA,Allopathic & Osteopathic Physicians|Internal Medicine,6115.61,185
+3504,MO,Allopathic & Osteopathic Physicians|Surgery,14255.78,142
+3509,GA,Allopathic & Osteopathic Physicians|Family Medicine,2073.87,117
+3516,TX,Allopathic & Osteopathic Physicians|Internal Medicine,9643,698
+3519,MN,Dental Providers|Dentist,758.84,28
+3528,CA,Allopathic & Osteopathic Physicians|Internal Medicine,45266.61,264
+3530,TX,Allopathic & Osteopathic Physicians|Family Medicine,1422.6299999999999,53
+3533,IN,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1136.06,77
+3539,NC,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,4015.41,181
+3540,SC,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,6048.17,83
+3548,KS,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,55019.51,77
+3559,MS,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology|Gynecologic Oncology,45019.75,136
+3561,IL,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,17690.32,481
+3564,MI,Allopathic & Osteopathic Physicians|Internal Medicine,2962.42,190
+3565,TN,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Gastroenterology,426.88,28
+3577,AZ,Allopathic & Osteopathic Physicians|Internal Medicine,1276.75,39
+3581,GA,Allopathic & Osteopathic Physicians|Pediatrics|Developmental  Behavioral Pediatrics,5931.67,106
+3582,NC,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,7886.25,501
+3583,GA,Dental Providers|Dentist|Oral and Maxillofacial Surgery,2384.75,43
+3586,PR,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,2154.28,33
+3589,CT,Allopathic & Osteopathic Physicians|Otolaryngology,1115.12,50
+3594,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,103193.8,419
+3595,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,3223.9,150
+3609,IL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,3506.3,75
+3610,NJ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,127987.3,293
+3618,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,4650.87,284
+3621,IL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2853.31,159
+3628,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,2172.69,153
+3641,MD,Allopathic & Osteopathic Physicians|Pediatrics,1224.05,74
+3643,PA,Allopathic & Osteopathic Physicians|Allergy & Immunology,7794.54,196
+3647,NM,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1507.3999999999999,51
+3657,TN,Allopathic & Osteopathic Physicians|Pediatrics,4148.92,143
+3659,UT,Allopathic & Osteopathic Physicians|Internal Medicine,8319.13,546
+3668,CO,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Foot and Ankle Surgery,5566.42,41
+3674,MI,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,10651.18,302
+3680,NY,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,58773.4,77
+3692,NY,Dental Providers|Dentist|General Practice,6977.39,30
+3706,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,11644.21,366
+3717,IL,Allopathic & Osteopathic Physicians|Allergy & Immunology,12899.01,98
+3728,TX,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Hematology-Oncology,2115.55,68
+3730,WI,Allopathic & Osteopathic Physicians|Family Medicine,1067,70
+3733,NM,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,6214.61,66
+3743,ID,Allopathic & Osteopathic Physicians|Family Medicine,1611.35,61
+3744,OH,Allopathic & Osteopathic Physicians|Internal Medicine,145737.15,358
+3746,CA,Allopathic & Osteopathic Physicians|Otolaryngology|Facial Plastic Surgery,3083.65,73
+3751,CA,Allopathic & Osteopathic Physicians|Allergy & Immunology|Allergy,1405.86,79
+3755,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,26934.11,567
+3756,IL,Allopathic & Osteopathic Physicians|Internal Medicine,974.27,63
+3759,PA,Allopathic & Osteopathic Physicians|Internal Medicine,13260.25,1174
+3760,PA,Dental Providers|Dentist|Periodontics,12796.74,53
+3773,NY,Allopathic & Osteopathic Physicians|Internal Medicine,2012.54,37
+3775,KY,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,1435.64,67
+3778,MA,Allopathic & Osteopathic Physicians|Dermatology,1682.19,71
+3785,CA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3809.47,266
+3788,OH,Allopathic & Osteopathic Physicians|Family Medicine,480.75,63
+3789,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,2929.81,92
+3795,LA,Allopathic & Osteopathic Physicians|Urology,4350.74,63
+3798,NY,Allopathic & Osteopathic Physicians|Internal Medicine,12569.45,297
+3805,WI,Allopathic & Osteopathic Physicians|Anesthesiology,817.76,57
+3811,DC,Allopathic & Osteopathic Physicians|Otolaryngology|Pediatric Otolaryngology,3731.95,47
+3825,TX,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,6642.1,91
+3826,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2452.06,137
+3837,PA,Allopathic & Osteopathic Physicians|Pediatrics,1305.28,32
+3846,NJ,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3645.34,92
+3847,OH,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2214.21,83
+3850,IL,Eye and Vision Services Providers|Optometrist,1706.92,63
+3853,CO,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,2490.16,72
+3865,MI,Allopathic & Osteopathic Physicians|Pediatrics,7476.13,303
+3872,CA,Allopathic & Osteopathic Physicians|Internal Medicine,1498.45,13
+3876,CA,Dental Providers|Dentist|General Practice,4189.08,37
+3879,TX,Allopathic & Osteopathic Physicians|Urology,5208.97,273
+3891,NY,Allopathic & Osteopathic Physicians|Ophthalmology,5993.78,136
+3892,GA,Allopathic & Osteopathic Physicians|Surgery,32503.059999999998,8
+3909,OK,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,219841.29,826
+3911,WA,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,10415.01,162
+3922,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,35305.3,109
+3926,WV,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1347.53,90
+3928,TX,Allopathic & Osteopathic Physicians|Family Medicine,10927.2,968
+3933,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2368.95,155
+3937,OH,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,4611.45,276
+3939,GA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,147976.4,470
+3949,CA,Allopathic & Osteopathic Physicians|Surgery|Plastic and Reconstructive Surgery,5316.43,44
+3950,LA,Allopathic & Osteopathic Physicians|Otolaryngology,4574.96,120
+3952,MN,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,85068.95,140
+3955,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,10988.01,583
+3961,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Clinical Cardiac Electrophysiology,17412.23,349
+3962,PA,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,1169.81,70
+3967,NC,Eye and Vision Services Providers|Optometrist,3532.22,77
+3970,NY,Allopathic & Osteopathic Physicians|Otolaryngology,6260.54,186
+3971,KS,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,1600.18,97
+3976,NY,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",19264.08,38
+3991,MD,Allopathic & Osteopathic Physicians|Surgery,1542.95,21
+3993,CT,Eye and Vision Services Providers|Optometrist,3890.79,131
+3995,RI,Allopathic & Osteopathic Physicians|Family Medicine,3338.82,66
+4002,TN,Allopathic & Osteopathic Physicians|Ophthalmology,2262.09,60
+4003,NY,Allopathic & Osteopathic Physicians|Urology,12491.88,24
+4004,TN,Allopathic & Osteopathic Physicians|Allergy & Immunology|Allergy,108724.48,389
+4015,CA,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",146756.52,1596
+4019,OR,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,24006.26,47
+4020,NC,Allopathic & Osteopathic Physicians|Urology,27380.09,279
+4027,OR,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,29481.55,89
+4031,MI,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,169.01,13
+4049,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,1684.17,103
+4069,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,21359.06,156
+4091,FL,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Cardiology,3458.54,53
+4093,MD,Allopathic & Osteopathic Physicians|Family Medicine,8127.56,505
+4098,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,766.12,49
+4100,FL,Allopathic & Osteopathic Physicians|Internal Medicine,10132.59,756
+4104,TN,Eye and Vision Services Providers|Optometrist,949.93,14
+4109,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,6776.2,239
+4115,NE,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,5754.26,68
+4125,MI,Allopathic & Osteopathic Physicians|Internal Medicine,8788.07,711
+4133,TX,Allopathic & Osteopathic Physicians|Family Medicine,19704.44,1132
+4135,CA,Allopathic & Osteopathic Physicians|Ophthalmology,1736.96,85
+4152,OH,Dental Providers|Dentist|Orthodontics and Dentofacial Orthopedics,508.64,24
+4164,TX,Allopathic & Osteopathic Physicians|Family Medicine,2047.09,126
+4175,OH,Allopathic & Osteopathic Physicians|Radiology|Radiation Oncology,1565.78,55
+4180,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,1574.36,32
+4209,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,2416.27,67
+4213,MI,Allopathic & Osteopathic Physicians|Family Medicine,733.01,39
+4215,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2892.25,78
+4216,IL,Allopathic & Osteopathic Physicians|Radiology|Diagnostic Radiology,4627.74,66
+4239,TX,Allopathic & Osteopathic Physicians|Surgery,6125.16,66
+4261,VA,Allopathic & Osteopathic Physicians|Family Medicine,2215.26,70
+4275,KY,"Allopathic & Osteopathic Physicians|Internal Medicine|Endocrinology, Diabetes & Metabolism",1168.51,40
+4277,AZ,Allopathic & Osteopathic Physicians|Allergy & Immunology,594.45,33
+4283,OR,Allopathic & Osteopathic Physicians|Surgery,1389.18,68
+4289,FL,Allopathic & Osteopathic Physicians|Family Medicine|Sports Medicine,4003.55,189
+4296,GA,Allopathic & Osteopathic Physicians|Ophthalmology,6368.64,176
+4301,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,2992.74,166
+4308,FL,Allopathic & Osteopathic Physicians|Ophthalmology,616.84,18
+4312,TN,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,7015.2,155
+4314,OH,Eye and Vision Services Providers|Optometrist,828.52,37
+4316,MN,Dental Providers|Dentist,2424.62,40
+4319,MT,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology|Maternal & Fetal Medicine,593.3,34
+4321,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,42215.21,55
+4327,FL,Allopathic & Osteopathic Physicians|Family Medicine,567.26,13
+4332,NY,Allopathic & Osteopathic Physicians|Internal Medicine,3387.93,178
+4336,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,16116.3,731
+4339,NY,Allopathic & Osteopathic Physicians|Anesthesiology|Addiction Medicine,893.97,49
+4340,CA,Allopathic & Osteopathic Physicians|Otolaryngology,15337.81,64
+4355,LA,Allopathic & Osteopathic Physicians|Internal Medicine,215.07999999999998,13
+4356,IL,Allopathic & Osteopathic Physicians|Family Medicine,3249.41,133
+4366,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1026.6,48
+4367,PA,Eye and Vision Services Providers|Optometrist,482.49,11
+4374,PR,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,976.58,39
+4395,TX,Allopathic & Osteopathic Physicians|Pediatrics|Pediatric Pulmonology,323.64,18
+4399,NE,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1892.24,111
+4408,PR,Allopathic & Osteopathic Physicians|Family Medicine,358.90000000000003,8
+4419,WA,Allopathic & Osteopathic Physicians|Colon & Rectal Surgery,14082.38,81
+4420,GA,Eye and Vision Services Providers|Optometrist,995.68,55
+4434,ID,Allopathic & Osteopathic Physicians|Anesthesiology,4870.56,111
+4437,CA,Allopathic & Osteopathic Physicians|Family Medicine,16237.84,1257
+4439,TN,Allopathic & Osteopathic Physicians|Plastic Surgery,64858.99,80
+4442,NY,Eye and Vision Services Providers|Optometrist,70763.54,192
+4448,ID,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Hand Surgery,57667.74,75
+4449,IL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,25729.9,382
+4452,PA,Allopathic & Osteopathic Physicians|Internal Medicine,681246.88,3195
+4460,IL,Allopathic & Osteopathic Physicians|Ophthalmology,1026.6,17
+4463,NJ,Eye and Vision Services Providers|Optometrist,8225.95,100
+4464,KY,Allopathic & Osteopathic Physicians|Otolaryngology,1883.76,36
+4466,CA,Allopathic & Osteopathic Physicians|Hospitalist,2362.28,40
+4467,FL,Allopathic & Osteopathic Physicians|Internal Medicine,135.76,9
+4474,TX,Allopathic & Osteopathic Physicians|Dermatology,8760.74,362
+4478,NY,Allopathic & Osteopathic Physicians|Internal Medicine,24249.1,204
+4495,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,168224.9,1575
+4502,CA,Allopathic & Osteopathic Physicians|Internal Medicine,17672.41,1202
+4506,CA,Allopathic & Osteopathic Physicians|Family Medicine,1277.12,77
+4516,TX,Allopathic & Osteopathic Physicians|Ophthalmology,9676.55,96
+4528,NM,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,10716.88,715
+4532,OH,Dental Providers|Dentist|General Practice,2341.2,34
+4535,NY,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,24840.12,814
+4536,IN,Eye and Vision Services Providers|Optometrist,3652.24,43
+4537,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,8138.13,581
+4541,AK,Allopathic & Osteopathic Physicians|Internal Medicine,7523.91,427
+4547,FL,Allopathic & Osteopathic Physicians|Family Medicine,1735.1,92
+4550,IL,Dental Providers|Dentist|Oral and Maxillofacial Surgery,126376.65,305
+4551,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,9036.79,628
+4559,MI,Dental Providers|Dentist|Oral and Maxillofacial Surgery,680.59,24
+4564,NC,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,7145.61,210
+4571,AR,Allopathic & Osteopathic Physicians|Family Medicine,5799.6,328
+4587,TX,Allopathic & Osteopathic Physicians|Family Medicine,3464.23,212
+4597,NC,Eye and Vision Services Providers|Optometrist,2906.3,73
+4598,AL,Eye and Vision Services Providers|Optometrist,882,35
+4605,LA,Eye and Vision Services Providers|Optometrist,1165.4,31
+4606,MA,Allopathic & Osteopathic Physicians|Dermatology|MOHS-Micrographic Surgery,4245.43,33
+4610,TX,Allopathic & Osteopathic Physicians|Family Medicine,13296.76,781
+4617,VA,Allopathic & Osteopathic Physicians|Internal Medicine,10935.19,674
+4618,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1821.21,66
+4622,NC,Allopathic & Osteopathic Physicians|Pediatrics,1114.76,83
+4623,AL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,13010.22,415
+4633,NV,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,3341.05,82
+4638,VA,Allopathic & Osteopathic Physicians|Internal Medicine,2393.22,209
+4662,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,3445.47,55
+4670,MI,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,137339.16,791
+4675,CA,Podiatric Medicine & Surgery Service Providers|Podiatrist,568.95,30
+4682,RI,Allopathic & Osteopathic Physicians|Internal Medicine|Geriatric Medicine,24172.66,1602
+4685,MN,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1507142.94,1469
+4688,VA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1356.06,86
+4695,IN,Allopathic & Osteopathic Physicians|Family Medicine,3135.55,227
+4696,FL,Allopathic & Osteopathic Physicians|Surgery,16358.95,131
+4700,OK,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,3697.81,236
+4707,FL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,2013.5,88
+4711,FL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,3484.2400000000002,157
+4719,NC,Eye and Vision Services Providers|Optometrist,1514.39,66
+4721,IN,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),3665.82,82
+4737,CA,Allopathic & Osteopathic Physicians|Internal Medicine,1959.02,23
+4740,NC,Allopathic & Osteopathic Physicians|Family Medicine,1140.2,66
+4745,AZ,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,38645.15,204
+4753,MD,Allopathic & Osteopathic Physicians|Ophthalmology,1714.6,79
+4754,FL,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,4849.91,88
+4766,WA,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,25047.27,32
+4785,IL,Allopathic & Osteopathic Physicians|Urology,1907.15,130
+4788,MN,Allopathic & Osteopathic Physicians|Ophthalmology,3746.87,54
+4789,CA,Allopathic & Osteopathic Physicians|Ophthalmology,348663.74,233
+4797,UT,Allopathic & Osteopathic Physicians|Internal Medicine,11088.65,940
+4799,VA,Allopathic & Osteopathic Physicians|Internal Medicine|Infectious Disease,840.02,19
+4807,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,14350.05,758
+4812,NY,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,1303.26,76
+4813,NY,Allopathic & Osteopathic Physicians|Pediatrics,1675.82,83
+4817,TX,Allopathic & Osteopathic Physicians|Surgery,7806.8,59
+4818,CA,Allopathic & Osteopathic Physicians|Family Medicine,5052.85,314
+4826,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology with Special Qualifications in Child Neurology,2052.69,102
+4837,IL,Allopathic & Osteopathic Physicians|Dermatology,2281.32,127
+4842,CT,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,18503.13,137
+4851,CO,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,8899.59,92
+4859,NY,Allopathic & Osteopathic Physicians|Otolaryngology,827.72,46
+4872,WA,Allopathic & Osteopathic Physicians|Emergency Medicine|Undersea and Hyperbaric Medicine,456.59000000000003,12
+4873,AR,Allopathic & Osteopathic Physicians|Pediatrics,667.95,38
+4882,CT,Allopathic & Osteopathic Physicians|Surgery,1886.71,37
+4883,MO,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Foot and Ankle Surgery,38416.08,101
+4887,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,2175.77,58
+4895,GA,Allopathic & Osteopathic Physicians|Urology,9096.87,264
+4897,NJ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,6655.95,69
+4900,KY,Allopathic & Osteopathic Physicians|Preventive Medicine|Public Health & General Preventive Medicine,511.17,32
+4907,LA,Allopathic & Osteopathic Physicians|Internal Medicine,4175.02,316
+4916,NY,Allopathic & Osteopathic Physicians|Family Medicine,12730.31,725
+4920,PR,Allopathic & Osteopathic Physicians|Internal Medicine,2593.08,95
+4924,IN,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,198186.19,472
+4928,MA,Allopathic & Osteopathic Physicians|Otolaryngology,2122.29,29
+4931,TX,Allopathic & Osteopathic Physicians|Surgery,1406.47,42
+4940,FL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,250429.79,146
+4945,KY,Allopathic & Osteopathic Physicians|Internal Medicine,2971.83,78
+4947,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Medical Oncology,788.85,44
+4949,FL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,17663.89,252
+4951,PA,Allopathic & Osteopathic Physicians|Family Medicine,945.56,61
+4952,SC,Allopathic & Osteopathic Physicians|Pediatrics,1008.66,60
+4955,NY,Allopathic & Osteopathic Physicians|Family Medicine,12615,370
+4961,IL,Allopathic & Osteopathic Physicians|Anesthesiology|Pain Medicine,2976.59,55
+4973,MO,Dental Providers|Dentist|General Practice,3265.88,35
+4981,LA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,279251.77,341
+4987,CO,Allopathic & Osteopathic Physicians|Family Medicine,17831.5,686
+4989,AZ,Dental Providers|Dentist,2386.42,19
+4990,AZ,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,2304.54,137
+5000,MD,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1202.49,75
+5001,CA,Allopathic & Osteopathic Physicians|Ophthalmology,2489.91,67
+5006,OK,Allopathic & Osteopathic Physicians|Family Medicine,2631.76,181
+5018,WA,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,22577.39,178
+5020,TX,Allopathic & Osteopathic Physicians|Dermatology|Dermatopathology,9372.44,640
+5039,TX,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,4434.95,195
+5041,WI,Allopathic & Osteopathic Physicians|Urology,5350.39,153
+5046,OH,Allopathic & Osteopathic Physicians|Family Medicine,9003.67,718
+5053,TX,Dental Providers|Dentist|Oral and Maxillofacial Surgery,2705.09,46
+5055,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,896748.09,1318
+5060,PA,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,1580.3,37
+5072,CA,Dental Providers|Dentist,1626.38,52
+5075,UT,Allopathic & Osteopathic Physicians|Internal Medicine|Rheumatology,1164.27,14
+5076,CA,Eye and Vision Services Providers|Optometrist,4827.84,50
+5083,IL,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,8920.29,337
+5088,CA,Allopathic & Osteopathic Physicians|Pediatrics,649.3100000000001,25
+5101,IL,Dental Providers|Dentist|Oral and Maxillofacial Surgery,6202.25,52
+5107,WI,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,5164.78,99
+5112,NJ,Allopathic & Osteopathic Physicians|Surgery,2542.4900000000002,54
+5114,MO,Allopathic & Osteopathic Physicians|Internal Medicine|Nephrology,59340.36,196
+5118,RI,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,3365.1,142
+5120,TN,Allopathic & Osteopathic Physicians|Family Medicine,3679.45,238
+5132,FL,Eye and Vision Services Providers|Optometrist,3915.11,75
+5133,OR,Allopathic & Osteopathic Physicians|Plastic Surgery,4631.73,44
+5136,VA,Allopathic & Osteopathic Physicians|Internal Medicine,821.66,37
+5143,OH,Allopathic & Osteopathic Physicians|Ophthalmology,4693.44,95
+5151,OH,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,1188.79,48
+5161,TX,Allopathic & Osteopathic Physicians|Dermatology,759.24,31
+5164,PA,Allopathic & Osteopathic Physicians|Internal Medicine,19341.67,1504
+5176,FL,Allopathic & Osteopathic Physicians|Internal Medicine,8549.15,176
+5186,NY,Allopathic & Osteopathic Physicians|Surgery|Plastic and Reconstructive Surgery,26462.17,153
+5195,VA,Allopathic & Osteopathic Physicians|Urology,1504.72,43
+5205,FL,Allopathic & Osteopathic Physicians|Family Medicine,4649.9,180
+5233,NM,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation,1026.8899999999999,58
+5235,OH,Allopathic & Osteopathic Physicians|Ophthalmology,5430.31,111
+5237,CA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Foot and Ankle Surgery,8689.96,103
+5244,MD,Dental Providers|Dentist,768.12,17
+5257,LA,Allopathic & Osteopathic Physicians|Internal Medicine,4809.15,339
+5267,NJ,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,104589.3,172
+5274,VA,Dental Providers|Dentist|General Practice,781.24,24
+5281,TX,Allopathic & Osteopathic Physicians|Family Medicine|Geriatric Medicine,2617.09,80
+5282,IL,Allopathic & Osteopathic Physicians|Family Medicine,1531.3799999999999,138
+5294,NC,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,9891.31,602
+5319,OK,Allopathic & Osteopathic Physicians|Internal Medicine,1918.64,26
+5322,AL,Allopathic & Osteopathic Physicians|Pediatrics,717.38,38
+5327,CA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,18362.22,878
+5335,HI,Allopathic & Osteopathic Physicians|Surgery,17486.2,145
+5339,CA,Allopathic & Osteopathic Physicians|Urology,12009.41,225
+5340,FL,Allopathic & Osteopathic Physicians|Family Medicine,2345.74,187
+5362,OH,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,1785.99,114
+5365,TX,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology with Special Qualifications in Child Neurology,32794.2,101
+5381,FL,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),16164.12,123
+5397,NJ,Allopathic & Osteopathic Physicians|Pediatrics,796.25,50
+5410,AL,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,64804.89,959
+5412,NJ,Allopathic & Osteopathic Physicians|Pediatrics,1451.61,101
+5414,NE,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,47608.36,104
+5421,AZ,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Neurology,1020782.46,2170
+5424,RI,Allopathic & Osteopathic Physicians|Pediatrics,1351.48,85
+5429,NJ,Allopathic & Osteopathic Physicians|Family Medicine|Adult Medicine,1386.69,48
+5436,CO,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,9320.53,44
+5438,MD,Allopathic & Osteopathic Physicians|Dermatology|Procedural Dermatology,1168854.52,1568
+5449,NJ,Allopathic & Osteopathic Physicians|Internal Medicine,7305.25,344
+5471,OH,Allopathic & Osteopathic Physicians|Pediatrics,1487.03,103
+5482,AL,Eye and Vision Services Providers|Optometrist,4769,121
+5483,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,484.21000000000004,24
+5489,PA,Allopathic & Osteopathic Physicians|Internal Medicine|Medical Oncology,13349.85,154
+5495,MA,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,4912.96,97
+5499,FL,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,22143.4,387
+5504,NJ,Dental Providers|Dentist|Oral and Maxillofacial Surgery,3478.0099999999998,30
+5509,AZ,Allopathic & Osteopathic Physicians|Surgery,28427.86,317
+5517,CA,Allopathic & Osteopathic Physicians|Surgery|Surgical Oncology,39536.99,75
+5531,NY,Eye and Vision Services Providers|Optometrist|Corneal and Contact Management,2819.96,60
+5533,DC,Allopathic & Osteopathic Physicians|General Practice,5745.56,398
+5535,CO,Allopathic & Osteopathic Physicians|Anesthesiology,1475.32,22
+5549,IL,Allopathic & Osteopathic Physicians|Hospitalist,2002.26,21
+5561,IL,Eye and Vision Services Providers|Optometrist,7109.39,64
+5563,NY,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,4069.9700000000003,190
+5572,NC,Allopathic & Osteopathic Physicians|Family Medicine,9554.96,660
+5575,TN,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,449516.47,525
+5583,FL,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,448.04,18
+5588,FL,Allopathic & Osteopathic Physicians|Otolaryngology,4411.85,72
+5592,MS,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,8645.51,67
+5594,OH,Allopathic & Osteopathic Physicians|Surgery|Vascular Surgery,16282.81,51
+5597,OR,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,2481.68,85
+5600,CA,Allopathic & Osteopathic Physicians|Otolaryngology,3494.75,100
+5602,SC,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Sports Medicine,69853.81,419
+5612,CO,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,3823,210
+5614,NC,Podiatric Medicine & Surgery Service Providers|Podiatrist,8950.89,149
+5628,PA,Allopathic & Osteopathic Physicians|Family Medicine,10463.68,919
+5629,GA,Allopathic & Osteopathic Physicians|Internal Medicine,7371.6,625
+5644,PA,Allopathic & Osteopathic Physicians|Family Medicine,2233.66,66
+5645,GA,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,5312.22,116
+5649,GA,Allopathic & Osteopathic Physicians|Otolaryngology,5067.39,103
+5654,TX,Allopathic & Osteopathic Physicians|Pediatrics,1255.63,30
+5661,CA,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),10817.52,89
+5665,IA,Allopathic & Osteopathic Physicians|Anesthesiology,416.56,19
+5673,CA,Allopathic & Osteopathic Physicians|Emergency Medicine,2971.91,187
+5678,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,3910.65,154
+5683,TX,Allopathic & Osteopathic Physicians|Orthopaedic Surgery|Orthopaedic Surgery of the Spine,91290.77,72
+5693,OR,Allopathic & Osteopathic Physicians|Internal Medicine|Gastroenterology,47403.19,544
+5697,CO,Eye and Vision Services Providers|Optometrist,2185.92,17
+5704,NY,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology|Obstetrics,1133.54,68
+5711,OH,Allopathic & Osteopathic Physicians|Family Medicine,1870.4,138
+5713,TX,Allopathic & Osteopathic Physicians|Internal Medicine|Pulmonary Disease,4044.68,71
+5714,CA,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,3978.38,201
+5715,CA,Allopathic & Osteopathic Physicians|Internal Medicine,2042.03,24
+5716,SD,Allopathic & Osteopathic Physicians|Ophthalmology,476.31,21
+5737,IL,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,349125.03,842
+5748,CA,Allopathic & Osteopathic Physicians|Family Medicine,6424.7,274
+5764,FL,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Vascular Neurology,6777.97,105
+5765,FL,Allopathic & Osteopathic Physicians|Pediatrics,1221.64,37
+5766,TN,Allopathic & Osteopathic Physicians|Pediatrics,1705.56,50
+5775,FL,Podiatric Medicine & Surgery Service Providers|Podiatrist|Foot & Ankle Surgery,4830.28,75
+5795,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,232521.36,913
+5797,NJ,Allopathic & Osteopathic Physicians|Internal Medicine|Hematology & Oncology,778.72,38
+5819,FL,Allopathic & Osteopathic Physicians|Internal Medicine|Interventional Cardiology,8650.96,157
+5835,PA,Allopathic & Osteopathic Physicians|Orthopaedic Surgery,61118.06,149
+5847,VA,Allopathic & Osteopathic Physicians|Urology,10321.68,370
+5849,MI,Allopathic & Osteopathic Physicians|Urology|Female Pelvic Medicine and Reconstructive Surgery,14345.3,174
+5854,CA,Allopathic & Osteopathic Physicians|Thoracic Surgery (Cardiothoracic Vascular Surgery),16532.58,68
+5860,TX,Allopathic & Osteopathic Physicians|Radiology|Diagnostic Radiology,39180.54,431
+5861,AZ,Allopathic & Osteopathic Physicians|Pain Medicine|Interventional Pain Medicine,12836.77,385
+5875,MS,Allopathic & Osteopathic Physicians|Family Medicine,9162.56,439
+5878,MD,Allopathic & Osteopathic Physicians|Family Medicine,2299.17,153
+5881,FL,Dental Providers|Dentist|Oral and Maxillofacial Surgery,704.74,17
+5882,MI,Allopathic & Osteopathic Physicians|Surgery,2131.27,50
+5891,CT,Eye and Vision Services Providers|Optometrist,6404.79,163
+5904,OH,Allopathic & Osteopathic Physicians|Family Medicine,8764.25,760
+5908,PA,Allopathic & Osteopathic Physicians|Internal Medicine,291415.58,217
+5913,TX,Allopathic & Osteopathic Physicians|Obstetrics & Gynecology,908.03,59
+5915,CA,Allopathic & Osteopathic Physicians|Internal Medicine,4938.91,160
+5932,MI,Allopathic & Osteopathic Physicians|Family Medicine,1316.44,94
+5933,CA,Allopathic & Osteopathic Physicians|Urology,139460.09,164
+5936,LA,Allopathic & Osteopathic Physicians|Otolaryngology,2398.32,122
+5937,OH,Allopathic & Osteopathic Physicians|Family Medicine,9951.75,780
+5939,GA,Allopathic & Osteopathic Physicians|Physical Medicine & Rehabilitation|Pain Medicine,5131.96,311
+5941,MN,Allopathic & Osteopathic Physicians|Radiology|Vascular & Interventional Radiology,7924.75,51
+5952,OH,Dental Providers|Dentist|General Practice,2155.38,17
+5953,TN,Allopathic & Osteopathic Physicians|Internal Medicine|Cardiovascular Disease,175432.11,590
+5959,CA,Allopathic & Osteopathic Physicians|Urology,2920.08,98
+5964,OK,Allopathic & Osteopathic Physicians|Family Medicine,1036.32,93
+5972,TX,Allopathic & Osteopathic Physicians|Urology,14156.35,285
+5999,MA,Allopathic & Osteopathic Physicians|Psychiatry & Neurology|Psychiatry,1560.3,43
