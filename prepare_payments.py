@@ -7,9 +7,9 @@ df = df.set_index(['Record_ID', 'Physician_ID', 'Company_ID'])
 
 
 # Basic analysis
-for col in df.columns:
-    print('###', col)
-    print(df[col].value_counts())
+# for col in df.columns:
+#     print('###', col)
+#     print(df[col].value_counts())
 
 
 # Aggregate via sums
