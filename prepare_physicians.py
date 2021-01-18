@@ -4,7 +4,7 @@ df = pd.read_csv('physicians.csv', delimiter=',')
 
 
 # Rename "id" and "set" columns
-df = df.rename(columns={'id': 'Physicians_ID', 'set': 'Set'})
+df = df.rename(columns={'id': 'Physician_ID', 'set': 'Set'})
 
 
 # Drop name columnes
@@ -74,4 +74,4 @@ df_train = df.loc[df['Set'] == 'train']
 df_test = df.loc[df['Set'] == 'test']
 # len(df.loc[df['Set'] == 'test'])
 # 1000
-df_test['Physicians_ID'].unique()
+df_test['Physician_ID'].unique()
