@@ -3,14 +3,14 @@ title: "classifiers_R"
 author: 
   name: Manuel Schreiber
 output:
-  pdf_document: default
-  html_notebook: default
-  latex_engine: pdflatex
   html_document:
     toc: true
     toc_float: true
     theme: united
     df_print: paged
+  html_notebook: default
+  latex_engine: pdflatex
+  pdf_document: default
   header-includes:
    - \usepackage{amsmath}
    - \usepackage{amsfonts}
@@ -319,13 +319,13 @@ xgb <- xgboost(data = train_features,
 # creating a data frame from all combinations of the supplied vectors or factors
 # using the expand.grid() function
 xgb_tune_grid = expand.grid(
-nrounds = c(10,100), # no. of passes of the data, i.e. no. of iterations
-eta = c(0.01,0.1), # learning rate
+nrounds = c(10,100), # no. of passes of the data, i.e. no. of boosting iterations
+eta = c(0.01,0.1,0.3), # learning rate
 max_depth = c(5,10), # max no. of leaves for each tree
-gamma = c(0,1,5,10),
+gamma = c(1,2), # min loss reduction required to make a further leaf node partition
 colsample_bytree = c(0.7,0.9), # subsample of columns for a single tree
-min_child_weight = c(5,10),
-subsample = c(0.7,0.8) # subsample of rows considered (RF component)
+min_child_weight = c(5,10), # min sum of instance weight needed in a child node
+subsample = c(0.7,0.8) # subsample of rows considered (RF component),
 )
 
 # step 2: setting the training control parameters (type of CV, # of folds, etc)
@@ -351,37 +351,61 @@ gscv_fit = caret::train(
 x = train_features,
 y = factor(train_label), # using a factor as label for classification
 trControl = xgb_trcontrol_params,
-tuneGrid = xgb_grid,
+tuneGrid = xgb_tune_grid,
 method = 'xgbTree' # extreme gradient boosted trees
 )
 
 
 ```
 
-Jan 19: optimal grid: nround = 100, max_depth = 5, eta = 0.1, gamma = 1, colsample_bytree = 0.7, min_child_weight = 5, subsample = 0.8
+Jan 19: Selecting tuning parameters
+Fitting nrounds = 10, max_depth = 5, eta = 0.01, gamma = 1, colsample_bytree = 0.7, min_child_weight = 5, subsample = 0.7 on full training set
 
 ```{r}
-# fitting the optimal xgb model
+# best gscv score
+gscv_fit$results
+```
+
+
+```{r}
+# fitting the optimal xgb model (after the GSCV)
 
 xgb_opt <- xgboost(data = train_features, 
               label = train_label,
               objective="binary:logistic",
-              learning_rate = 0.1,
+              eta = 0.01,
               gamma = 1,
               max_depth = 5,
               min_child_weight = 5,
-              subsample = 0.8,
+              subsample = 0.7,
               colsample_bytree = 0.7,
-              nround=100,
+              nrounds=10,
               verbose = 2)
 
 ```
 
 
+```{r}
+# setting up the xgboost model (baseline xgb model)
+  
+xgb_base <- xgboost(data = train_features, 
+              label = train_label,
+              objective="binary:logistic",
+              learning_rate = 0.5,
+              lambda = 1.95,
+              max_depth = 7,
+              subsample = 0.7,
+              colsample_bytree = 0.7,
+              colsample_bylevel = 0.7,
+              nround=20,
+              verbose = 1)
+
+```
+
 
 ```{r}
 # feature importance plot
-xgb_importance <- xgb.importance(model = xgb, label = train_label)
+xgb_importance <- xgb.importance(model = xgb_base, label = train_label)
 
 xgb_importance # data table
 
@@ -392,7 +416,7 @@ xgb.plot.importance(importance_matrix = xgb_importance, top_n = 10)
 
 ```{r}
 # prediction on the test set
-preds_proba_xgb <- predict(xgb_opt, test_features)[0:length(y_test)] 
+preds_proba_xgb <- predict(xgb_base, test_features)[0:length(y_test)] 
 
 head(preds_proba_xgb);
 
