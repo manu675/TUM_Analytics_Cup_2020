@@ -1,0 +1,426 @@
+---
+title: "classifiers_R"
+author: 
+  name: Manuel Schreiber
+output:
+  pdf_document: default
+  html_notebook: default
+  latex_engine: pdflatex
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+    df_print: paged
+  header-includes:
+   - \usepackage{amsmath}
+   - \usepackage{amsfonts}
+---
+```{r}
+library(tidyverse) # collection of packages for data analysis including: ggplot2(data visualization package), dplyr (data manipulation package), tidyr, readr, purrr, tibble, stringr, forcats
+
+library(graphics) # base graphics (e.g. histogram)
+
+library(stats) # computing distribution functions, distribution quantiles; random number generation
+
+library(e1071) # package for the Naive Bayes Classifier
+
+library(yardstick) # package including the balanced accuracy score
+
+library(caret) # classification and regression training package
+
+library(randomForest) # Random Forest ensemble method
+
+library(xgboost) # xgboosting ensemble method
+
+```
+
+
+
+## changing the WD
+
+```{r}
+setwd("/Users/Manu/Desktop/TUM_Master_Mgt_Technology/TUM_WS_20/Business Analytics/Analytics Cup")
+
+```
+
+```{r}
+# reading the training and test data sets into R
+train = read_csv("train_physicians.csv")
+test = read_csv("test_physicians.csv")
+
+```
+
+```{r}
+str(train)
+```
+
+```{r}
+# subsetting the training set for model training and model evaluation
+
+# labels 
+y_train = train$ownership_interest[0:4000]
+
+y_test = train$ownership_interest[4001:length(train$ownership_interest)]
+
+str(y_train);
+
+str(y_test)
+
+
+# features 
+
+# subsetting columns from the train dataframe                 
+X_train = subset(train, select=c(total_payments, number_of_payments))   
+
+X_train <- X_train[0:4000,] # subsetting the first 4000 rows
+                 
+
+X_test = subset(train, select=c(total_payments, number_of_payments)) 
+X_test <- X_test[4001:4788,]
+
+str(X_train);
+
+str(X_test)
+
+```
+
+```{r}
+# subsetting the entire training data for the NB model
+
+train_subset = as.data.frame(cbind(y_train,X_train))
+
+names(train_subset)[1] <- "ownership"
+
+str(train_subset);
+
+test_subset = as.data.frame(cbind(y_test,X_test))
+
+names(test_subset)[1] <- "ownership"
+
+str(test_subset)
+
+```
+
+
+
+```{r}
+# creating a naive Bayes prediction model
+# arguments of naiveBayes():
+# data: dataframe of predictors
+##nb <- naiveBayes(y = y_train, x = X_train, data = X_train, laplace=1)
+
+nb <- naiveBayes(formula = ownership ~ total_payments + number_of_payments, data= train_subset, laplace = 1)
+
+nb
+```
+
+TO DO: ONLY NA PREDICTIONS
+
+```{r}
+# predictions for the test dataset
+##preds_nb = predict(nb, newdata= test_subset, type="class")[0:length(y_test)]
+
+##preds_nb
+
+
+
+```
+
+
+
+```{r}
+# confusion matrix
+##table(true=y_test,prediction=predictions)
+```
+
+
+*Logistic regression*
+
+To perform logistic regression, we need to code the response variables into integers. This can be done using the factor() function
+
+Useful link:
+http://rstudio-pubs-static.s3.amazonaws.com/74431_8cbd662559f6451f9cd411545f28107f.html
+
+
+
+```{r}
+## fitting a Generalized Linear Model (GLM) (Logistic Regression) 
+log_reg = glm(y_train ~ total_payments + number_of_payments, data=X_train, family=binomial(link="logit"))
+
+summary(log_reg)
+```
+
+```{r}
+dim(X_test);
+dim(X_train)
+```
+
+
+```{r}
+# predicted probablities on the test set
+preds_proba_lr <- predict(log_reg,newdata=X_test,type='response')[0:length(y_test)]
+
+head(preds_proba_lr);
+
+
+# predicted classes using a cutoff value of p = 0.5
+preds_lr <- rep(0, length(y_test)) # initializing a preds_lr object with 0s
+
+preds_lr[preds_proba_lr > .5] = 1;
+
+length(preds_lr)
+
+table(preds_lr) # frequency table of predictions
+
+
+```
+
+
+
+```{r}
+# Calculating a cross-tabulation of observed and predicted classes with associated statistics
+accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_lr))
+
+```
+
+
+```{r}
+# confusion matrix
+table(true=y_test,prediction=preds_lr)
+```
+
+
+```{r}
+# computing the balanced accuracy score
+bal_accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_lr))
+
+```
+
+
+Random Forest
+
+
+Random Forest (RF) models improve on the idea of bagging by de-correlating the trees
+
+RF models build a number of regression trees/classification trees on bootstrapped training samples, but when building these trees, each time a split in a tree is considered, only a random selection of m predictors (not all) are allowed as split candidates from the full set of p predictors (usually m=p)
+
+The key idea here is that by randomizing the set of allowed predictors, the resulting trees are less correlated with each other.
+
+```{r}
+# setting the seed for reproducibility
+set.seed(123)
+```
+
+
+```{r}
+# fitting a random forest model
+rf = randomForest(factor(y_train) ~total_payments + number_of_payments, data=X_train, ntree=100, proximity=T)
+
+rf
+
+
+```
+
+```{r}
+# feature importance
+
+importance(rf)
+
+```
+
+```{r}
+dim(X_test)
+```
+
+
+```{r}
+preds_rf = predict(rf, newdata=X_test, type='response')[0:length(y_test)]
+
+head(preds_rf)
+
+```
+
+```{r}
+# confusion matrix
+table(true=y_test,prediction=preds_rf)
+```
+
+
+```{r}
+# Calculating a cross-tabulation of observed and predicted classes with associated statistics
+accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_rf))
+
+```
+
+
+
+```{r}
+# computing the balanced accuracy score
+bal_accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_rf))
+
+```
+
+
+*XGBoosting (extreme gradient boosting) model*
+
+https://xgboost.readthedocs.io/en/latest/R-package/xgboostPresentation.html
+
+Combination of regularization, boosting and a Random Forest
+
+XGB supports various objective functions, including regression, classification and ranking
+
+Input Type: it takes several types of input data:
+(i) Dense Matrix: R’s dense matrix, i.e. matrix ;
+(ii) xgb.DMatrix: its own class (recommended)
+XGBoost offers a way to group them in a xgb.DMatrix. You can even add other meta data in it. This will be useful for the most advanced features we will discover later.
+
+Customization: it supports customized objective functions and evaluation functions.
+
+```{r}
+# we have already set the seed further up in line 209
+
+# formatting the training data
+
+train_features <- as.matrix(train_subset[c("total_payments","number_of_payments")])
+
+class(train_features);
+
+train_label <- train_subset$ownership
+
+# formatting the test data
+
+test_features <- as.matrix(train_subset[c("total_payments","number_of_payments")])
+
+test_label <- test_subset$ownership
+
+# setting up the xgboost model
+  
+xgb <- xgboost(data = train_features, 
+              label = train_label,
+              objective="binary:logistic",
+              learning_rate = 0.5,
+              lambda = 1.95,
+              max_depth = 7,
+              subsample = 0.7,
+              colsample_bytree = 0.7,
+              colsample_bylevel = 0.7,
+              nround=20,
+              verbose = 0)
+
+       
+```
+
+
+```{r}
+## Gridsearch code for R (caret package) ##
+ 
+# step 1: setting up a grid of hyperparameters
+
+# creating a data frame from all combinations of the supplied vectors or factors
+# using the expand.grid() function
+xgb_tune_grid = expand.grid(
+nrounds = c(10,100), # no. of passes of the data, i.e. no. of iterations
+eta = c(0.01,0.1), # learning rate
+max_depth = c(5,10), # max no. of leaves for each tree
+gamma = c(0,1,5,10),
+colsample_bytree = c(0.7,0.9), # subsample of columns for a single tree
+min_child_weight = c(5,10),
+subsample = c(0.7,0.8) # subsample of rows considered (RF component)
+)
+
+# step 2: setting the training control parameters (type of CV, # of folds, etc)
+ 
+## trainControl() sets the training control parameters for the train() function:##
+
+xgb_trcontrol_params = trainControl(
+method = "cv", # cross validation
+number = 3, # number of folds
+verboseIter = TRUE,
+returnData = FALSE,
+returnResamp = "all",                                                        
+# save losses across all models
+#classProbs = FALSE,                                                           
+allowParallel = TRUE # set to FALSE for reproducibility
+)
+
+# step 3: setting the input nad the method for the models to be fitted during the GSCV
+ 
+## train the model for each parameter combination in the grid and use a CV to evaluate##
+
+gscv_fit = caret::train(
+x = train_features,
+y = factor(train_label), # using a factor as label for classification
+trControl = xgb_trcontrol_params,
+tuneGrid = xgb_grid,
+method = 'xgbTree' # extreme gradient boosted trees
+)
+
+
+```
+
+Jan 19: optimal grid: nround = 100, max_depth = 5, eta = 0.1, gamma = 1, colsample_bytree = 0.7, min_child_weight = 5, subsample = 0.8
+
+```{r}
+# fitting the optimal xgb model
+
+xgb_opt <- xgboost(data = train_features, 
+              label = train_label,
+              objective="binary:logistic",
+              learning_rate = 0.1,
+              gamma = 1,
+              max_depth = 5,
+              min_child_weight = 5,
+              subsample = 0.8,
+              colsample_bytree = 0.7,
+              nround=100,
+              verbose = 2)
+
+```
+
+
+
+```{r}
+# feature importance plot
+xgb_importance <- xgb.importance(model = xgb, label = train_label)
+
+xgb_importance # data table
+
+# plot of top 10 most important features
+xgb.plot.importance(importance_matrix = xgb_importance, top_n = 10) 
+```
+
+
+```{r}
+# prediction on the test set
+preds_proba_xgb <- predict(xgb_opt, test_features)[0:length(y_test)] 
+
+head(preds_proba_xgb);
+
+
+# predicted classes using a cutoff value of p = 0.5
+preds_xgb <- rep(0, length(y_test)) # initializing a preds_xgb object with 0s
+
+preds_xgb[preds_proba_xgb > .5] = 1;
+
+length(preds_xgb)
+
+table(preds_xgb) # frequency table of predictions
+
+```
+
+
+```{r}
+# confusion matrix
+table(true=y_test,prediction=preds_xgb)
+```
+
+
+```{r}
+# computing the balanced accuracy score
+bal_accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_xgb))
+
+```
+
+
+
+
