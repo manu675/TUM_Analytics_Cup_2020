@@ -250,6 +250,7 @@ table(true=y_test,prediction=preds_rf)
 # Calculating a cross-tabulation of observed and predicted classes with associated statistics
 accuracy(data = X_test, truth = factor(y_test), estimate = factor(preds_rf))
 
+# not that useful as a metric for imbalanced classification data!
 ```
 
 
@@ -276,6 +277,7 @@ XGBoost offers a way to group them in a xgb.DMatrix. You can even add other meta
 
 Customization: it supports customized objective functions and evaluation functions.
 
+
 ```{r}
 # we have already set the seed further up in line 209
 
@@ -293,21 +295,27 @@ test_features <- as.matrix(train_subset[c("total_payments","number_of_payments")
 
 test_label <- test_subset$ownership
 
-# setting up the xgboost model
-  
-xgb <- xgboost(data = train_features, 
-              label = train_label,
-              objective="binary:logistic",
-              learning_rate = 0.5,
-              lambda = 1.95,
-              max_depth = 7,
-              subsample = 0.7,
-              colsample_bytree = 0.7,
-              colsample_bylevel = 0.7,
-              nround=20,
-              verbose = 0)
 
        
+```
+
+```{r}
+# inspecting the training and evaluation data
+
+table(train_label)
+
+# majority and minority class shares
+c_major <- sum(train_label == 0)/(sum(train_label == 0) + sum(train_label == 1))
+
+c_minor <- sum(train_label == 1)/(sum(train_label == 0) + sum(train_label == 1))
+
+c_major;
+c_minor
+
+
+
+
+
 ```
 
 
@@ -372,7 +380,7 @@ gscv_fit$results
 
 xgb_opt <- xgboost(data = train_features, 
               label = train_label,
-              objective="binary:logistic",
+              objective="binary:logistic", # has to be changed to balanced accuracy
               eta = 0.01,
               gamma = 1,
               max_depth = 5,
@@ -384,6 +392,7 @@ xgb_opt <- xgboost(data = train_features,
 
 ```
 
+Baseline XGB boosting classifier
 
 ```{r}
 # setting up the xgboost model (baseline xgb model)
