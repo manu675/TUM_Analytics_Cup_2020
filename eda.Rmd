@@ -16,9 +16,18 @@ output:
    - \usepackage{amsfonts}
 ---
 
-**Task** 
+**UPDATES**
 
 **January 11: payments.csv file from training data updated**
+
+**January 20: hints from coaching session:**
+split 5000 data points into train and evaluation set (e.g. 4000/1000)
+-> then train the model again using all 5000 data points before making the
+predition on the test features belonging to the hidden target variables
+
+Plot categorical features and computing a correlation matrix for numerical variables to detect correlations/find useful features 
+
+**Task**
 
 Predict Ownership Interests of physicians in pharmaceutical companies from regulatory transaction data.
 
@@ -39,7 +48,7 @@ You are given 1 400 000 instances of transactions which have been received by 60
 
 library(tidyverse) # collection of packages for data analysis including: ggplot2 (data visualization package), dplyr (data manipulation package), tidyr, readr (faster read.csv() functions that create tibble objects instead of data.frames), purrr, tibble (wrapper around data.frames for better printing), stringr, forcats
 
-library(lubridate) # tools to parse and manipuulate dates
+library(lubridate) # tools to parse and manipulate dates
 
 library(GGally) # ggplot2 extension (for a heat map plot)
 
@@ -52,6 +61,12 @@ library(tidymodels) # collection of packages for modeling and machine learning
 
 library(googledrive) # interface to googledrive
 
+library(descr) # crosstab function for EDA
+
+library(mltools) # one hot encoding function
+
+library(data.table)
+
 
 ```
 
@@ -63,7 +78,7 @@ getwd()
 
 ```{r}
 # finds all CSV files on your google drive
-drive_find(type = "csv")  
+##drive_find(type = "csv")  
 
 # downloading a file from Gdrive to your working directory
 ##drive_download("water_qual.csv", overwrite = TRUE)
@@ -121,16 +136,23 @@ colnames(physicians_df)
 physicians_df_red <- subset(physicians_df, select = -c(First_Name,Middle_Name,Last_Name, Name_Suffix))
                       
 
-# storing all physician id's for the training set
-id_train <- physicians_df_red$id[physicians_df_red$set=="train"]
-
-# storing all physician id's for the test set
-id_test <- physicians_df_red$id[physicians_df_red$set=="test"]
-
-                        
+# # storing all physician id's for the training set
+# id_train <- physicians_df_red$id[physicians_df_red$set=="train"]
+# 
+# # storing all physician id's for the test set
+# id_test <- physicians_df_red$id[physicians_df_red$set=="test"]
+# 
+#                         
   
 
 
+```
+
+
+*Plotting categorical features and computing a correlation matrix for numerical variables*
+
+```{r}
+#crosstab(dep = physicians_df$id, indep = physicians_df$Primary_Specialty)
 ```
 
 
@@ -145,35 +167,166 @@ str(payments_df)
 # interesting features. Physician_ID, Company_ID, Ownership_Indicator
 ```
 
+*Plotting categorical features and computing a correlation matrix for numerical variables*
+
 ```{r}
-# storing the physician IDs which match in physicians_df and payments_df is equal to "yes"
+# correlation matrix of numerical features
+cor(select(payments_df, where(is.numeric)))
+```
+correlations worth looking at: Company_ID - Record_Id
 
-payments_physicians_matching_ids_train <- payments_df$Physician_ID[payments_df$Physician_ID == id_train]
+```{r}
+# barplot of the frequency table of the categorical feature "Country of Travel"
+table(payments_df$Ownership_Indicator, payments_df$Country_of_Travel)
 
-payments_physicians_matching_ids_test <- payments_df$Physician_ID[payments_df$Physician_ID == id_test]
+# plotting the top 5 most frequent values of the categorical feature Country of Travel
+barplot(sort(table(payments_df$Country_of_Travel), decreasing = TRUE)[1:5], cex.names = 0.8)
 
-# object lengths
-length(payments_physicians_matching_ids_test)
-
-length(payments_physicians_matching_ids_train)
-
-# extracting ownership indicators for training and test set
-ownership_mid_train <- payments_df$Ownership_Indicator[payments_df$Physician_ID == id_train]
-
-
-ownership_mid_test <- payments_df$Ownership_Indicator[payments_df$Physician_ID == id_test]
-
-# training set with mathing physician ids and ownership labels
-train_df <- cbind(payments_physicians_matching_ids_train, ownership_mid_train)
-
-head(train_df, 50)
+```
 
 
-length(payments_df$Number_of_Payments)
+```{r}
+# cross tab plot of ownership interest and certain features with legend
+barplot(with(payments_df, table(Ownership_Indicator, Third_Party_Recipient, exclude = "NA")), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.8)
+```
 
-unique(payments_df$Number_of_Payments) # all payments where greater or equal to 1
+```{r}
+# cross tab plot of ownership interest and certain features with legend
+barplot(with(payments_df, table(Ownership_Indicator, Charity)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.8)
+
+# cross tab plot (way 2)
+crosstab(dep=payments_df$Ownership_Indicator, indep= payments_df$Charity)
+
+# cross table
+with(payments_df, table(Ownership_Indicator, Charity))
+
+```
 
 
+
+```{r}
+# Cross table of the values of the categorical feature State of Travel and ownership
+table(payments_df$Ownership_Indicator, payments_df$State_of_Travel)
+
+# plotting the top 10 most frequent values of the categorical feature State of Travel
+barplot(sort(table(payments_df$State_of_Travel), decreasing = TRUE)[1:10])
+
+
+# cross tab plot of ownership interest and certain features with legend
+# horiz: if T, bars are drawn horizontally, if F, bars are drawn vertically
+barplot(with(payments_df, table(Ownership_Indicator, State_of_Travel)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.6, horiz=F)
+
+```
+
+```{r}
+# cross tab plot of ownership interest and certain features with legend
+# cex.names: expansion factor for the axis labels
+barplot(with(payments_df, table(Ownership_Indicator, Related_Product_Indicator, exclude = "NA")), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.8)
+
+print(unique(payments_df$Related_Product_Indicator))
+
+# Cross table of the values of the categorical feature Realted_Product_Indicator and ownership
+table(payments_df$Ownership_Indicator, payments_df$Related_Product_Indicator)
+
+
+```
+
+
+One-hot encoding is the process of converting a categorical variable with multiple categories into multiple variables, each with a value of 1 or 0.
+
+```{r}
+# Cross table of the values of the categorical feature Transfer of Value and ownership
+table(payments_df$Ownership_Indicator, payments_df$Form_of_Payment_or_Transfer_of_Value)
+
+
+unique(payments_df$Form_of_Payment_or_Transfer_of_Value)
+
+
+# cross tab plot of ownership interest and certain features with legend
+# cex.names: expansion factor for the axis labels
+barplot(with(payments_df, table(Ownership_Indicator, Form_of_Payment_or_Transfer_of_Value)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.6)
+
+
+# one hot encoding of the 7 categories
+
+##oh_df <- payments_df$Physician_ID
+
+##oh_df$form_of_payment <- factor(payments_df$Form_of_Payment_or_Transfer_of_Value)
+
+##new_data <- one_hot(as.data.table(oh_df))
+
+##str(new_data)
+
+```
+
+```{r}
+# unique values (14 in this case)
+unique(payments_df$Nature_of_Payment_or_Transfer_of_Value)
+
+# cross table
+table(payments_df$Ownership_Indicator,payments_df$Nature_of_Payment_or_Transfer_of_Value)
+
+# cross tab plot of ownership interest and certain features with legend
+# cex.names: expansion factor for the axis labels
+barplot(with(payments_df, table(Ownership_Indicator, Nature_of_Payment_or_Transfer_of_Value)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.4)
+
+# plotting the top 5 most frequent values of the categorical feature Nature of Payment
+barplot(sort(table(payments_df$Nature_of_Payment_or_Transfer_of_Value), decreasing = TRUE)[1:5], cex.names = 0.6)
+
+
+```
+
+
+```{r}
+# cross tab plot of ownership interest and certain features with legend
+# cex.names: expansion factor for the axis labels
+barplot(with(payments_df, table(Ownership_Indicator, Third_Party_Covered)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.6)
+```
+
+
+
+```{r}
+# example one hot ecoding
+set.seed(555)
+data <- data.frame(
+  Outcome = seq(1,100,by=1),
+  Variable = sample(c("Red","Green","Blue"), 100, replace = TRUE)
+)
+
+
+newdata <- one_hot(as.data.table(data))
+
+newdata
+```
+
+
+```{r}
+# PCA attempt
+
+trainset <- select(payments_df, where(is.numeric))
+
+str(trainset)
+
+
+# PCA
+pca_trainset = trainset 
+#pca_testset = testset
+pca = prcomp( pca_trainset, scale = T )
+
+# variance
+pr_var = ( pca$sdev )^2 
+
+# % of variance
+prop_varex = pr_var / sum( pr_var )
+
+# Plot (proportion of variance explained by principal component)
+plot( prop_varex, xlab = "Principal Component", 
+                  ylab = "Proportion of Variance Explained", type = "b" )
+
+
+# cummulative variance explained plot
+plot( cumsum( prop_varex ), xlab = "Principal Component", 
+                            ylab = "Cumulative Proportion of Variance Explained", type = "b" )
 ```
 
 
@@ -211,11 +364,56 @@ companies_df <- read_delim("companies.csv", delim = ",")
 str(companies_df)
 ```
 
+```{r}
+# renaming columns in the company df; rename(df_name, new_col_name = old_col_name)
+companies_df <- rename(companies_df, c(Company_name = Name, Company_state = State))
+
+str(companies_df)
+```
+
 
 
 ```{r}
 # uploading the markdown file to gdrive
 ##drive_upload("eda.html")
+```
+
+*Merging 2 dataframes by a common column*
+
+```{r}
+# renaming the id column in the physicians_df
+# renaming a column way 1 using a base R function
+##names(physicians_df)["id"] <- "Physician_ID"
+
+# renaming a column way 2 using the dplyr function rename() and updating the dataframe
+physicians_df <- rename(physicians_df,  Physician_ID = id)
+
+colnames(physicians_df)
+
+# joining the new payments_df and companies_df by Company_ID
+df <- merge(payments_df, companies_df, by="Company_ID")
+
+# joining physicians_df and payments_df by Physician_ID using merge()
+df_full <- merge(physicians_df, df, by="Physician_ID", all=T)
+
+length(df_full$Ownership_Indicator)
+length(df_full$Company_name)
+
+```
+
+```{r}
+#str(df_full)
+
+
+
+#barplot(table(df_full$Ownership_Indicator, df_full$Company_name))
+
+# cross tab plot of ownership interest and certain features with legend
+# cex.names: expansion factor for the axis labels
+barplot(with(df_full, table(Ownership_Indicator, Company_name)), beside = TRUE, legend.text = TRUE, main = "Crosstab", cex.names = 0.6)
+
+
+
 ```
 
 
