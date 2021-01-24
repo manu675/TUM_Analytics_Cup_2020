@@ -1,0 +1,1001 @@
+Physician_ID,State,Primary_Specialty,total_payments,number_of_payments,nature,total_of_nature,range,number_of_payment_range
+14,FL,Pain Medicine,5775.53,539,Food and Beverage,5626.66,514.07,96
+18,NY,Internal Medicine,92123.24,584,Consulting Fee,39516.38,42697.240000000005,68
+42,NY,Obstetrics & Gynecology,3159.49,180,Food and Beverage,3066.04,256.09,16
+46,MI,NA,1614.34,64,Food and Beverage,1614.34,547.1399999999999,15
+47,MD,Internal Medicine,6494,296,Food and Beverage,6444,1557.5,96
+53,IN,Thoracic Surgery (Cardiothoracic Vascular Surgery),89072.96,469,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",53500,22975.57,46
+57,NY,Family Medicine,1045.44,66,Food and Beverage,1045.44,144.52,9
+58,SC,Surgery,1468.6,19,Food and Beverage,795.4300000000001,857.25,4
+62,TX,Internal Medicine,42219.11,107,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",24550,21484.170000000002,36
+76,MI,Urology,4120.79,107,Food and Beverage,3965.24,1071.94,22
+80,CA,Family Medicine,4360.82,131,Food and Beverage,3316.38,991.3400000000001,15
+81,CT,Obstetrics & Gynecology,2529.51,105,Food and Beverage,2443.68,251.61,20
+82,OH,Internal Medicine,1772.2,161,Food and Beverage,1646.99,818.35,94
+88,FL,NA,2259.73,111,Food and Beverage,1456.53,1173.46,47
+89,FL,Internal Medicine,7809.61,97,Food and Beverage,3135.32,4067.31,29
+90,AZ,Internal Medicine,1362.81,85,Food and Beverage,1342.67,292.09000000000003,16
+95,TX,Anesthesiology,8881.31,141,Travel and Lodging,5799.15,2791.81,42
+104,TX,Internal Medicine,4172.29,141,Food and Beverage,2781.64,1312.8500000000001,41
+108,OH,Internal Medicine,13325.09,701,Food and Beverage,7861.05,1839.25,151
+109,TX,Ophthalmology,1004.59,30,Food and Beverage,653.82,546.06,6
+112,NJ,Internal Medicine,15300.04,888,Food and Beverage,14081.22,1583.2899999999997,50
+117,NY,NA,8344.08,379,Food and Beverage,8129.53,521.2500000000001,20
+119,NY,Anesthesiology,753.25,31,Food and Beverage,753.25,201.60999999999999,9
+136,AZ,Orthopaedic Surgery,289.36,18,Food and Beverage,289.36,88.54,4
+139,TN,Internal Medicine,5100.51,362,Food and Beverage,4965.16,567.27,49
+155,GA,Internal Medicine,11810.2,572,Food and Beverage,11601.87,1931.5,107
+162,AZ,Internal Medicine,87586.34,1378,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",56920,47392.689999999995,127
+176,FL,Internal Medicine,70246.69,1783,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",31640,16421.61,139
+180,CT,Obstetrics & Gynecology,2839,28,Food and Beverage,2839,802.9,7
+182,VA,Internal Medicine,5502.54,363,Food and Beverage,5401.58,538.0799999999999,34
+185,GA,Obstetrics & Gynecology,49547.45,143,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",34213.08,34822.7,53
+186,OK,Eye and Vision Services Providers,1136.5,37,Food and Beverage,889.41,151.32000000000002,8
+187,AZ,NA,2461.1,83,Food and Beverage,2230.13,723.3000000000001,31
+189,CO,Psychiatry & Neurology,1135.76,47,Food and Beverage,1135.76,272.78,8
+223,CA,Eye and Vision Services Providers,1414.31,24,Food and Beverage,1187.27,232.34,4
+224,MO,Dental Providers,1984.45,26,Gift,1362.07,1387.13,8
+227,GA,Eye and Vision Services Providers,1993.1,77,Food and Beverage,1993.1,372.61,12
+228,PA,Eye and Vision Services Providers,38531.02,155,Consulting Fee,20470,14979.630000000001,38
+240,CA,Physical Medicine & Rehabilitation,3632.34,196,Food and Beverage,3521.84,747.25,48
+243,CA,Family Medicine,1656.5,107,Food and Beverage,1366.83,246.73999999999995,20
+251,NY,Internal Medicine,25601.97,800,Food and Beverage,20023.4,2684.8600000000006,47
+257,WA,Radiology,169919.5,87,Royalty or License,167172.1,137116.61000000002,13
+265,FL,Podiatric Medicine & Surgery Service Providers,20274.02,118,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",9000,11007.630000000001,39
+274,LA,Psychiatry & Neurology,9548.57,615,Food and Beverage,9373.89,1049.6899999999998,32
+287,OH,Anesthesiology,434.43,29,Food and Beverage,434.43,76.47999999999999,6
+303,IL,Pediatrics,1403.91,91,Food and Beverage,1346.09,236.41,17
+306,GA,Internal Medicine,1830.5,66,Food and Beverage,1822.39,191.29,15
+307,NY,Pediatrics,4125.73,52,Food and Beverage,4125.73,672.1600000000001,9
+308,PA,Thoracic Surgery (Cardiothoracic Vascular Surgery),22312.5,39,Consulting Fee,17378,13011.76,12
+309,MS,NA,12448.36,648,Food and Beverage,8236.45,3618.48,48
+315,FL,Urology,5725.59,362,Food and Beverage,5435.4,696.74,48
+316,GA,Eye and Vision Services Providers,675.58,50,Food and Beverage,634.97,174.42999999999998,13
+335,MO,Family Medicine,2248.62,182,Food and Beverage,2063.63,640.98,57
+337,NY,NA,399.67,26,Food and Beverage,399.67,62.72,4
+358,TX,Orthopaedic Surgery,7143.74,79,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",5503.75,2019.3399999999997,19
+364,PA,Internal Medicine,531745.82,730,Honoraria,217988.55,70255.38,63
+372,NY,Internal Medicine,8221.43,220,Food and Beverage,4565.93,2864.27,44
+375,CA,Dental Providers,1189.51,47,Gift,870,185.04000000000002,7
+379,CT,Obstetrics & Gynecology,2070.58,88,Food and Beverage,2061.89,391.90999999999997,23
+383,NV,Internal Medicine,7670.75,501,Food and Beverage,5045.75,2551.01,180
+385,FL,Internal Medicine,7111.58,138,Food and Beverage,5972.03,1549.16,40
+387,CA,Pediatrics,1417.3,74,Food and Beverage,1352.3,358.6,13
+395,AZ,Plastic Surgery,2617.5,90,Food and Beverage,2450.25,1241.1499999999999,30
+397,TX,Dental Providers,516.68,19,Food and Beverage,516.68,124.75,3
+398,CA,Dermatology,10490.16,440,Food and Beverage,8265.84,420.9000000000001,68
+407,WI,Internal Medicine,3823.14,22,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2000,2837.94,5
+412,LA,Emergency Medicine,4294.37,81,Food and Beverage,2808.0499999999997,2350.52,18
+419,NY,Pediatrics,164160.71,332,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",110400,33523.399999999994,64
+428,NH,Ophthalmology,2341.03,61,Food and Beverage,2191.03,756.23,19
+438,IL,Obstetrics & Gynecology,2932.83,178,Food and Beverage,2776.57,436.57000000000005,51
+441,NC,Ophthalmology,819.13,27,Food and Beverage,789.29,163.89,4
+442,NC,NA,134083.69,389,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",90210,41331.06,72
+445,VA,Internal Medicine,7717.07,359,Food and Beverage,7704.57,1561.1699999999998,85
+452,NY,Psychiatry & Neurology,3829.79,185,Food and Beverage,3187.64,318.98,26
+470,CA,NA,16383.63,688,Food and Beverage,11685.57,3939.16,88
+473,MI,Orthopaedic Surgery,4364347.22,548,Royalty or License,4180069.6,152212.30999999994,38
+476,NJ,Pediatrics,2109.9,182,Food and Beverage,2087.97,595.39,50
+477,VA,Psychiatry & Neurology,1790.37,104,Food and Beverage,1614.26,231.13999999999996,15
+479,TX,Dental Providers,1734.14,61,Food and Beverage,1496.14,912.22,29
+485,OH,Dermatology,80097.91,708,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",61282,16513.03,128
+494,FL,Psychiatry & Neurology,14177.71,784,Food and Beverage,13642.68,746.1700000000001,47
+499,WV,Colon & Rectal Surgery,12098.539999999999,160,Travel and Lodging,4811.2699999999995,7675.31,30
+503,AR,Urology,7654.6,129,Food and Beverage,5282.7,3201.61,21
+508,CA,Physical Medicine & Rehabilitation,11396.460000000001,330,Food and Beverage,8060.42,4951.81,139
+524,FL,Internal Medicine,6284.12,361,Food and Beverage,6039.79,807.35,57
+532,NJ,Podiatric Medicine & Surgery Service Providers,51852.13,33,Gift,50400,50594.52,8
+539,HI,Family Medicine,27233.26,1658,Food and Beverage,26624.91,2286.0699999999997,131
+540,NY,Internal Medicine,9481.37,495,Food and Beverage,6579.24,3138.7,34
+542,OH,Psychiatry & Neurology,6235.55,540,Food and Beverage,6008.2,938.5600000000001,111
+553,NJ,Orthopaedic Surgery,683.63,20,Food and Beverage,683.63,173.09,8
+556,FL,Radiology,1275.2,15,Food and Beverage,1275.2,262.52000000000004,4
+562,NJ,Internal Medicine,2243.02,175,Food and Beverage,2122.41,842.93,58
+575,CA,Pediatrics,870.86,53,Food and Beverage,870.86,165.36,11
+584,LA,Orthopaedic Surgery,16123.93,105,Consulting Fee,10625,12567.79,16
+610,IN,Internal Medicine,593.42,31,Food and Beverage,593.42,154.36,11
+613,TN,Orthopaedic Surgery,7338.53,33,Education,3938.29,3690.9,8
+626,GA,Internal Medicine,4301.23,307,Food and Beverage,4227.55,892.6,68
+627,FL,Dermatology,4112.93,147,Food and Beverage,3606.39,796.5799999999999,9
+628,OK,Internal Medicine,4198.49,206,Food and Beverage,3891.2599999999998,683.28,35
+636,KS,Psychiatry & Neurology,2990.15,93,Food and Beverage,2799.06,1082.36,31
+637,NY,NA,3899.86,169,Food and Beverage,3898.48,882.3600000000001,15
+643,TX,Family Medicine,8467.78,614,Food and Beverage,8309.71,516.28,41
+652,NC,Family Medicine,7049.71,553,Food and Beverage,6786.01,563.8199999999999,64
+655,NY,NA,162368.87,126,Royalty or License,88657.93000000001,36458.36,20
+656,NJ,Orthopaedic Surgery,2311.2,91,Food and Beverage,2311.2,414.21000000000004,18
+661,FL,General Practice,3154.05,68,Food and Beverage,3119.34,658.5500000000001,16
+663,NY,Anesthesiology,851.67,38,Food and Beverage,851.67,169.02,9
+664,PR,Internal Medicine,2895.23,133,Food and Beverage,2702.83,618.86,39
+671,FL,Dental Providers,869.29,18,Food and Beverage,869.29,319.90999999999997,5
+673,WA,Dental Providers,2949.01,39,Gift,2277.32,1194.73,10
+674,CT,Allergy & Immunology,8345.33,541,Food and Beverage,8140.88,529.56,57
+680,CA,Pediatrics,1206559.31,801,Consulting Fee,563523.24,263201.92,95
+698,MD,Family Medicine,8273.97,578,Food and Beverage,8200.3,500.73,35
+703,AZ,Psychiatry & Neurology,26494.53,820,Food and Beverage,13066.76,7852.509999999999,95
+705,PA,Physical Medicine & Rehabilitation,5560.04,63,Food and Beverage,3242.23,2419.73,14
+713,TX,Internal Medicine,27181.35,435,Consulting Fee,14667.4,12367.5,120
+714,FL,Internal Medicine,234093.38,661,Consulting Fee,117532.5,60816.44,113
+730,MI,Psychiatry & Neurology,7671.01,457,Food and Beverage,7518.73,2558.72,134
+732,NY,Internal Medicine,8511.72,386,Food and Beverage,8177.7,651.6200000000001,29
+736,TN,Internal Medicine,44124.28,95,Grant,28619.12,29894.11,29
+755,HI,Orthopaedic Surgery,90148.17,186,Consulting Fee,35732.5,45272.63,41
+759,GA,Internal Medicine,8963.05,633,Food and Beverage,8918.89,2436.94,177
+762,TX,Psychiatry & Neurology,385412.14,344,Consulting Fee,184493.18,90908.86,43
+769,MO,Eye and Vision Services Providers,482.8,27,Food and Beverage,482.8,118.24999999999997,5
+776,IA,Psychiatry & Neurology,1978.99,128,Food and Beverage,1617,526.8299999999999,31
+777,SC,Allergy & Immunology,5087.32,85,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2693.19,2816.98,11
+791,FL,Psychiatry & Neurology,4091.42,161,Food and Beverage,3756.14,793.5500000000001,29
+798,CA,NA,2596.84,71,Food and Beverage,2091.19,658.5899999999999,12
+806,TX,Internal Medicine,26502.97,485,Food and Beverage,17868.81,5513.2699999999995,76
+818,WA,Dental Providers,1824.46,22,Gift,952.02,779.16,3
+827,IL,Preventive Medicine,5657.78,396,Food and Beverage,5582.71,658.2600000000001,43
+834,NY,Dental Providers,823.6,19,Food and Beverage,673.6,428.06,6
+840,NY,Obstetrics & Gynecology,1458.84,70,Food and Beverage,1313.57,253.22,9
+849,CA,Physical Medicine & Rehabilitation,11914.44,574,Food and Beverage,10416.58,2657.1400000000003,100
+852,TX,Surgery,13596.03,102,Travel and Lodging,9000.5,3422.5099999999998,27
+859,CT,Family Medicine,5239.32,421,Food and Beverage,4731.4,1089.94,92
+863,IL,Internal Medicine,564.77,32,Food and Beverage,547.55,192.27,12
+868,CA,Surgery,2253.04,58,Food and Beverage,2253.04,445.14000000000004,22
+869,MO,Podiatric Medicine & Surgery Service Providers,2358.68,117,Food and Beverage,1785.51,831.7800000000001,22
+870,NJ,NA,1201.31,63,Food and Beverage,1197.46,220.20999999999998,6
+874,VA,Otolaryngology,2102.97,27,Food and Beverage,2102.97,535.3,7
+877,FL,Obstetrics & Gynecology,550.99,19,Food and Beverage,464.5,261.93,5
+883,WV,Eye and Vision Services Providers,281.47,14,Food and Beverage,259.57,88.69,4
+896,FL,Internal Medicine,2263.54,151,Food and Beverage,1985.03,903.35,53
+902,AZ,Internal Medicine,47530.68,355,Travel and Lodging,18734.56,22134.39,118
+910,TX,Psychiatry & Neurology,18463.22,112,Travel and Lodging,8889.4,6806.56,40
+917,SC,Internal Medicine,20315.42,111,Consulting Fee,11048.7,6329.83,24
+924,OH,Otolaryngology,952.67,24,Food and Beverage,952.67,256.18,5
+928,CA,Obstetrics & Gynecology,4984.34,139,Food and Beverage,4480.36,1260.64,38
+943,OH,Internal Medicine,747.27,48,Food and Beverage,747.27,186.69,9
+950,SC,Urology,10308.91,341,Food and Beverage,5323.12,2402.67,26
+958,TX,Surgery,26080.77,128,Education,13000,15978.44,37
+963,NY,Psychiatry & Neurology,8868.17,698,Food and Beverage,8515.61,1524.6599999999999,76
+965,WY,Dermatology,3572.07,24,Education,3292.4900000000002,1258.5,5
+974,AZ,Orthopaedic Surgery,138081.38,392,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",93058.73,40166.3,114
+977,HI,Internal Medicine,7727.41,314,Food and Beverage,7130.82,2219.02,100
+979,MD,Obstetrics & Gynecology,5625.67,34,Consulting Fee,3500,4616.95,11
+986,FL,Family Medicine,1419.72,74,Food and Beverage,1242.72,221.71000000000004,12
+992,PA,Internal Medicine,2761.83,132,Food and Beverage,2534.63,514.26,24
+993,IL,Eye and Vision Services Providers,299328.99,761,Consulting Fee,127360.59,61668.98000000001,189
+995,NC,Orthopaedic Surgery,4881.95,55,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",1896.3,676.13,16
+1001,FL,Internal Medicine,13780.35,402,Food and Beverage,6933.04,7247.5999999999995,39
+1002,IL,Physical Medicine & Rehabilitation,4264.64,241,Food and Beverage,4034.61,492.08,36
+1004,TX,Psychiatry & Neurology,7738.19,144,Consulting Fee,4262.5,4629.94,30
+1014,TX,Internal Medicine,4134.31,200,Food and Beverage,3459.31,567.36,28
+1021,TN,Otolaryngology,3625.02,53,Food and Beverage,2399.73,441.56999999999994,7
+1044,MD,NA,2657.42,117,Food and Beverage,2558.16,429.93,24
+1046,AZ,Dental Providers,936.78,22,Food and Beverage,496.78,120.72,5
+1048,UT,Dermatology,370.57,33,Food and Beverage,357.91,173.18,18
+1057,NY,Dermatology,133919.44,212,Consulting Fee,95501.5,15218.699999999999,26
+1065,PA,Emergency Medicine,1677.05,41,Food and Beverage,1569.86,479.07,12
+1078,OH,Internal Medicine,36102.21,102,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",32000,9279.33,23
+1080,CO,Internal Medicine,2036.11,124,Food and Beverage,2036.11,292.6,11
+1083,OH,Psychiatry & Neurology,6054.04,514,Food and Beverage,4907.59,823.2599999999999,61
+1084,MD,Internal Medicine,11067.99,548,Food and Beverage,10286.68,208.63999999999987,20
+1085,OH,Dental Providers,13015.36,61,Honoraria,10375,5953.5199999999995,9
+1086,CA,Pediatrics,29861.9,39,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",25800,14115.220000000001,18
+1097,CO,Surgery,16455.43,57,Education,10000,8983.4,17
+1098,CO,Dental Providers,1741.04,42,Gift,873.99,905.74,12
+1102,FL,Anesthesiology,91842.57,532,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",71300,59186.99,130
+1103,MI,Dental Providers,2206.37,50,Food and Beverage,1488.9199999999998,1213.9299999999998,8
+1112,MA,Internal Medicine,6220.99,318,Food and Beverage,5899.54,1291.53,48
+1115,TX,Internal Medicine,1397.99,78,Food and Beverage,1397.99,362.05,18
+1124,TX,Pediatrics,807.13,29,Food and Beverage,807.13,150.25,4
+1128,NY,Anesthesiology,737.0600000000001,35,Food and Beverage,737.0600000000001,195.32,8
+1133,CO,Dental Providers,1406.26,15,Food and Beverage,1196.26,890.34,4
+1139,SC,Internal Medicine,13301.45,942,Food and Beverage,10433.98,758.8900000000001,103
+1143,NY,Internal Medicine,5415.5,338,Food and Beverage,5389.98,411.2199999999999,20
+1144,SC,Internal Medicine,6189.56,486,Food and Beverage,6061.17,550.34,63
+1146,VA,Pain Medicine,4793.48,56,Food and Beverage,4485.28,2215.7,21
+1157,AZ,Internal Medicine,13965.15,367,Food and Beverage,5569.05,8423.8,46
+1170,OR,Internal Medicine,12556.79,921,Food and Beverage,12352.61,1006.28,65
+1175,FL,Psychiatry & Neurology,25767.01,1318,Food and Beverage,18101.94,3864.57,93
+1179,CA,Podiatric Medicine & Surgery Service Providers,2969.22,40,Food and Beverage,2014.46,844.71,11
+1183,NY,Internal Medicine,14593.05,1051,Food and Beverage,14332.24,551.99,44
+1185,MA,Anesthesiology,17558.2,64,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",9728,9601.1,13
+1190,TX,Psychiatry & Neurology,457772.65,887,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",357095.14,50546.07,99
+1195,NJ,Colon & Rectal Surgery,3798.9700000000003,36,Travel and Lodging,3239.76,2684.03,15
+1199,NY,Internal Medicine,78712.94,1171,Food and Beverage,35039.36,20460.21,43
+1208,KY,Eye and Vision Services Providers,1934.94,29,Food and Beverage,982.8100000000001,1284.9,8
+1215,PA,Orthopaedic Surgery,6085.8,304,Food and Beverage,4940.45,1373.05,23
+1218,TX,Psychiatry & Neurology,28396.14,133,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",11100,17299.79,38
+1240,OH,Family Medicine,18085,1277,Food and Beverage,18005.15,1051.3399999999997,111
+1247,MI,Pediatrics,1130.35,61,Food and Beverage,1065.19,177.48999999999998,4
+1248,TN,Surgery,7595.66,63,Travel and Lodging,6447.2,2683.22,19
+1254,AR,Colon & Rectal Surgery,63536.770000000004,78,Consulting Fee,24731.31,13463.439999999999,19
+1288,VA,Internal Medicine,791.16,32,Food and Beverage,721.21,67.94,3
+1289,KY,NA,9865.51,311,Food and Beverage,9246.62,1388.79,22
+1292,KS,Family Medicine,6109.05,368,Food and Beverage,6016.51,1545.51,98
+1299,DC,Internal Medicine,100010.2,409,Consulting Fee,66017,22812.57,88
+1303,NY,Dental Providers,945.11,26,Food and Beverage,847.51,201.65,4
+1307,TN,Dermatology,526842.39,592,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",448612.5,8674.920000000013,26
+1308,MN,Neurological Surgery,26328.23,90,Consulting Fee,13719,11837.13,15
+1323,NC,NA,1027.28,46,Food and Beverage,1027.28,188.47000000000003,10
+1326,NY,Family Medicine,1489.36,89,Food and Beverage,1485.3,451.32,31
+1328,TX,Family Medicine,2842.97,161,Food and Beverage,2815.55,263.19000000000005,14
+1329,IN,Obstetrics & Gynecology,2871.34,171,Food and Beverage,2645.27,611.47,35
+1335,NY,Obstetrics & Gynecology,3869.3,241,Food and Beverage,3751.58,309.55,10
+1338,IN,Eye and Vision Services Providers,4149.32,62,Food and Beverage,2156.68,1549.02,13
+1361,MO,Physical Medicine & Rehabilitation,6998.61,405,Food and Beverage,5869.93,861.02,49
+1365,NE,Family Medicine,498.52,34,Food and Beverage,498.52,130.25,9
+1373,SC,Internal Medicine,14526.23,569,Food and Beverage,10683.86,2352.19,53
+1376,OH,Internal Medicine,2277.23,171,Food and Beverage,2277.23,140.99,11
+1388,MD,Obstetrics & Gynecology,3515.85,164,Food and Beverage,3260.95,394.00999999999993,14
+1404,GA,Internal Medicine,104786.78,523,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",82537.31,29537.030000000002,74
+1405,CA,Physical Medicine & Rehabilitation,274651.1,570,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",154447,126263.44,194
+1416,LA,Otolaryngology,1266.27,51,Food and Beverage,1266.27,268.32,12
+1423,NY,Obstetrics & Gynecology,946.09,47,Food and Beverage,946.09,213.35,11
+1433,TX,Obstetrics & Gynecology,739.81,45,Food and Beverage,715.3199999999999,150.79,8
+1434,GA,Podiatric Medicine & Surgery Service Providers,2934.29,104,Food and Beverage,1929.98,458.27000000000004,17
+1436,NJ,Internal Medicine,3948.41,198,Food and Beverage,3879.4,519.16,9
+1448,CA,Internal Medicine,7987.21,369,Food and Beverage,5743.06,949.1900000000002,71
+1463,CT,Ophthalmology,4731.68,111,Food and Beverage,3843.16,1845.12,32
+1466,IN,Psychiatry & Neurology,73197.02,1354,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",25433.39,16428.99,73
+1472,OK,Phlebology,13860.29,608,Food and Beverage,12047.37,3056.6899999999996,121
+1482,ID,Family Medicine,3947.33,341,Food and Beverage,3945.85,234.01,37
+1487,PR,Ophthalmology,4899.78,63,Food and Beverage,4887.61,1321.18,17
+1504,MA,Internal Medicine,700.26,23,Food and Beverage,670.31,186.07,5
+1508,AZ,Ophthalmology,4335.55,49,Food and Beverage,2503.42,1676.04,16
+1511,PA,Orthopaedic Surgery,4443.56,40,Travel and Lodging,1595.27,1756.78,10
+1515,AL,Orthopaedic Surgery,204152.37,216,Consulting Fee,178750,130648.40000000001,91
+1526,OK,Internal Medicine,13703.98,802,Food and Beverage,12698.4,642.8199999999999,34
+1527,FL,Internal Medicine,3606.62,50,Food and Beverage,3555.21,1049.1799999999998,13
+1538,NV,Internal Medicine,3469.39,135,Food and Beverage,3464.89,776.1,37
+1543,IL,Family Medicine,7497.16,361,Food and Beverage,5969.38,1410.25,56
+1554,OH,Psychiatry & Neurology,4534.2,379,Food and Beverage,4093.04,745.25,64
+1557,FL,Internal Medicine,1868.07,77,Food and Beverage,1855.87,456.6700000000001,13
+1566,FL,Internal Medicine,5410.1,432,Food and Beverage,5374.61,709.3000000000001,47
+1570,AZ,Radiology,6603.9400000000005,153,Food and Beverage,2553.94,3264.8,26
+1580,NY,Surgery,3618.01,49,Food and Beverage,2400.25,488.68000000000006,10
+1583,PA,Family Medicine,17655.25,435,Food and Beverage,8902.8,2112.2,40
+1584,TX,Obstetrics & Gynecology,5123.89,66,Education,3019.28,2905.34,12
+1597,IA,NA,2205.22,100,Food and Beverage,1045.98,568.3699999999999,29
+1600,FL,Eye and Vision Services Providers,4535.69,184,Food and Beverage,3995.28,844.0200000000002,10
+1604,CO,Ophthalmology,651.34,38,Food and Beverage,651.34,162.76,9
+1611,CA,Orthopaedic Surgery,300292.46,155,Royalty or License,226030.72,79330.09,40
+1612,TX,Pediatrics,4911.54,90,Food and Beverage,4911.54,923.1100000000001,29
+1618,FL,Pediatrics,242.84,16,Food and Beverage,242.84,28.609999999999996,2
+1643,GA,Pain Medicine,23663.81,500,Food and Beverage,17094.58,4981.709999999999,67
+1647,NY,Podiatric Medicine & Surgery Service Providers,748.42,30,Food and Beverage,748.42,140.12,8
+1648,FL,Eye and Vision Services Providers,1825.6200000000001,31,Food and Beverage,1637.3700000000001,479.35,7
+1654,IL,Ophthalmology,4825.13,71,Food and Beverage,3164.36,2001.5399999999997,17
+1656,TN,Psychiatry & Neurology,60331.47,613,Consulting Fee,23977.5,26865.030000000002,81
+1673,LA,Ophthalmology,45620.91,122,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",30300,18900.23,50
+1678,IL,Pediatrics,920.21,56,Food and Beverage,894.59,205.56000000000003,13
+1681,LA,Pediatrics,662.96,37,Food and Beverage,661.23,153.89,10
+1685,MI,Urology,4937.07,99,Food and Beverage,2887.02,1345.58,14
+1693,CA,Eye and Vision Services Providers,1493.04,81,Food and Beverage,1417.74,470.16999999999996,26
+1708,AR,Thoracic Surgery (Cardiothoracic Vascular Surgery),6970.2300000000005,82,Food and Beverage,4828.25,1758.5300000000002,13
+1719,VA,Orthopaedic Surgery,988059.25,216,Royalty or License,877552.87,47340.72,44
+1723,CA,Family Medicine,12005.32,426,Food and Beverage,11660.23,1114.2000000000003,32
+1725,VA,Orthopaedic Surgery,3619.06,55,Food and Beverage,1782.52,2079.2000000000003,32
+1727,FL,Internal Medicine,4186.16,306,Food and Beverage,4069.15,484.93,25
+1747,AL,Internal Medicine,2046.04,117,Food and Beverage,1959.11,421.55000000000007,19
+1766,PA,Dental Providers,4810.3,47,Food and Beverage,2160.3,580.36,9
+1769,MS,Obstetrics & Gynecology,4190.34,120,Food and Beverage,2440.03,2182.5000000000005,29
+1779,NY,Family Medicine,1881.86,70,Food and Beverage,1861.86,425.09,14
+1780,CA,Internal Medicine,8129.35,208,Food and Beverage,7741.07,1299.18,43
+1785,OK,Internal Medicine,4014.65,208,Food and Beverage,3933.65,1311.47,66
+1787,PA,Internal Medicine,19553.62,693,Food and Beverage,13451.23,4032.9399999999996,181
+1792,PA,Family Medicine,7818.1,661,Food and Beverage,7642.88,737.25,90
+1794,FL,Internal Medicine,26568.64,789,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",13250,3747.5599999999995,97
+1824,CA,Internal Medicine,49878.34,166,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",43850,22380.89,30
+1825,TN,Allergy & Immunology,8306.98,190,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",5440,1209.0500000000002,64
+1830,LA,Neurological Surgery,121547.77,194,Consulting Fee,64350,71887.75,75
+1837,VA,Internal Medicine,4111.5,291,Food and Beverage,4100.44,439.12999999999994,40
+1840,OH,Internal Medicine,4791.29,93,Food and Beverage,3847.38,1460.91,17
+1842,WA,Podiatric Medicine & Surgery Service Providers,51557.37,206,Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program,20260,28509.97,71
+1843,TX,Internal Medicine,706.09,29,Food and Beverage,706.09,152,4
+1868,CA,Ophthalmology,1260.14,54,Food and Beverage,1249.07,215.92000000000002,4
+1870,MI,Pediatrics,3204.55,91,Food and Beverage,3204.55,395.92999999999995,11
+1873,NC,Dental Providers,7675.7699999999995,75,Gift,3816.29,3125.66,31
+1877,NY,Otolaryngology,1283,35,Food and Beverage,1283,366.15,9
+1881,IL,Eye and Vision Services Providers,604.34,20,Food and Beverage,604.34,110.83000000000001,4
+1894,TN,Urology,2902.37,154,Food and Beverage,2669.52,505.4699999999999,27
+1896,WI,Family Medicine,5099,385,Food and Beverage,4966.67,783.85,54
+1898,AZ,Internal Medicine,1654.75,42,Food and Beverage,1653.18,634.4300000000001,14
+1907,MA,Ophthalmology,1021.47,16,Food and Beverage,855.28,213.89000000000001,4
+1917,VA,Allergy & Immunology,4790.53,273,Food and Beverage,4634.38,1044.73,58
+1923,TX,Surgery,9946.62,56,Education,5500,5964.049999999999,20
+1924,AZ,Pediatrics,944.08,59,Food and Beverage,944.08,190.77,10
+1925,FL,Dental Providers,7056.12,35,Education,3000,6030.530000000001,14
+1931,WA,Neurological Surgery,60394.15,204,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",33615,33493.03,31
+1933,MD,Dental Providers,10063.78,101,Gift,9900,3877.22,39
+1935,TX,Internal Medicine,2150.66,26,Food and Beverage,2025.66,465.60999999999996,5
+1936,TX,NA,1330.31,39,Food and Beverage,841.97,698.5,13
+1946,PR,NA,761.39,43,Food and Beverage,731,209.14,13
+1951,AZ,Obstetrics & Gynecology,1623.17,32,Consulting Fee,1000,490.13,3
+1958,CA,Eye and Vision Services Providers,1349.13,24,Food and Beverage,999.13,237.06,7
+1961,CA,Colon & Rectal Surgery,17645.49,96,Travel and Lodging,9072.57,4741.3499999999995,10
+1970,TX,Family Medicine,3725.14,281,Food and Beverage,3575.14,584.72,46
+1971,IN,Radiology,11458.4,156,Consulting Fee,5639.65,7360.07,47
+1978,NY,Pediatrics,2018.94,45,Food and Beverage,1918.94,474.15999999999997,9
+1982,ME,Urology,4243.17,65,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2466,2526.76,12
+1984,AZ,Internal Medicine,3885,248,Food and Beverage,3823.97,324.76,13
+1989,GA,Internal Medicine,747.8100000000001,28,Food and Beverage,722.24,139.88,7
+1994,GA,Internal Medicine,9184.69,211,Food and Beverage,9012.36,2327.78,58
+1997,TX,Orthopaedic Surgery,2887.76,185,Food and Beverage,2060.67,1127.9,43
+2000,WV,Allergy & Immunology,5292.65,271,Food and Beverage,5235.52,501.49,25
+2005,NY,Surgery,120463.51,312,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",91256.25,10758.669999999998,16
+2008,PR,Radiology,4500.84,55,Food and Beverage,2948.84,1996.4,14
+2019,PA,Allergy & Immunology,59386.3,542,Honoraria,21445,10482.11,134
+2026,FL,Plastic Surgery,66414.06,128,Gift,58949,19745.93,13
+2033,FL,Internal Medicine,2446.73,196,Food and Beverage,2374.27,631.08,73
+2037,TN,Internal Medicine,1761.51,22,Travel and Lodging,1053.21,1299.7,10
+2042,CA,Internal Medicine,7996.55,342,Food and Beverage,7809.16,1077.7600000000002,42
+2056,NC,NA,779.44,38,Food and Beverage,762.21,281.01000000000005,13
+2073,WY,Family Medicine,4379.97,303,Food and Beverage,4117.03,450.69,27
+2074,UT,Pediatrics,904.36,60,Food and Beverage,879.36,193.23000000000002,10
+2084,CA,Internal Medicine,72644.27,176,Travel and Lodging,23393.3,38068.53,63
+2088,NY,Psychiatry & Neurology,5159.4,324,Food and Beverage,4326.64,1098.1799999999998,65
+2098,MI,Internal Medicine,5847.21,460,Food and Beverage,5847.21,604.45,61
+2101,FL,Dental Providers,19913.37,64,Gift,8437.63,8943.91,13
+2104,MI,Internal Medicine,2465.65,57,Food and Beverage,2465.65,1883.0200000000002,12
+2110,FL,Internal Medicine,758.89,44,Food and Beverage,758.89,135.29999999999998,8
+2114,SC,Internal Medicine,51093.93,182,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",45950,26722.36,35
+2115,CA,Family Medicine,1028.02,55,Food and Beverage,1028.02,112.97,9
+2118,CO,Internal Medicine,1916.89,58,Food and Beverage,1456.58,254.97,12
+2122,AR,Internal Medicine,16032.16,321,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",10430,6081.37,46
+2128,TX,Pathology,11659.57,39,Honoraria,5380,6464.85,10
+2136,UT,Dental Providers,2841.93,33,Travel and Lodging,1123.72,847,5
+2139,NY,Anesthesiology,586.79,24,Food and Beverage,576.31,218.89,7
+2148,VA,Obstetrics & Gynecology,11755.77,87,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",5829.72,6517.179999999999,33
+2154,MI,Internal Medicine,47989.7,92,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",45600,22845.95,24
+2157,CA,Podiatric Medicine & Surgery Service Providers,7341.81,61,Food and Beverage,5099.2699999999995,946.61,8
+2159,MD,Anesthesiology,12006.6,398,Food and Beverage,8788.39,1822.46,45
+2160,IN,Pediatrics,1274.1,95,Food and Beverage,1249.1,176.68,13
+2162,TN,Internal Medicine,13782.41,775,Food and Beverage,12490.18,938.94,72
+2166,NJ,Internal Medicine,1084.4,35,Food and Beverage,1067.35,173.72,3
+2172,DC,Internal Medicine,3493.2,188,Food and Beverage,3393.21,444.97,23
+2177,KS,Family Medicine,7473.44,350,Food and Beverage,7231.57,1500.8400000000001,94
+2183,AZ,Obstetrics & Gynecology,2997.7400000000002,157,Food and Beverage,2694.35,638.44,28
+2190,AR,Internal Medicine,338402.9,600,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",273021,130855.65,171
+2195,CA,Ophthalmology,1018.73,34,Food and Beverage,981.08,579.96,13
+2197,KY,Allergy & Immunology,3730.2,260,Food and Beverage,3617.71,510.03,21
+2205,NY,Internal Medicine,602.4300000000001,34,Food and Beverage,602.4300000000001,163.26,10
+2206,CT,Podiatric Medicine & Surgery Service Providers,2937.31,52,Food and Beverage,2925.31,942.7600000000001,11
+2214,CA,Family Medicine,2780.44,95,Food and Beverage,2681.26,640.8299999999999,16
+2217,NY,Pediatrics,817.09,37,Food and Beverage,716.24,236.87000000000003,13
+2224,WI,Eye and Vision Services Providers,1008.84,62,Food and Beverage,971.19,177.29,10
+2226,MI,Pediatrics,1229.42,86,Food and Beverage,1229.42,260.78,20
+2235,IN,Pediatrics,1308.76,73,Food and Beverage,1271.11,508.86,21
+2236,IL,Podiatric Medicine & Surgery Service Providers,477.94,23,Food and Beverage,477.94,108.83999999999999,6
+2238,VA,Anesthesiology,364.24,21,Food and Beverage,364.24,91.85,4
+2241,PA,Physical Medicine & Rehabilitation,76413.73,1041,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",48770,37435.090000000004,229
+2242,IL,Pediatrics,1041.97,44,Food and Beverage,719.37,370.37,10
+2250,CA,NA,3765.61,227,Food and Beverage,3678.46,494.16,39
+2261,FL,Pediatrics,552.36,36,Food and Beverage,552.36,31.700000000000003,3
+2264,IL,Internal Medicine,18187.61,851,Food and Beverage,14091.46,1726.5199999999998,80
+2265,FL,General Practice,11373.5,632,Food and Beverage,11065.66,1708.07,96
+2268,NY,Psychiatry & Neurology,3904.02,84,Education,2083.52,2359.71,28
+2270,NC,Internal Medicine,172143.21,190,Consulting Fee,170019,111006.73999999999,27
+2272,NY,NA,18590.36,253,Food and Beverage,18405.86,2973.7400000000002,32
+2277,CT,Family Medicine,48947.2,167,Consulting Fee,36000,43106.94,24
+2278,TX,Family Medicine,307.59,20,Food and Beverage,307.59,51.040000000000006,3
+2279,NJ,Internal Medicine,56971.46,773,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",39340,11446.33,128
+2289,AL,Physical Medicine & Rehabilitation,531.68,32,Food and Beverage,531.68,76,5
+2304,OH,Internal Medicine,743445.17,663,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",501335,188024.46,151
+2305,TN,Internal Medicine,2405.25,87,Food and Beverage,1793.99,693.7,14
+2311,WV,Internal Medicine,9410.67,503,Food and Beverage,8809.82,1587.4200000000003,114
+2317,TX,Internal Medicine,21291.85,1381,Food and Beverage,16812.27,4386.030000000001,130
+2318,VA,Internal Medicine,7061.12,428,Food and Beverage,7042.04,595.3000000000002,34
+2321,FL,Internal Medicine,10830.62,685,Food and Beverage,10357.16,1096.9900000000002,86
+2325,FL,Surgery,4432.69,78,Food and Beverage,4150.27,1206.07,22
+2328,FL,Family Medicine,829.31,54,Food and Beverage,829.31,126.12999999999998,6
+2335,KS,Psychiatry & Neurology,902.56,31,Food and Beverage,694.01,68.59,5
+2343,TN,Surgery,21470.79,88,Education,14290,5245.130000000001,17
+2354,NY,Obstetrics & Gynecology,3457.51,95,Travel and Lodging,1875.1399999999999,2085.43,30
+2361,FL,Internal Medicine,174679.73,340,Honoraria,107660,63923.59,80
+2363,CA,Family Medicine,10898.96,252,Food and Beverage,10614.61,1094.1999999999998,28
+2367,NE,Surgery,9543.39,92,Education,4015.81,7605.179999999999,22
+2372,NY,Internal Medicine,3361.28,94,Food and Beverage,3291.28,974.1700000000001,24
+2375,MO,Pediatrics,2954.94,161,Food and Beverage,2954.86,986.45,45
+2380,GA,Internal Medicine,500946.01,832,Consulting Fee,240475.63,119989.44,107
+2384,NY,Internal Medicine,1408.02,34,Food and Beverage,1369.95,339.11,8
+2399,MA,Internal Medicine,1589.65,75,Food and Beverage,1559.68,464.96,18
+2400,MD,Dental Providers,3137.64,23,Gift,2077.75,915.25,5
+2401,NY,Internal Medicine,41188.49,105,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",19314.38,16440.77,15
+2402,AL,Internal Medicine,6786.07,523,Food and Beverage,6396.72,451.87,28
+2406,MI,Internal Medicine,35646.25,317,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",25600,30205.879999999997,107
+2410,WA,Ophthalmology,59093.62,277,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",25685,15004.91,41
+2416,NJ,Internal Medicine,6352.96,443,Food and Beverage,6112.09,377.9599999999999,48
+2424,TX,Family Medicine,2823.96,67,Food and Beverage,2818.96,513.27,15
+2425,MI,Internal Medicine,4829.79,359,Food and Beverage,4810.47,449.64,45
+2429,TN,Obstetrics & Gynecology,5197.26,273,Food and Beverage,4110.7,909.47,50
+2431,CO,Eye and Vision Services Providers,2305.4,79,Food and Beverage,1779.3500000000001,852.98,8
+2438,CT,Allergy & Immunology,26632.32,451,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",13125,15149.71,80
+2441,AL,Family Medicine,8396.36,309,Food and Beverage,8285.27,758.1299999999999,40
+2448,NY,Family Medicine,764.39,49,Food and Beverage,626.39,171.01999999999998,17
+2459,WA,Family Medicine,1525.09,55,Food and Beverage,1508.17,150.35999999999999,13
+2478,NY,Dermatology,9271.07,564,Food and Beverage,9094.22,1035.9,77
+2479,OH,Internal Medicine,4273.57,49,Food and Beverage,4273.57,682.8599999999999,5
+2487,MI,Family Medicine,774.24,58,Food and Beverage,709.36,206.75,16
+2488,NY,Internal Medicine,4425.72,55,Food and Beverage,4142.72,736.36,12
+2522,CA,Surgery,14382.16,96,Travel and Lodging,3913.1,8619.42,18
+2525,TX,Pathology,14079.67,77,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",9089.5,6302.68,21
+2531,NJ,Internal Medicine,12689.08,125,Food and Beverage,9293.62,4954.679999999999,37
+2533,FL,Internal Medicine,14372.59,703,Food and Beverage,14225.8,1206.9700000000003,80
+2538,MI,Family Medicine,5662.82,420,Food and Beverage,5477.68,1220.21,111
+2544,AL,Orthopaedic Surgery,9571.42,72,Travel and Lodging,4551.37,2447.24,16
+2546,MI,Orthopaedic Surgery,1021.51,48,Food and Beverage,1021.51,339.87,17
+2550,VA,Internal Medicine,12558.73,669,Food and Beverage,12333.99,1273.86,30
+2553,MD,Internal Medicine,1079.14,62,Food and Beverage,1079.14,269.34000000000003,17
+2568,OH,Dermatology,24562.82,1637,Food and Beverage,18339,5618.110000000001,273
+2569,MI,Psychiatry & Neurology,14488.76,432,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",6850,7083.589999999999,39
+2580,TX,Obstetrics & Gynecology,59172.83,320,Honoraria,36925,19535.2,82
+2581,OH,Internal Medicine,2926.79,142,Food and Beverage,2709.19,549.5,17
+2586,NY,Internal Medicine,9161.7,181,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",4800,6638.29,65
+2592,CA,Psychiatry & Neurology,3361.56,181,Food and Beverage,3114.8,861.98,49
+2600,NM,Internal Medicine,10982.83,152,Consulting Fee,5263.64,3052.25,63
+2606,MS,Internal Medicine,4554.26,257,Food and Beverage,4554.26,538.45,37
+2608,NY,Internal Medicine,13075.86,434,Food and Beverage,7846.1,5624,35
+2617,MN,Eye and Vision Services Providers,8127.24,74,Food and Beverage,3643.54,2261.82,17
+2620,KS,Internal Medicine,4740.16,303,Food and Beverage,4668.8,742.4100000000001,46
+2630,MD,Orthopaedic Surgery,12943.01,26,Education,9655.11,3781.5999999999995,8
+2632,OH,Psychiatry & Neurology,355397.98,2785,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",274600.94,147360.93000000002,795
+2635,FL,Obstetrics & Gynecology,3039.25,93,Food and Beverage,2869.16,786.52,16
+2641,OK,Podiatric Medicine & Surgery Service Providers,3250.56,30,Education,2196,2718.6000000000004,8
+2644,MS,Internal Medicine,5614.08,202,Food and Beverage,3959.64,1488.6799999999998,24
+2670,MI,Internal Medicine,562.27,27,Food and Beverage,562.27,246.03,10
+2681,IL,Dermatology,113592.2,1013,Honoraria,39550,22580.84,83
+2705,KY,Psychiatry & Neurology,2808.67,131,Food and Beverage,2423.12,656.28,32
+2710,OK,Psychiatry & Neurology,20212.54,626,Food and Beverage,10349.58,4571.76,142
+2712,CA,Pediatrics,1733.57,86,Food and Beverage,1633.58,222.96,8
+2716,AZ,Pediatrics,1410.1200000000001,88,Food and Beverage,1385.1200000000001,382.11,25
+2720,AL,Urology,3633.77,188,Food and Beverage,3179.7,363.08,22
+2724,MI,Orthopaedic Surgery,7981.2,58,Food and Beverage,4177.82,6103.81,32
+2726,UT,Neurological Surgery,64170.85,133,Consulting Fee,40024.8,10249.130000000001,40
+2741,OK,Internal Medicine,1895.27,30,Food and Beverage,1895.27,422.22999999999996,6
+2743,AR,Psychiatry & Neurology,1267.54,16,Travel and Lodging,750.7900000000001,977.6200000000001,6
+2745,NY,Urology,11728.56,485,Food and Beverage,8766.05,3132.2300000000005,34
+2763,OK,Internal Medicine,5072.02,274,Food and Beverage,5030.16,741.28,36
+2765,AL,Urology,632.41,29,Food and Beverage,594.09,160.7,3
+2767,CA,Pediatrics,576.54,38,Food and Beverage,576.54,124.16,7
+2774,WY,Internal Medicine,3248.29,222,Food and Beverage,3011.69,787.01,51
+2780,MO,Plastic Surgery,2187.57,15,Education,1284,1560.49,4
+2782,NJ,Anesthesiology,622,21,Food and Beverage,622,105.67,5
+2785,NV,Neurological Surgery,115255.38,392,Consulting Fee,57500,58329.649999999994,110
+2786,CT,Internal Medicine,811.67,31,Food and Beverage,517.78,255.87,9
+2787,TN,Psychiatry & Neurology,9943.56,250,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",5263.47,3136.5,117
+2790,AZ,Orthopaedic Surgery,9651.19,61,Travel and Lodging,4298.33,3459.39,23
+2811,FL,Orthopaedic Surgery,1221.87,68,Food and Beverage,1221.87,418.99,23
+2816,FL,Family Medicine,5508.9,383,Food and Beverage,5196.42,559.73,56
+2830,PA,Internal Medicine,2306.52,152,Food and Beverage,2134.49,781.4399999999999,48
+2835,CA,Emergency Medicine,19966.81,107,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",6400,10263.529999999999,42
+2837,PR,General Practice,1558.53,32,Food and Beverage,1558.53,457.4,8
+2840,OR,Internal Medicine,5277.67,150,Food and Beverage,3787.23,1318.46,45
+2857,CA,NA,2408.21,35,Travel and Lodging,1308.6,1557.3700000000001,12
+2862,NC,Hospitalist,757.96,48,Food and Beverage,757.96,140.75,10
+2866,CA,Internal Medicine,3133.88,32,Food and Beverage,3090.23,844.8700000000001,9
+2870,MS,Otolaryngology,2404.07,132,Food and Beverage,2332.17,421.18999999999994,28
+2874,VA,Obstetrics & Gynecology,1644.31,85,Food and Beverage,1046.3,315.27,8
+2876,CA,Family Medicine,3262.04,222,Food and Beverage,3176.56,700.42,46
+2893,AL,Physical Medicine & Rehabilitation,5395.04,324,Food and Beverage,4529.62,1193.47,74
+2906,VA,Ophthalmology,4353.96,172,Food and Beverage,3823.62,540.99,26
+2915,GA,Surgery,1696.13,62,Food and Beverage,1664.76,358.93,7
+2921,IL,Internal Medicine,5477.72,264,Food and Beverage,5374.71,474.7399999999999,42
+2923,FL,Pediatrics,980.28,32,Food and Beverage,980.28,290.91999999999996,4
+2925,KY,Orthopaedic Surgery,15575.68,180,Travel and Lodging,9531.99,4871.72,43
+2927,OH,Internal Medicine,2197.77,30,Honoraria,1500,1517.3400000000001,8
+2928,FL,Internal Medicine,21667.54,210,Consulting Fee,9315,11611.880000000001,58
+2929,TX,Internal Medicine,93335.66,363,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",52065,31031.11,48
+2938,NC,Dental Providers,476.94,14,Food and Beverage,476.94,114.48,2
+2953,OH,Eye and Vision Services Providers,2158.11,119,Food and Beverage,2120.46,428.90999999999997,21
+2956,FL,Family Medicine,46149.82,434,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",34800,18925.25,73
+2962,FL,Internal Medicine,2725.62,117,Food and Beverage,2315.27,1437.6299999999999,57
+2963,CA,Internal Medicine,5143.63,212,Food and Beverage,3569.12,1837.09,119
+2965,TX,Preventive Medicine,10696.39,164,Education,7840.67,5290.37,53
+2966,SC,Ophthalmology,600.23,21,Food and Beverage,600.23,203.7,5
+2971,FL,Family Medicine,4285.37,295,Food and Beverage,4160.78,453.81999999999994,36
+2976,MO,Surgery,1135.29,54,Food and Beverage,875.18,329.04,12
+2998,MO,Radiology,6684.95,51,Food and Beverage,3895.43,1897.8400000000001,14
+3001,AZ,Internal Medicine,5129.9,268,Food and Beverage,5110.04,793.3000000000002,68
+3002,TX,Psychiatry & Neurology,562776.36,904,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",291132.09,138655.36,236
+3008,OH,Dental Providers,2604.79,33,Travel and Lodging,1409.56,1788.57,13
+3010,TX,Internal Medicine,3031.96,194,Food and Beverage,2854.61,826.3499999999999,64
+3012,NE,Internal Medicine,5009.4,78,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2681.52,2516.1699999999996,24
+3017,NM,Otolaryngology,9549.67,139,Travel and Lodging,6159.91,4093.8100000000004,37
+3023,IN,Plastic Surgery,2587.9,49,Food and Beverage,1897.45,944.0200000000001,14
+3031,DE,Dermatology,833.7,39,Food and Beverage,681.4,243.17,18
+3035,LA,Podiatric Medicine & Surgery Service Providers,1278.77,40,Food and Beverage,1201.6,292.83,14
+3040,MN,Psychiatry & Neurology,418325.64,296,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",329809,98966.82999999999,57
+3041,OH,Family Medicine,724596.79,476,Consulting Fee,724198.5,259332.06,152
+3042,CA,Family Medicine,427.94,37,Food and Beverage,427.94,219.96999999999997,21
+3044,NJ,Pediatrics,832.51,57,Food and Beverage,832.51,102.16000000000001,6
+3047,TN,Internal Medicine,41588.51,361,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",22950,14129.869999999999,63
+3048,MS,Anesthesiology,9509.43,176,Food and Beverage,6539.46,2797.3,20
+3054,TX,Psychiatry & Neurology,5268.94,272,Food and Beverage,5165.67,951.5800000000002,32
+3060,TX,Internal Medicine,1033.8,54,Food and Beverage,1033.8,157.93,10
+3063,NJ,NA,5017.93,147,Food and Beverage,3159.16,2216.83,11
+3064,DC,Internal Medicine,28063.48,478,Food and Beverage,14012.56,5447.289999999999,27
+3078,NJ,General Practice,26515.58,2981,Food and Beverage,25418.96,973.9299999999998,75
+3086,OR,Psychiatry & Neurology,31027.35,295,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",15005.58,16516.409999999996,53
+3090,CA,NA,1325.94,45,Food and Beverage,1325.94,538.4399999999999,18
+3092,MA,Urology,14309.03,482,Food and Beverage,10692.37,3412.83,21
+3094,KY,Psychiatry & Neurology,4065.68,279,Food and Beverage,3795.77,1182.3899999999999,78
+3104,NJ,Eye and Vision Services Providers,5243.66,132,Food and Beverage,3052.61,2864.14,20
+3121,MN,Urology,3174.05,92,Food and Beverage,2629.13,805.05,11
+3123,NC,Pediatrics,3687.35,148,Food and Beverage,2637.5099999999998,1181.3,12
+3124,PA,Obstetrics & Gynecology,1038.6,52,Food and Beverage,1021.08,94.69999999999999,4
+3125,TX,Internal Medicine,13036.9,367,Food and Beverage,8966.25,2132.2200000000003,46
+3130,IL,Radiology,5799.54,408,Food and Beverage,5784.85,337.1299999999999,27
+3131,CA,Dental Providers,961.49,54,Food and Beverage,961.49,223.20000000000002,15
+3133,FL,Internal Medicine,9080.88,484,Food and Beverage,8934.22,578.6199999999999,60
+3135,TX,Pediatrics,2014.11,61,Food and Beverage,1989.11,248.41,8
+3148,NJ,Internal Medicine,4466.72,304,Food and Beverage,4346.55,470.99,27
+3152,OK,Internal Medicine,24378.3,1475,Food and Beverage,23880.37,2257.1200000000003,22
+3166,PA,Ophthalmology,1294.79,80,Food and Beverage,1257.14,232.87,13
+3169,ME,Psychiatry & Neurology,17733.22,60,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",13490,6889.05,14
+3180,KS,Surgery,18472.35,331,Food and Beverage,15387.119999999999,1871.32,30
+3188,TX,Neurological Surgery,858.03,45,Food and Beverage,665.05,185.70999999999998,11
+3200,CA,Physical Medicine & Rehabilitation,577.84,20,Food and Beverage,577.84,112.39,4
+3201,NY,Plastic Surgery,18847.26,114,Gift,14908,8931.82,16
+3214,MD,Family Medicine,5051.65,356,Food and Beverage,4697.31,1101.3,79
+3216,GA,Pediatrics,2425.78,31,Gift,1729.5,1827.03,11
+3228,NY,Internal Medicine,85200.14,497,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",59620,36687.48,134
+3238,CA,Internal Medicine,583602.32,372,Consulting Fee,354610.45,123191.38999999998,90
+3241,CA,Obstetrics & Gynecology,4288.29,53,Food and Beverage,3052.61,1960.67,14
+3243,CA,Pediatrics,2127.08,14,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",1161,414.72999999999996,2
+3248,CA,Family Medicine,3928.67,137,Food and Beverage,3906.05,1231.71,39
+3251,TX,Eye and Vision Services Providers,2024.33,42,Food and Beverage,1986.06,403.91999999999996,7
+3267,GA,Internal Medicine,550.58,34,Food and Beverage,525.58,129.14000000000001,4
+3274,GA,Pediatrics,1549.2,88,Food and Beverage,1501.76,275.58,18
+3277,NY,Psychiatry & Neurology,4702.29,48,Food and Beverage,4555.29,1088.41,11
+3280,HI,Eye and Vision Services Providers,6442.02,56,Food and Beverage,3247.7,4322.45,21
+3287,CA,Psychiatry & Neurology,1112.14,57,Food and Beverage,960.74,364.13,20
+3289,VA,Eye and Vision Services Providers,515.6800000000001,15,Food and Beverage,493.62,120.32,4
+3305,MN,Allergy & Immunology,14640.289999999999,116,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",7148.89,8200.52,36
+3311,NY,Psychiatry & Neurology,7212.21,337,Food and Beverage,5654.6,1590.62,35
+3316,NJ,Neurological Surgery,3209.18,92,Food and Beverage,2816,1034.1399999999999,22
+3322,TX,Internal Medicine,3097.9,125,Food and Beverage,2110.54,912.1400000000001,19
+3331,MD,Surgery,5318.17,28,Travel and Lodging,1917.87,2489.8199999999997,12
+3344,TX,Surgery,17602.49,351,Food and Beverage,12502.54,3410.8300000000004,44
+3345,TX,Pediatrics,1960.58,115,Food and Beverage,1960.58,237.60000000000002,11
+3359,AZ,Internal Medicine,4650.46,225,Food and Beverage,4569.56,578.5799999999999,38
+3375,NY,Psychiatry & Neurology,2195.34,35,Food and Beverage,1504,509.65999999999997,8
+3378,NC,Family Medicine,11164.44,756,Food and Beverage,11014.52,1259.55,95
+3380,NJ,Internal Medicine,1436.3899999999999,37,Food and Beverage,1421.49,300.32000000000005,21
+3386,IL,Ophthalmology,3361.13,120,Food and Beverage,3361.13,406.81,2
+3390,FL,Internal Medicine,31187.59,348,Consulting Fee,19335,22002.050000000003,81
+3391,WV,Dermatology,2617.03,151,Food and Beverage,2537.03,399.62999999999994,23
+3392,NE,Internal Medicine,4463.78,330,Food and Beverage,4001.57,760.11,63
+3393,TX,Orthopaedic Surgery,11696.53,124,Travel and Lodging,6401.68,3684.09,26
+3401,AZ,Psychiatry & Neurology,2260.29,109,Food and Beverage,1989.36,410.15999999999997,14
+3411,AL,Ophthalmology,13348.19,66,Consulting Fee,6250,6331.72,10
+3413,TN,Eye and Vision Services Providers,3908.76,50,Travel and Lodging,1904.42,277.85,5
+3415,SC,Ophthalmology,1092.23,39,Food and Beverage,1092.23,304.95,8
+3421,TX,Allergy & Immunology,73206.66,567,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",31405,24148.940000000002,71
+3433,AR,NA,2158.52,120,Food and Beverage,2089.45,245.78,15
+3445,AL,Otolaryngology,1440.46,88,Food and Beverage,1440.46,499.73,30
+3447,NY,Internal Medicine,22383,1263,Food and Beverage,21748.2,1257.56,82
+3453,NY,Family Medicine,3047.7,159,Food and Beverage,3041.68,638.9200000000001,40
+3475,IL,Pediatrics,1125.84,50,Food and Beverage,990.89,244.60000000000002,6
+3478,SC,Ophthalmology,1631.22,56,Food and Beverage,1442.97,460.75,9
+3482,HI,Internal Medicine,16673.29,645,Food and Beverage,16198.07,1526.8000000000002,55
+3485,NY,NA,11924.53,111,Food and Beverage,11343.79,1903.8200000000002,18
+3491,PA,Family Medicine,1375.57,74,Food and Beverage,1203.21,320.89,20
+3494,NJ,Psychiatry & Neurology,9403.95,469,Food and Beverage,8111.61,837.94,37
+3496,CA,Ophthalmology,701.21,52,Food and Beverage,668,232.51999999999998,23
+3497,CO,Eye and Vision Services Providers,3703.67,84,Food and Beverage,3590.72,621.98,14
+3499,CO,Family Medicine,19248.6,760,Food and Beverage,13058.86,2900.7,112
+3502,AZ,Ophthalmology,16698.97,273,Food and Beverage,9260.82,4661.63,16
+3503,CA,Internal Medicine,6115.61,185,Food and Beverage,6115.61,3512.8999999999996,26
+3504,MO,Surgery,14255.78,142,Travel and Lodging,5612.41,4944.4000000000005,27
+3509,GA,Family Medicine,2073.87,117,Food and Beverage,2073.87,809.25,52
+3516,TX,Internal Medicine,9643,698,Food and Beverage,9111.79,1462.6899999999998,119
+3519,MN,Dental Providers,758.84,28,Food and Beverage,658.9399999999999,183.64,5
+3528,CA,Internal Medicine,45266.61,264,Gift,40616,40178.99,70
+3530,TX,Family Medicine,1422.6299999999999,53,Food and Beverage,1422.6299999999999,342.26,16
+3533,IN,Obstetrics & Gynecology,1136.06,77,Food and Beverage,1136.06,183.99,10
+3535,CA,NA,2509.88,67,Food and Beverage,2506.46,523.6299999999999,12
+3539,NC,Obstetrics & Gynecology,4015.41,181,Food and Beverage,3122.97,1000.99,16
+3540,SC,Orthopaedic Surgery,6048.17,83,Travel and Lodging,3792.7400000000002,2162.27,15
+3548,KS,Internal Medicine,55019.51,77,Consulting Fee,26610,28690.02,23
+3557,CA,NA,3264.87,87,Food and Beverage,2540.15,940.38,16
+3559,MS,Obstetrics & Gynecology,45019.75,136,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",17500,27974.370000000003,43
+3561,IL,Anesthesiology,17690.32,481,Food and Beverage,9898.48,3011.6899999999996,52
+3564,MI,Internal Medicine,2962.42,190,Food and Beverage,2732.87,490.94,34
+3565,TN,Pediatrics,426.88,28,Food and Beverage,358.37,172.41,10
+3577,AZ,Internal Medicine,1276.75,39,Food and Beverage,1276.75,228.83000000000004,17
+3581,GA,Pediatrics,5931.67,106,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2500,4664.94,44
+3582,NC,Internal Medicine,7886.25,501,Food and Beverage,7577.82,1875.2399999999998,128
+3583,GA,Dental Providers,2384.75,43,Food and Beverage,2161.75,244,4
+3586,PR,Psychiatry & Neurology,2154.28,33,Food and Beverage,2154.28,493.43,10
+3589,CT,Otolaryngology,1115.12,50,Food and Beverage,1115.12,373.69,18
+3594,TX,Internal Medicine,103193.8,419,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",88860,10594.039999999999,25
+3595,MA,Internal Medicine,3223.9,150,Food and Beverage,3223.9,679.87,32
+3597,FL,NA,1209.21,35,Food and Beverage,1054.91,330.49,8
+3609,IL,Internal Medicine,3506.3,75,Food and Beverage,2642.95,551.75,19
+3610,NJ,Psychiatry & Neurology,127987.3,293,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",86840.97,14190.4,55
+3618,NJ,Internal Medicine,4650.87,284,Food and Beverage,4618.68,1540.9099999999999,89
+3621,IL,Obstetrics & Gynecology,2853.31,159,Food and Beverage,2772.65,368.58,19
+3628,MA,Internal Medicine,2172.69,153,Food and Beverage,2166.61,597.39,39
+3641,MD,Pediatrics,1224.05,74,Food and Beverage,1130,192.34999999999997,10
+3643,PA,Allergy & Immunology,7794.54,196,Food and Beverage,3614.39,5076.85,69
+3647,NM,Psychiatry & Neurology,1507.3999999999999,51,Food and Beverage,1098.41,600.4300000000001,16
+3657,TN,Pediatrics,4148.92,143,Food and Beverage,3365.12,1541.35,25
+3659,UT,Internal Medicine,8319.13,546,Food and Beverage,7202.68,2164.34,30
+3668,CO,Orthopaedic Surgery,5566.42,41,Education,2892,1932.13,9
+3674,MI,Pain Medicine,10651.18,302,Food and Beverage,6885.44,2843.33,22
+3680,NY,Orthopaedic Surgery,58773.4,77,Consulting Fee,33969.5,20901.87,15
+3692,NY,Dental Providers,6977.39,30,Gift,6205.93,2397.0299999999997,4
+3705,CO,NA,26134.3,283,Education,13125.48,6219.65,14
+3706,TX,Internal Medicine,11644.21,366,Food and Beverage,8817.98,1721.22,41
+3717,IL,Allergy & Immunology,12899.01,98,Consulting Fee,7225,6210.7,17
+3728,TX,Pediatrics,2115.55,68,Food and Beverage,2100.51,582.97,11
+3730,WI,Family Medicine,1067,70,Food and Beverage,990.4399999999999,231.48000000000002,15
+3733,NM,Internal Medicine,6214.61,66,Travel and Lodging,3835.78,4641.26,28
+3739,MD,NA,1005.49,36,Food and Beverage,1005.49,286.83,7
+3743,ID,Family Medicine,1611.35,61,Food and Beverage,1192.11,395.08,19
+3744,OH,Internal Medicine,145737.15,358,Consulting Fee,142897.5,60296.37,95
+3746,CA,Otolaryngology,3083.65,73,Food and Beverage,2846.53,1170.1399999999999,15
+3751,CA,Allergy & Immunology,1405.86,79,Food and Beverage,1405.86,408.04,22
+3755,CA,Psychiatry & Neurology,26934.11,567,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",9176.25,13284.659999999998,95
+3756,IL,Internal Medicine,974.27,63,Food and Beverage,932.76,100.51,7
+3759,PA,Internal Medicine,13260.25,1174,Food and Beverage,12814.81,1003.73,102
+3760,PA,Dental Providers,12796.74,53,Honoraria,9250,9476.89,7
+3773,NY,Internal Medicine,2012.54,37,Food and Beverage,1960.83,319.34000000000003,8
+3775,KY,Internal Medicine,1435.64,67,Food and Beverage,1407.84,548.03,22
+3778,MA,Dermatology,1682.19,71,Food and Beverage,1668.69,226.84000000000003,10
+3785,CA,Obstetrics & Gynecology,3809.47,266,Food and Beverage,3758.25,560.26,56
+3788,OH,Family Medicine,480.75,63,Education,222.81,150.10000000000002,17
+3789,CA,Internal Medicine,2929.81,92,Food and Beverage,2346.43,807.02,12
+3795,LA,Urology,4350.74,63,Food and Beverage,3181.5,586.6200000000001,10
+3798,NY,Internal Medicine,12569.45,297,Food and Beverage,10940.91,1428.5799999999997,27
+3805,WI,Anesthesiology,817.76,57,Food and Beverage,817.76,118.94000000000001,8
+3811,DC,Otolaryngology,3731.95,47,Food and Beverage,3296.49,1353.3300000000002,14
+3825,TX,Podiatric Medicine & Surgery Service Providers,6642.1,91,Food and Beverage,4770.87,2610.9999999999995,20
+3826,TX,Obstetrics & Gynecology,2452.06,137,Food and Beverage,2162.82,347.79,15
+3837,PA,Pediatrics,1305.28,32,Food and Beverage,1305.28,249.82999999999998,8
+3846,NJ,Obstetrics & Gynecology,3645.34,92,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",1850,1239.5700000000002,6
+3847,OH,Obstetrics & Gynecology,2214.21,83,Food and Beverage,2069.57,429.3500000000001,23
+3850,IL,Eye and Vision Services Providers,1706.92,63,Food and Beverage,1706.92,511.37999999999994,19
+3853,CO,Orthopaedic Surgery,2490.16,72,Food and Beverage,1787.93,1108.28,21
+3865,MI,Pediatrics,7476.13,303,Food and Beverage,7449.08,800.83,51
+3872,CA,Internal Medicine,1498.45,13,Food and Beverage,1498.45,253.14000000000001,2
+3876,CA,Dental Providers,4189.08,37,Gift,2843.96,3109.17,9
+3879,TX,Urology,5208.97,273,Food and Beverage,5084.95,738.24,52
+3891,NY,Ophthalmology,5993.78,136,Food and Beverage,5493.78,632.74,22
+3892,GA,Surgery,32503.059999999998,8,Grant,32492.149999999998,14.460000000000036,1
+3909,OK,Internal Medicine,219841.29,826,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",85802,71116.52,102
+3911,WA,Internal Medicine,10415.01,162,Food and Beverage,7648.56,2468.17,22
+3922,NJ,Internal Medicine,35305.3,109,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",21850,26833.350000000002,50
+3926,WV,Obstetrics & Gynecology,1347.53,90,Food and Beverage,1305.3,227.85,10
+3928,TX,Family Medicine,10927.2,968,Food and Beverage,10115.72,1369.1599999999999,137
+3933,NY,Obstetrics & Gynecology,2368.95,155,Food and Beverage,2051.54,258.96000000000004,24
+3937,OH,Psychiatry & Neurology,4611.45,276,Food and Beverage,4196.38,894.71,61
+3939,GA,Internal Medicine,147976.4,470,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",132137.5,73483.47,140
+3949,CA,Surgery,5316.43,44,Food and Beverage,2739.73,2778.2900000000004,9
+3950,LA,Otolaryngology,4574.96,120,Food and Beverage,4574.96,707.02,20
+3952,MN,Internal Medicine,85068.95,140,Consulting Fee,38800,18211.71,24
+3955,CA,Internal Medicine,10988.01,583,Food and Beverage,10623.76,1487.29,85
+3961,CA,Internal Medicine,17412.23,349,Food and Beverage,7902.23,7520.06,52
+3962,PA,Internal Medicine,1169.81,70,Food and Beverage,1130.19,157.99,11
+3967,NC,Eye and Vision Services Providers,3532.22,77,Food and Beverage,3371.69,473.39000000000004,11
+3970,NY,Otolaryngology,6260.54,186,Food and Beverage,4446.6,2302.6,36
+3971,KS,Internal Medicine,1600.18,97,Food and Beverage,857.14,821.76,46
+3976,NY,Internal Medicine,19264.08,38,Consulting Fee,16178.84,7866.83,11
+3991,MD,Surgery,1542.95,21,Food and Beverage,1542.95,837.97,7
+3993,CT,Eye and Vision Services Providers,3890.79,131,Food and Beverage,3815.49,632.1999999999999,23
+3995,RI,Family Medicine,3338.82,66,Food and Beverage,2638.82,565.21,24
+3998,FL,NA,89629.16,236,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",56417.45,6854.42,20
+4002,TN,Ophthalmology,2262.09,60,Food and Beverage,2262.09,477.0300000000001,12
+4003,NY,Urology,12491.88,24,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",6340,4577.05,3
+4004,TN,Allergy & Immunology,108724.48,389,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",65500,48676.54,107
+4011,TX,NA,4178.17,209,Food and Beverage,3768.34,992.95,46
+4015,CA,Internal Medicine,146756.52,1596,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",86050,10136.43,40
+4019,OR,Orthopaedic Surgery,24006.26,47,Education,20106.91,11751.09,15
+4020,NC,Urology,27380.09,279,Travel and Lodging,15578.9,7283.23,56
+4027,OR,Internal Medicine,29481.55,89,Consulting Fee,19380,11831,36
+4031,MI,Obstetrics & Gynecology,169.01,13,Food and Beverage,169.01,18.999999999999996,1
+4049,NJ,Internal Medicine,1684.17,103,Food and Beverage,1684.17,297.44,19
+4069,TX,Psychiatry & Neurology,21359.06,156,Consulting Fee,8124,7277.06,29
+4091,FL,Pediatrics,3458.54,53,Food and Beverage,2277.94,1162.83,13
+4093,MD,Family Medicine,8127.56,505,Food and Beverage,7535.71,1646.81,121
+4098,FL,Internal Medicine,766.12,49,Food and Beverage,766.12,144.7,10
+4100,FL,Internal Medicine,10132.59,756,Food and Beverage,9891.25,671.5799999999999,46
+4104,TN,Eye and Vision Services Providers,949.93,14,Food and Beverage,949.93,222.01000000000002,2
+4109,MA,Internal Medicine,6776.2,239,Food and Beverage,6653.93,1013.75,39
+4115,NE,Podiatric Medicine & Surgery Service Providers,5754.26,68,Travel and Lodging,2046.52,983.5900000000001,18
+4125,MI,Internal Medicine,8788.07,711,Food and Beverage,8590.49,1289.63,126
+4133,TX,Family Medicine,19704.44,1132,Food and Beverage,19391.19,1187.52,102
+4135,CA,Ophthalmology,1736.96,85,Food and Beverage,1532.81,408.59999999999997,25
+4152,OH,Dental Providers,508.64,24,Food and Beverage,258.64,103.94,3
+4164,TX,Family Medicine,2047.09,126,Food and Beverage,1976.61,258.04,23
+4175,OH,Radiology,1565.78,55,Food and Beverage,1541.26,689.47,30
+4180,TX,Internal Medicine,1574.36,32,Food and Beverage,963.06,286.18,10
+4209,NY,Psychiatry & Neurology,2416.27,67,Food and Beverage,2416.27,975.19,16
+4213,MI,Family Medicine,733.01,39,Food and Beverage,509.51,163.66,8
+4215,TX,Obstetrics & Gynecology,2892.25,78,Food and Beverage,1764.88,1601.8500000000001,24
+4216,IL,Radiology,4627.74,66,Food and Beverage,4627.74,450.5799999999999,13
+4239,TX,Surgery,6125.16,66,Travel and Lodging,4019.4,2262.0600000000004,17
+4261,VA,Family Medicine,2215.26,70,Food and Beverage,2201.01,1192.44,38
+4275,KY,Internal Medicine,1168.51,40,Food and Beverage,1168.51,124.34,11
+4277,AZ,Allergy & Immunology,594.45,33,Food and Beverage,594.45,117.47,8
+4283,OR,Surgery,1389.18,68,Food and Beverage,1328.09,416.67,23
+4289,FL,Family Medicine,4003.55,189,Food and Beverage,3981.53,877.44,41
+4296,GA,Ophthalmology,6368.64,176,Food and Beverage,6154.06,711.19,37
+4301,FL,Psychiatry & Neurology,2992.74,166,Food and Beverage,2553.73,738.52,43
+4308,FL,Ophthalmology,616.84,18,Food and Beverage,616.84,372.33,4
+4312,TN,Podiatric Medicine & Surgery Service Providers,7015.2,155,Food and Beverage,4343.8,3958.8599999999997,57
+4314,OH,Eye and Vision Services Providers,828.52,37,Food and Beverage,828.52,186.95000000000002,7
+4316,MN,Dental Providers,2424.62,40,Food and Beverage,2383.25,731.32,11
+4319,MT,Obstetrics & Gynecology,593.3,34,Food and Beverage,555.15,123.31,6
+4321,TX,Internal Medicine,42215.21,55,Honoraria,40500,16143.52,14
+4327,FL,Family Medicine,567.26,13,Food and Beverage,553.01,166.14,3
+4328,TX,NA,7550.51,471,Food and Beverage,7028.76,1154.8600000000001,68
+4332,NY,Internal Medicine,3387.93,178,Food and Beverage,3365.3,563.49,39
+4336,CA,Psychiatry & Neurology,16116.3,731,Food and Beverage,15919.36,3857.5899999999997,222
+4339,NY,Anesthesiology,893.97,49,Food and Beverage,804.47,225.87,14
+4340,CA,Otolaryngology,15337.81,64,Consulting Fee,8775,12809.320000000002,14
+4351,GA,NA,5693.82,342,Food and Beverage,5336.43,475.0099999999999,26
+4355,LA,Internal Medicine,215.07999999999998,13,Food and Beverage,114.1,22.07,2
+4356,IL,Family Medicine,3249.41,133,Food and Beverage,3008.82,650.63,25
+4366,TX,Obstetrics & Gynecology,1026.6,48,Food and Beverage,1026.6,150.78,9
+4367,PA,Eye and Vision Services Providers,482.49,11,Food and Beverage,417.95,126.78,2
+4374,PR,Psychiatry & Neurology,976.58,39,Food and Beverage,938.43,191.93,10
+4395,TX,Pediatrics,323.64,18,Food and Beverage,323.64,92.52,5
+4399,NE,Obstetrics & Gynecology,1892.24,111,Food and Beverage,1782.64,133.42999999999998,12
+4408,PR,Family Medicine,358.90000000000003,8,Food and Beverage,358.90000000000003,84.39000000000001,1
+4419,WA,Colon & Rectal Surgery,14082.38,81,Education,5500,4668.0999999999995,18
+4420,GA,Eye and Vision Services Providers,995.68,55,Food and Beverage,995.68,264.15,13
+4434,ID,Anesthesiology,4870.56,111,Food and Beverage,2516.66,2611.64,35
+4437,CA,Family Medicine,16237.84,1257,Food and Beverage,13956.21,2452.2800000000007,145
+4439,TN,Plastic Surgery,64858.99,80,Gift,58183,20765.21,12
+4442,NY,Eye and Vision Services Providers,70763.54,192,Consulting Fee,27400.32,13198.419999999998,8
+4448,ID,Orthopaedic Surgery,57667.74,75,Consulting Fee,47255.79,22293.86,12
+4449,IL,Psychiatry & Neurology,25729.9,382,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",19560,17398.96,30
+4452,PA,Internal Medicine,681246.88,3195,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",484328.48,112179.48000000001,354
+4460,IL,Ophthalmology,1026.6,17,Food and Beverage,876.6,80.81,4
+4463,NJ,Eye and Vision Services Providers,8225.95,100,Food and Beverage,4169.17,5032.92,22
+4464,KY,Otolaryngology,1883.76,36,Food and Beverage,1149.91,481.98,8
+4466,CA,Hospitalist,2362.28,40,Food and Beverage,2351.73,505.03000000000003,10
+4467,FL,Internal Medicine,135.76,9,Food and Beverage,121.87,17.029999999999998,1
+4474,TX,Dermatology,8760.74,362,Food and Beverage,7698.06,1412.3899999999999,46
+4478,NY,Internal Medicine,24249.1,204,Consulting Fee,10000,7070.879999999999,50
+4495,CA,Psychiatry & Neurology,168224.9,1575,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",90787.61,30235.410000000003,112
+4502,CA,Internal Medicine,17672.41,1202,Food and Beverage,16748.72,1209.5299999999997,80
+4506,CA,Family Medicine,1277.12,77,Food and Beverage,1154.47,559.04,38
+4516,TX,Ophthalmology,9676.55,96,Food and Beverage,6767.01,2573.77,17
+4528,NM,Internal Medicine,10716.88,715,Food and Beverage,10453.25,2168.25,208
+4532,OH,Dental Providers,2341.2,34,Travel and Lodging,935.7,650.13,14
+4535,NY,Psychiatry & Neurology,24840.12,814,Food and Beverage,22709.85,2046.38,45
+4536,IN,Eye and Vision Services Providers,3652.24,43,Food and Beverage,2341.37,1790.14,21
+4537,TN,Internal Medicine,8138.13,581,Food and Beverage,6563.66,2353.33,98
+4541,AK,Internal Medicine,7523.91,427,Food and Beverage,7474.12,500.1500000000001,17
+4547,FL,Family Medicine,1735.1,92,Food and Beverage,1684.23,604.6,31
+4550,IL,Dental Providers,126376.65,305,Gift,86633.73,49552.04,91
+4551,TX,Internal Medicine,9036.79,628,Food and Beverage,8887.64,2689.81,207
+4559,MI,Dental Providers,680.59,24,Food and Beverage,505.59,273.62,6
+4564,NC,Internal Medicine,7145.61,210,Food and Beverage,5669.5,1779.24,46
+4571,AR,Family Medicine,5799.6,328,Food and Beverage,4312.16,2325.91,68
+4587,TX,Family Medicine,3464.23,212,Food and Beverage,3384.83,439.24999999999994,23
+4597,NC,Eye and Vision Services Providers,2906.3,73,Food and Beverage,2868.65,342.64000000000004,12
+4598,AL,Eye and Vision Services Providers,882,35,Food and Beverage,882,262.21,4
+4605,LA,Eye and Vision Services Providers,1165.4,31,Food and Beverage,1127.75,230.77,6
+4606,MA,Dermatology,4245.43,33,Consulting Fee,2700,3358.88,10
+4610,TX,Family Medicine,13296.76,781,Food and Beverage,13057.32,1326.06,91
+4617,VA,Internal Medicine,10935.19,674,Food and Beverage,10467.43,494.22,69
+4618,FL,Psychiatry & Neurology,1821.21,66,Food and Beverage,1723.58,398.76,23
+4622,NC,Pediatrics,1114.76,83,Food and Beverage,1114.76,313.8,24
+4623,AL,Internal Medicine,13010.22,415,Food and Beverage,8138.11,2958.29,31
+4633,NV,Anesthesiology,3341.05,82,Food and Beverage,3193.32,913.1,27
+4638,VA,Internal Medicine,2393.22,209,Food and Beverage,2368.75,363.16,61
+4662,NY,Internal Medicine,3445.47,55,Consulting Fee,2115,102.70000000000002,6
+4670,MI,Internal Medicine,137339.16,791,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",50100,25635.67,61
+4675,CA,Podiatric Medicine & Surgery Service Providers,568.95,30,Food and Beverage,568.95,109.51000000000002,4
+4682,RI,Internal Medicine,24172.66,1602,Food and Beverage,23695.2,920.1600000000003,78
+4685,MN,Psychiatry & Neurology,1507142.94,1469,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",782755.16,168102.27,174
+4688,VA,Obstetrics & Gynecology,1356.06,86,Food and Beverage,1318.47,417.47,28
+4695,IN,Family Medicine,3135.55,227,Food and Beverage,3056.91,379.0200000000001,33
+4696,FL,Surgery,16358.95,131,Education,6000,6832.5199999999995,27
+4700,OK,Internal Medicine,3697.81,236,Food and Beverage,3069.05,823.57,40
+4707,FL,Obstetrics & Gynecology,2013.5,88,Food and Beverage,1905.77,352.93000000000006,13
+4711,FL,Obstetrics & Gynecology,3484.2400000000002,157,Food and Beverage,3161.76,376.47999999999996,22
+4719,NC,Eye and Vision Services Providers,1514.39,66,Food and Beverage,1434.69,444.48,15
+4721,IN,Thoracic Surgery (Cardiothoracic Vascular Surgery),3665.82,82,Food and Beverage,2374.93,1459.43,16
+4737,CA,Internal Medicine,1959.02,23,Food and Beverage,1959.02,234.51,3
+4740,NC,Family Medicine,1140.2,66,Food and Beverage,1140.2,254.7,17
+4742,TX,NA,533690.34,1337,Consulting Fee,350447.99,166707.96,210
+4745,AZ,Podiatric Medicine & Surgery Service Providers,38645.15,204,Compensation for serving as faculty or as a speaker for a non-accredited and noncertified continuing education program,19153.75,30661.78,81
+4753,MD,Ophthalmology,1714.6,79,Food and Beverage,1443.72,297.58,18
+4754,FL,Obstetrics & Gynecology,4849.91,88,Food and Beverage,4014.13,1345.53,21
+4766,WA,Internal Medicine,25047.27,32,Consulting Fee,23919.77,9486.75,8
+4785,IL,Urology,1907.15,130,Food and Beverage,1802.47,374.81,26
+4788,MN,Ophthalmology,3746.87,54,Food and Beverage,2025.34,1273.15,7
+4789,CA,Ophthalmology,348663.74,233,Consulting Fee,202514.6,80871.05,29
+4797,UT,Internal Medicine,11088.65,940,Food and Beverage,11028.91,1163.7100000000003,101
+4799,VA,Internal Medicine,840.02,19,Food and Beverage,840.02,211.78,3
+4807,FL,Internal Medicine,14350.05,758,Food and Beverage,13861,1001.0200000000002,50
+4812,NY,Orthopaedic Surgery,1303.26,76,Food and Beverage,1303.26,371.13,21
+4813,NY,Pediatrics,1675.82,83,Food and Beverage,1595.87,208.89,9
+4817,TX,Surgery,7806.8,59,Education,3000,4583.64,19
+4818,CA,Family Medicine,5052.85,314,Food and Beverage,5042.85,546.82,35
+4826,CA,Psychiatry & Neurology,2052.69,102,Food and Beverage,2000.39,370.46,21
+4837,IL,Dermatology,2281.32,127,Food and Beverage,2214.62,638.6,37
+4842,CT,Podiatric Medicine & Surgery Service Providers,18503.13,137,Education,6739.12,6104.42,46
+4844,TX,NA,2313.12,133,Food and Beverage,2128.69,227.37,14
+4851,CO,Orthopaedic Surgery,8899.59,92,Food and Beverage,4777.96,3534.34,15
+4859,NY,Otolaryngology,827.72,46,Food and Beverage,827.72,230.42000000000002,14
+4872,WA,Emergency Medicine,456.59000000000003,12,Food and Beverage,404.31,239.97000000000003,2
+4873,AR,Pediatrics,667.95,38,Food and Beverage,667.95,138.89999999999998,5
+4882,CT,Surgery,1886.71,37,Food and Beverage,957.61,251.82,9
+4883,MO,Orthopaedic Surgery,38416.08,101,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",25500,8628.02,19
+4887,CA,Psychiatry & Neurology,2175.77,58,Food and Beverage,2009.43,589.91,19
+4891,CA,NA,76398.20999999999,168,Royalty or License,68908.22,52330.13999999999,15
+4895,GA,Urology,9096.87,264,Food and Beverage,5848.17,2200.09,41
+4897,NJ,Psychiatry & Neurology,6655.95,69,Food and Beverage,6537.9,2178.13,18
+4900,KY,Preventive Medicine,511.17,32,Food and Beverage,511.17,106.45,6
+4907,LA,Internal Medicine,4175.02,316,Food and Beverage,4161.63,841.6100000000001,74
+4916,NY,Family Medicine,12730.31,725,Food and Beverage,12438.55,1659.2300000000002,88
+4920,PR,Internal Medicine,2593.08,95,Food and Beverage,2482.13,679.25,17
+4924,IN,Internal Medicine,198186.19,472,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",162208,34286.600000000006,66
+4928,MA,Otolaryngology,2122.29,29,Travel and Lodging,1218.13,1195.5200000000002,7
+4931,TX,Surgery,1406.47,42,Food and Beverage,1038.78,250.26,9
+4940,FL,Orthopaedic Surgery,250429.79,146,Royalty or License,202796.66,38238.56,24
+4945,KY,Internal Medicine,2971.83,78,Travel and Lodging,1783.29,1806.57,16
+4947,TX,Internal Medicine,788.85,44,Food and Beverage,744.07,290.22,19
+4949,FL,Orthopaedic Surgery,17663.89,252,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",12531.25,8423.75,34
+4951,PA,Family Medicine,945.56,61,Food and Beverage,945.56,129.60999999999999,7
+4952,SC,Pediatrics,1008.66,60,Food and Beverage,1008.66,180.31,11
+4955,NY,Family Medicine,12615,370,Food and Beverage,12434.43,2026.62,50
+4961,IL,Anesthesiology,2976.59,55,Food and Beverage,2682.27,595.73,20
+4973,MO,Dental Providers,3265.88,35,Food and Beverage,1354.16,1447.68,7
+4981,LA,Internal Medicine,279251.77,341,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",253165,54325.11000000001,50
+4987,CO,Family Medicine,17831.5,686,Food and Beverage,11420.96,1761.43,121
+4989,AZ,Dental Providers,2386.42,19,Education,1000,1989.28,2
+4990,AZ,Internal Medicine,2304.54,137,Food and Beverage,2304.54,131.98000000000002,8
+5000,MD,Obstetrics & Gynecology,1202.49,75,Food and Beverage,1140.61,272,17
+5001,CA,Ophthalmology,2489.91,67,Food and Beverage,1981.06,1242.9199999999998,22
+5006,OK,Family Medicine,2631.76,181,Food and Beverage,2591.7,387.0899999999999,36
+5018,WA,Internal Medicine,22577.39,178,Consulting Fee,11300,5695.03,53
+5020,TX,Dermatology,9372.44,640,Food and Beverage,9265.05,1010.78,84
+5039,TX,Pain Medicine,4434.95,195,Food and Beverage,4355.09,590.45,37
+5041,WI,Urology,5350.39,153,Food and Beverage,2955.56,649.6800000000001,19
+5046,OH,Family Medicine,9003.67,718,Food and Beverage,8204.5,1247.82,86
+5053,TX,Dental Providers,2705.09,46,Food and Beverage,1207.38,933.97,10
+5055,FL,Internal Medicine,896748.09,1318,Education,502729.06,95859.08,135
+5060,PA,Radiology,1580.3,37,Food and Beverage,1532.44,472.61,7
+5072,CA,Dental Providers,1626.38,52,Food and Beverage,1119.4,319.31,21
+5075,UT,Internal Medicine,1164.27,14,Food and Beverage,874.29,438.16,2
+5076,CA,Eye and Vision Services Providers,4827.84,50,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",3150,3334.7499999999995,9
+5083,IL,Internal Medicine,8920.29,337,Food and Beverage,5538.38,3304.01,28
+5088,CA,Pediatrics,649.3100000000001,25,Food and Beverage,649.3100000000001,294.43,4
+5097,CA,NA,1731,34,Food and Beverage,1649.61,331.41999999999996,6
+5101,IL,Dental Providers,6202.25,52,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2271.2400000000002,2716.76,6
+5107,WI,Radiology,5164.78,99,Food and Beverage,3250.98,2435.1600000000003,19
+5112,NJ,Surgery,2542.4900000000002,54,Travel and Lodging,1609.16,931.43,13
+5114,MO,Internal Medicine,59340.36,196,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",34970,19350.81,46
+5118,RI,Internal Medicine,3365.1,142,Food and Beverage,3265.1,425.93000000000006,16
+5120,TN,Family Medicine,3679.45,238,Food and Beverage,3224.8,984.37,79
+5132,FL,Eye and Vision Services Providers,3915.11,75,Food and Beverage,3015.77,723.0699999999999,17
+5133,OR,Plastic Surgery,4631.73,44,Travel and Lodging,2409.62,1735.78,15
+5136,VA,Internal Medicine,821.66,37,Food and Beverage,798.85,203.45,8
+5143,OH,Ophthalmology,4693.44,95,Food and Beverage,3692.91,1077.1699999999998,22
+5144,TX,NA,1309.72,59,Food and Beverage,1309.72,241.9,12
+5151,OH,Internal Medicine,1188.79,48,Food and Beverage,1113.8,236.10000000000002,8
+5161,TX,Dermatology,759.24,31,Food and Beverage,521.12,327.94,8
+5164,PA,Internal Medicine,19341.67,1504,Food and Beverage,19087.86,1216.42,85
+5171,CA,NA,1798.55,21,Food and Beverage,1798.55,410.62,5
+5176,FL,Internal Medicine,8549.15,176,Food and Beverage,8386.06,1741.0100000000002,40
+5186,NY,Surgery,26462.17,153,Consulting Fee,9570,9957.66,18
+5195,VA,Urology,1504.72,43,Food and Beverage,1227.8899999999999,368.4,11
+5205,FL,Family Medicine,4649.9,180,Food and Beverage,4613.32,688.0999999999999,56
+5233,NM,Physical Medicine & Rehabilitation,1026.8899999999999,58,Food and Beverage,1026.8899999999999,470.23999999999995,29
+5235,OH,Ophthalmology,5430.31,111,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",3060,3345.18,14
+5237,CA,Orthopaedic Surgery,8689.96,103,Food and Beverage,6694.68,3281.8900000000003,21
+5244,MD,Dental Providers,768.12,17,Food and Beverage,636.12,218.85999999999999,5
+5257,LA,Internal Medicine,4809.15,339,Food and Beverage,4774.27,625.5999999999999,57
+5267,NJ,Physical Medicine & Rehabilitation,104589.3,172,Honoraria,44108.05,27980.47,45
+5274,VA,Dental Providers,781.24,24,Food and Beverage,610.62,125.45999999999998,4
+5281,TX,Family Medicine,2617.09,80,Food and Beverage,2599.39,394.1,21
+5282,IL,Family Medicine,1531.3799999999999,138,Food and Beverage,1171.92,525.34,55
+5284,NJ,NA,13186.23,591,Food and Beverage,12566.17,2247.12,62
+5294,NC,Internal Medicine,9891.31,602,Food and Beverage,9644.38,1028.09,42
+5319,OK,Internal Medicine,1918.64,26,Food and Beverage,1918.64,448.53,8
+5322,AL,Pediatrics,717.38,38,Food and Beverage,717.38,184.76,9
+5327,CA,Psychiatry & Neurology,18362.22,878,Food and Beverage,17582.98,1735.7200000000003,106
+5335,HI,Surgery,17486.2,145,Food and Beverage,5980.3,6267.42,17
+5339,CA,Urology,12009.41,225,Food and Beverage,6785.67,5173.79,13
+5340,FL,Family Medicine,2345.74,187,Food and Beverage,2309.01,592.27,44
+5362,OH,Obstetrics & Gynecology,1785.99,114,Food and Beverage,1770.73,363.49,18
+5365,TX,Psychiatry & Neurology,32794.2,101,Honoraria,17338.47,19723.300000000003,51
+5381,FL,Thoracic Surgery (Cardiothoracic Vascular Surgery),16164.12,123,Travel and Lodging,8601.75,5199.6900000000005,31
+5397,NJ,Pediatrics,796.25,50,Food and Beverage,796.25,127.17,8
+5410,AL,Internal Medicine,64804.89,959,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",40642.5,20393.649999999998,65
+5412,NJ,Pediatrics,1451.61,101,Food and Beverage,1436.46,158.79999999999998,10
+5414,NE,Internal Medicine,47608.36,104,Consulting Fee,20780,24671.440000000002,49
+5421,AZ,Psychiatry & Neurology,1020782.46,2170,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",750179.46,118125.53,226
+5424,RI,Pediatrics,1351.48,85,Food and Beverage,1334.23,241.23000000000002,14
+5429,NJ,Family Medicine,1386.69,48,Food and Beverage,1386.69,487.45,17
+5436,CO,Orthopaedic Surgery,9320.53,44,Consulting Fee,7475,4596.08,12
+5438,MD,Dermatology,1168854.52,1568,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",592514,287922.48,199
+5439,NJ,NA,682.9399999999999,29,Food and Beverage,668.6899999999999,235.67,9
+5449,NJ,Internal Medicine,7305.25,344,Food and Beverage,7192.31,1059.92,66
+5471,OH,Pediatrics,1487.03,103,Food and Beverage,1462.03,177.43999999999997,11
+5482,AL,Eye and Vision Services Providers,4769,121,Food and Beverage,4731.35,303.48,14
+5483,CA,Internal Medicine,484.21000000000004,24,Food and Beverage,484.21000000000004,101.66,4
+5489,PA,Internal Medicine,13349.85,154,Consulting Fee,6527.93,2882.1499999999996,57
+5495,MA,Internal Medicine,4912.96,97,Travel and Lodging,2775.94,1451.98,33
+5499,FL,Physical Medicine & Rehabilitation,22143.4,387,Food and Beverage,14043.9,1878.87,95
+5504,NJ,Dental Providers,3478.0099999999998,30,Food and Beverage,2202.46,1689.9999999999998,9
+5509,AZ,Surgery,28427.86,317,Food and Beverage,13574.09,4036.94,31
+5517,CA,Surgery,39536.99,75,Education,31500,14214.19,24
+5531,NY,Eye and Vision Services Providers,2819.96,60,Food and Beverage,1657.97,1144.1,10
+5533,DC,General Practice,5745.56,398,Food and Beverage,5607.69,672.16,56
+5535,CO,Anesthesiology,1475.32,22,Consulting Fee,930,967.8800000000001,4
+5549,IL,Hospitalist,2002.26,21,Food and Beverage,1155.26,912.02,11
+5561,IL,Eye and Vision Services Providers,7109.39,64,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",2611.82,1688.04,12
+5563,NY,Internal Medicine,4069.9700000000003,190,Food and Beverage,3069.33,986.34,58
+5572,NC,Family Medicine,9554.96,660,Food and Beverage,9394.94,774.3299999999999,38
+5575,TN,Surgery,449516.47,525,Royalty or License,263270.08,55546.22,56
+5583,FL,Orthopaedic Surgery,448.04,18,Food and Beverage,448.04,138.66,4
+5588,FL,Otolaryngology,4411.85,72,Food and Beverage,2032.64,1348.4499999999998,17
+5592,MS,Orthopaedic Surgery,8645.51,67,Consulting Fee,5515.54,1018.45,12
+5594,OH,Surgery,16282.81,51,Consulting Fee,13650,6576.89,10
+5597,OR,Internal Medicine,2481.68,85,Food and Beverage,2127.57,726.5,21
+5600,CA,Otolaryngology,3494.75,100,Food and Beverage,2715.54,1220.94,28
+5602,SC,Orthopaedic Surgery,69853.81,419,Consulting Fee,54625,29959.91,89
+5612,CO,Internal Medicine,3823,210,Food and Beverage,3633.26,362.76,30
+5614,NC,Podiatric Medicine & Surgery Service Providers,8950.89,149,Travel and Lodging,4583.08,3651.79,22
+5628,PA,Family Medicine,10463.68,919,Food and Beverage,10273.51,2037.88,190
+5629,GA,Internal Medicine,7371.6,625,Food and Beverage,7207.37,525.12,61
+5644,PA,Family Medicine,2233.66,66,Food and Beverage,2230.43,446.75999999999993,11
+5645,GA,Obstetrics & Gynecology,5312.22,116,Education,3059.62,3157.6099999999997,17
+5649,GA,Otolaryngology,5067.39,103,Food and Beverage,3663.32,1504.57,16
+5654,TX,Pediatrics,1255.63,30,Food and Beverage,1255.63,302.15000000000003,7
+5656,NJ,NA,155.41,11,Food and Beverage,121.52,33.97,2
+5661,CA,Thoracic Surgery (Cardiothoracic Vascular Surgery),10817.52,89,Travel and Lodging,3574.7200000000003,2159.89,17
+5665,IA,Anesthesiology,416.56,19,Food and Beverage,416.56,105.80999999999999,4
+5673,CA,Emergency Medicine,2971.91,187,Food and Beverage,2815.5099999999998,757.85,56
+5678,CA,Internal Medicine,3910.65,154,Food and Beverage,3876.65,697.47,25
+5683,TX,Orthopaedic Surgery,91290.77,72,Royalty or License,80991.61,50138.83000000001,18
+5693,OR,Internal Medicine,47403.19,544,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",16150,12747.160000000002,112
+5697,CO,Eye and Vision Services Providers,2185.92,17,Consulting Fee,1700,1811.36,5
+5704,NY,Obstetrics & Gynecology,1133.54,68,Food and Beverage,1002.63,200.58999999999997,11
+5711,OH,Family Medicine,1870.4,138,Food and Beverage,1798.56,280.87,19
+5713,TX,Internal Medicine,4044.68,71,Food and Beverage,2519.95,1463.43,16
+5714,CA,Internal Medicine,3978.38,201,Food and Beverage,3955.52,557.69,29
+5715,CA,Internal Medicine,2042.03,24,Food and Beverage,2042.03,587.05,8
+5716,SD,Ophthalmology,476.31,21,Food and Beverage,476.31,151.54999999999998,6
+5737,IL,Internal Medicine,349125.03,842,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",274004.14,71117.63,153
+5748,CA,Family Medicine,6424.7,274,Food and Beverage,6424.7,700.6300000000001,58
+5764,FL,Psychiatry & Neurology,6777.97,105,Food and Beverage,4688.7699999999995,1545.2699999999998,8
+5765,FL,Pediatrics,1221.64,37,Food and Beverage,1221.64,349.28999999999996,19
+5766,TN,Pediatrics,1705.56,50,Food and Beverage,1705.56,287.06,9
+5775,FL,Podiatric Medicine & Surgery Service Providers,4830.28,75,Food and Beverage,3159.64,1659.9599999999998,13
+5795,NJ,Internal Medicine,232521.36,913,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",133553.5,79521.82,87
+5797,NJ,Internal Medicine,778.72,38,Food and Beverage,536.17,140.28000000000003,7
+5806,WA,NA,943.64,38,Food and Beverage,943.64,193.36,5
+5819,FL,Internal Medicine,8650.96,157,Travel and Lodging,4326.15,3041.9900000000002,19
+5835,PA,Orthopaedic Surgery,61118.06,149,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",40446.97,22523.47,29
+5847,VA,Urology,10321.68,370,Food and Beverage,7323.33,2401.17,30
+5849,MI,Urology,14345.3,174,Travel and Lodging,6767.2,5793.389999999999,25
+5854,CA,Thoracic Surgery (Cardiothoracic Vascular Surgery),16532.58,68,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",7200,701.1999999999999,9
+5860,TX,Radiology,39180.54,431,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",20950,14313.75,86
+5861,AZ,Pain Medicine,12836.77,385,Food and Beverage,8842.34,2947.55,83
+5865,AZ,NA,1351.6000000000001,17,Food and Beverage,1313.95,483.48,5
+5875,MS,Family Medicine,9162.56,439,Food and Beverage,8817.21,374.9200000000001,32
+5878,MD,Family Medicine,2299.17,153,Food and Beverage,2286.83,644.87,42
+5881,FL,Dental Providers,704.74,17,Food and Beverage,529.74,196.84,3
+5882,MI,Surgery,2131.27,50,Travel and Lodging,1101.98,1175.23,18
+5891,CT,Eye and Vision Services Providers,6404.79,163,Food and Beverage,6011.63,342.14999999999986,17
+5904,OH,Family Medicine,8764.25,760,Food and Beverage,8627.17,1063.2600000000002,120
+5908,PA,Internal Medicine,291415.58,217,Consulting Fee,155767.5,54964.53999999999,32
+5913,TX,Obstetrics & Gynecology,908.03,59,Food and Beverage,857.61,180.20999999999998,11
+5915,CA,Internal Medicine,4938.91,160,Food and Beverage,4360.21,1017.8499999999999,23
+5932,MI,Family Medicine,1316.44,94,Food and Beverage,1247.44,145.48000000000002,17
+5933,CA,Urology,139460.09,164,Consulting Fee,66554.79,37342.49,23
+5936,LA,Otolaryngology,2398.32,122,Food and Beverage,2398.32,110.82000000000005,19
+5937,OH,Family Medicine,9951.75,780,Food and Beverage,9902.99,612.23,43
+5939,GA,Physical Medicine & Rehabilitation,5131.96,311,Food and Beverage,5126.84,1396.0100000000002,66
+5940,GA,NA,4117.99,219,Food and Beverage,3835.73,537.38,16
+5941,MN,Radiology,7924.75,51,Food and Beverage,4011.55,2615,15
+5952,OH,Dental Providers,2155.38,17,Travel and Lodging,1307.82,986.6699999999998,4
+5953,TN,Internal Medicine,175432.11,590,"Compensation for services other than consulting, including serving as faculty or as a speaker at a venue other than a continuing education program",124980,80041.72,181
+5959,CA,Urology,2920.08,98,Food and Beverage,2109.56,1270.6399999999999,25
+5964,OK,Family Medicine,1036.32,93,Food and Beverage,929.36,308.36,32
+5972,TX,Urology,14156.35,285,Food and Beverage,6119.79,5015.32,76
+5999,MA,Psychiatry & Neurology,1560.3,43,Food and Beverage,1127.16,266.11,9
