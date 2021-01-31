@@ -1,6 +1,11 @@
+## Exploratory Data Analysis
+
+# Import libraries
 library(tidyverse) 
 library(descr)
 library(ggplot2)
+
+# Set cwd
 setwd("~/Dropbox/TUM/Master/2_Semester/BA/analytics_cup")
 payments = read_delim("payments.csv", delim = ",")
 payments = payments[payments$Total_Amount_of_Payment_USDollars<5000000,]
@@ -9,18 +14,12 @@ physicians = read_delim("physicians.csv", delim = ",")
 physicians$Primary_Specialty = gsub("Allopathic & Osteopathic Physicians\\|", "", physicians$Primary_Specialty)
 #  remove \|.*
 physicians$Primary_Specialty = gsub("\\|.*", "", physicians$Primary_Specialty)
-#unique(physicians$Primary_Specialty)
-#length(unique(physicians$Primary_Specialty))
 
-
+# split train and test set
 valid_physicians = physicians[physicians$set =="train",]
-#unique(valid_physicians$Primary_Specialty)
-#length(unique(valid_physicians$Primary_Specialty))
 set.seed(8675309)
 train_physicians = valid_physicians[sample(nrow(valid_physicians), 4000), ]
-#length(unique(train_physicians$Primary_Specialty))
 valid_physicians = valid_physicians[ !(valid_physicians$id %in% train_physicians$id), ]
-
 test_physicians = physicians[physicians$set =="test",]
 test_physicians
 
@@ -33,22 +32,13 @@ ownership_interest = payments %>% group_by(Physician_ID = Physician_ID ) %>% sum
   ownership_interest = max(Ownership_Indicator)
 )
 ownership_interest
-#physician_1 = payments[payments$Physician_ID =="1",]
-#physician_1$Ownership_Indicator
-#physician_6 = payments[payments$Physician_ID =="6",]
-#physician_6$Ownership_Indicator
 
 # Group payments by Physician_ID and aggregate sum(Total_Amount_of_Payment_USDollars)
 total_payments = payments %>% group_by(Physician_ID = Physician_ID ) %>% summarise(
   total_payments = sum(Total_Amount_of_Payment_USDollars)
 )
 total_payments
-#physician_1 = payments[payments$Physician_ID =="1",]
-#physician_1$Total_Amount_of_Payment_USDollars
-#sum(physician_1$Total_Amount_of_Payment_USDollars)
-#physician_6 = payments[payments$Physician_ID =="6",]
-#physician_6$Total_Amount_of_Payment_USDollars
-#sum(physician_6$Total_Amount_of_Payment_USDollars)
+
 
 # Group payments by Physician_ID and aggregate n()
 number_of_payments = payments %>% group_by(Physician_ID = Physician_ID ) %>% summarise(
@@ -56,8 +46,7 @@ number_of_payments = payments %>% group_by(Physician_ID = Physician_ID ) %>% sum
 )
 number_of_payments
 
-#names(payments)
-#unique(payments$Nature_of_Payment_or_Transfer_of_Value)
+
 # Group payments by Physician_ID and aggregate top_Nature_of_Payment_or_Transfer_of_Value
 top_nature = payments %>% group_by(Physician_ID = Physician_ID, nature=Nature_of_Payment_or_Transfer_of_Value) %>% summarise(
   total_of_nature = sum(Total_Amount_of_Payment_USDollars)
@@ -70,17 +59,11 @@ top_nature
 (payments_per_month = payments %>% group_by(year = gsub("../../", "", Date), month = gsub("/../....", "", Date),Physician_ID = Physician_ID) %>% 
     summarise(total = sum(Total_Amount_of_Payment_USDollars),number_of_payments = n()))
 (payments_per_month = payments_per_month[payments_per_month$year>2013,])
-#p1_payments_per_month = payments_per_month[payments_per_month$Physician_ID == "301",]
-#p1_payments_per_month
-#physician_1 = payments[payments$Physician_ID =="301",]
-#physician_1
-#physician_1
 
-#(payments_per_month[payments_per_month$Physician_ID == "301",])
+
 
 (payments_per_year = payments_per_month %>% group_by(year = year,Physician_ID = Physician_ID) %>% summarise(total = sum(total),number_of_payments = sum(number_of_payments)))
-#(payments_per_year[payments_per_year$Physician_ID == "4000",])
-#barplot(height=payments_per_month$number_of_payments,names=paste(payments_per_month$year,'|',payments_per_month$month, "|",payments_per_month$Physician_ID))
+
 (payment_range = payments_per_year %>% group_by(Physician_ID = Physician_ID) %>% summarise(range = max(total) - min(total)))
 
 (number_of_payment_range = payments_per_year %>% group_by(Physician_ID = Physician_ID) %>% summarise(number_of_payment_range = max(number_of_payments) - min(number_of_payments)))
@@ -248,19 +231,6 @@ test_physicians
 (test_physicians = merge(test_physicians, top_company, by = "Physician_ID"))
 
 
-
-
-# merge ownership_interest with max_of_payment_count
-#(train_physicians = merge(train_physicians, max_of_payment_count, by = "Physician_ID"))
-#(valid_physicians = merge(valid_physicians, max_of_payment_count, by = "Physician_ID"))
-#(test_physicians = merge(test_physicians, max_of_payment_count, by = "Physician_ID"))
-
-# merge ownership_interest with min_of_payment_count
-#(train_physicians = merge(train_physicians, min_of_payment_count, by = "Physician_ID"))
-#(valid_physicians = merge(valid_physicians, min_of_payment_count, by = "Physician_ID"))
-#(test_physicians = merge(test_physicians, min_of_payment_count, by = "Physician_ID"))
-
-
 sum(is.na(train_physicians))
 train_physicians = na.omit(train_physicians)
 train_physicians
@@ -403,21 +373,7 @@ ggplot(data=train_physicians, aes(y=stock_or_other,x=ownership_interest.f))+ geo
 ggplot(train_physicians, aes(stock_or_other, fill=ownership_interest.f)) + geom_density(alpha=.6) +
   scale_fill_manual(values = c('lightgreen','coral'))
 
-
-
-# ownership_interest ~ max_of_payment_count
-#ggplot(data=train_physicians, aes(y=max_of_payment_count,x=ownership_interest.f))+ geom_violin() + labs(title=" ",y="range", x = " ")
-
-#ggplot(train_physicians, aes(log(max_of_payment_count), fill=ownership_interest.f)) + geom_density(alpha=.6) +
- # scale_fill_manual(values = c('lightgreen','coral'))
-
-# ownership_interest ~ min_of_payment_count
-#ggplot(data=train_physicians, aes(y=min_of_payment_count,x=ownership_interest.f))+ geom_violin() + labs(title=" ",y="range", x = " ")
-
-#ggplot(train_physicians, aes(log(min_of_payment_count), fill=ownership_interest.f)) + geom_density(alpha=.6) +
- # scale_fill_manual(values = c('lightgreen','coral'))
-
-
+# simple logit without companys
 ps = train_physicians$Primary_Specialty
 oi = train_physicians$ownership_interest
 nature = train_physicians$nature
@@ -444,7 +400,7 @@ top_company = train_physicians$Company_ID
 log.reg = glm(oi  ~ ps + nature + total_payments + number_of_payments + range + 
                 payment_range  + companys + company_sd + rpi_count + rpi + fop +
                 fop_count + cash + services+ stock + stock_opt + dividend +
-                stock_or_other + top_company,
+                stock_or_other,
            family=binomial(link = "logit"))
 
 summary(log.reg)
@@ -478,17 +434,10 @@ top_company = valid_physicians$Company_ID
 myinstances = data.frame(ps,nature,total_payments,number_of_payments,range,
                          payment_range,companys,company_sd,rpi_count,fop,
                          fop_count,cash, services, stock, stock_opt, dividend,
-                         stock_or_other,top_company)
+                         stock_or_other)
 
 sum(is.na(myinstances))
-#log.reg$xlevels[["top_company"]]
-#top_company
-#log.reg$xlevels[["top_company"]] <- union(log.reg$xlevels[["top_company"]], top_company)
 
-#myinstances$ownership = predict(log.reg , newdata=myinstances, type="response")
-#names(myinstances)
-
-?predict
 preds = predict(log.reg, newdata=myinstances, type='response',allow.new.levels=TRUE)
 length(preds)
 
